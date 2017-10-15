@@ -39,7 +39,14 @@ def startGrab():
  ListP1=list(soup.find_all('p'))
  print(ListP1)
  print(len(ListP1))
- print(soup.find_all('p')[0].get_text())
+
+ seven_day = soup.find('div', {'class': 'new-score-box'})
+ forecast_items = seven_day.find_all(class_="new-score-box")
+
+ short_descs = [sd.get_text() for sd in seven_day.select(".new-score-box .team-name")]
+ temps = [t.get_text() for t in seven_day.select(".new-score-box .team-record")]
+ #descs = [d["title"] for d in seven_day.select(".new-score-box img")]
+
 
  new_score = soup.find('p', {'class': 'team-name'})
 
