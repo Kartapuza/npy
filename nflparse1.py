@@ -24,7 +24,6 @@ def GetUrl():
  with open('test.html', 'w') as output_file:
   output_file.write(r.text)
 
-
 def startGrab():
  nflsite_1 = open('test.html', 'r')
  my_string = nflsite_1.read()
@@ -60,8 +59,18 @@ def startGrab():
  team12_home = team12.find('p', {'class': 'team-name'}).find('a').text
  team12_home_stat = team12.find('p', {'class': 'team-record'}).text
 
+def find_week_games():
+    nflsite_1 = open('test.html', 'r')
+    my_string = nflsite_1.read()
+    soup = BeautifulSoup(my_string, 'html.parser')
+    seven_day = soup.find(id="score-boxes")
+    forecast_items = seven_day.find_all(class_="new-score-box")
+    tonight = forecast_items[0]
+    print(tonight.prettify())
+
 
 if __name__ == '__main__':
     ensure_dir(directory_data)
     GetUrl()
     startGrab()
+    find_week_games()
