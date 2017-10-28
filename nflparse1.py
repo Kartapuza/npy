@@ -68,13 +68,13 @@ def power_rankings():
 
     tonight = game_team[0]
 
-    period = tonight.find('span', attrs={"class":"rank"}).get_text()
-    #short_desc = tonight.find(class_="total-score").get_text()
-    #temp = tonight.find(class_="team-record").get_text()
+    team_rank = tonight.find('span', attrs={"class":"rank"}).get_text()
+    team_name = tonight.find('td', attrs={"class":"cell-left team"}).get_text()
+    team_comment = tonight.find('td', attrs={"class":"cell-left dek"}).get_text()
 
-    print(period.strip())
-    #print(short_desc)
-    #print(temp)
+    print(team_rank.strip())
+    print(team_name.strip())
+    print(team_comment.strip())
 
 
 if __name__ == '__main__':
