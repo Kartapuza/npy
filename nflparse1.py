@@ -17,8 +17,14 @@ def save_file(name_file, lines):
 
 def GetUrl():
  #url_nfl = 'http://www.nfl.com/scores'
- url_nfl = 'http://www.nfl.com/scores/2015/REG1'
+ url_nfl = 'http://www.nfl.com/scores/2017/REG9'
+
  url_powerrankings = 'https://www.cbssports.com/nfl/powerrankings/'
+
+ url_espn = 'http://www.espn.com/nfl/picks/_/week/8'
+ url_cbs = 'https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/8'
+
+
  url_bwin = 'https://www.bwin.com/'
  headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
@@ -29,7 +35,18 @@ def GetUrl():
  r = requests.get(url_powerrankings , headers=headers)
  with open('power.html', 'w') as output_file:
   output_file.write(r.text)
+ r = requests.get(url_espn, headers=headers)
+ with open('espn.html', 'w') as output_file:
+  output_file.write(r.text)
 
+ try:
+  r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 2))
+ except requests.exceptions.ReadTimeout:
+    print('Oops. Read timeout occured')
+ except requests.exceptions.ConnectTimeout:
+    print('Oops. Connection timeout occured!')
+ with open('cbs.html', 'w') as output_file:
+  output_file.write(r.text)
 
 def find_week_games():
     nflsite_1 = open('scores.html', 'r')
@@ -136,5 +153,5 @@ if __name__ == '__main__':
     ensure_dir(directory_data)
     GetUrl()
     #power_rankings()
-    find_week_games()
+    #find_week_games()
 

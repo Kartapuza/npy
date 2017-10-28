@@ -21,7 +21,7 @@
     }
 </script>
 	<!-- nfl_combo_enabled: true -->
-	<title>Real-time NFL Scores: 2015 - Week 1 | NFL.com</title>
+	<title>Real-time NFL Scores: 2017 - Week 9 | NFL.com</title>
 	
 	<!-- BEGIN DECORATOR yui/global -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -687,8 +687,8 @@ nfl.constants.SS_CONF.sponMobileClickThrough = '';
 	<link rel="stylesheet" href="http://s.nflcdn.com/static/site/7.5/styles/scores/scores.css" type="text/css"></link>
 	<link rel="stylesheet" href="http://s.nflcdn.com/static/site/7.5/styles/scores/skins.css" type="text/css"></link>
 	
-	<meta id='season' content='2015' />
-	<meta id='week' content='Week 1' />
+	<meta id='season' content='2017' />
+	<meta id='week' content='Week 9' />
 	<script type="text/javascript">
 		if(nfl.global.scores.currentWeek){
 			nfl.global.scores.engine	= new nfl.scores.Engine();
@@ -721,7 +721,7 @@ nfl.constants.SS_CONF.sponMobileClickThrough = '';
   
   
     
-    <!-- DEFAULT BROWSER PANEL  com.nfl.site.domain.browserpanel.BrowserPanel@3ca62671 -->
+    <!-- DEFAULT BROWSER PANEL  com.nfl.site.domain.browserpanel.BrowserPanel@fc52211 -->
   
 
 
@@ -1241,7 +1241,7 @@ justify-content: flex-start;}</style></div></div>
 
                 wcBoot.render({
                     id: "f0a7963a",
-                    url: "/ndc/header?contextPath=%2fscores%2f2015%2fREG1&pageSchemaId=&wildcatnav="
+                    url: "/ndc/header?contextPath=%2fscores%2f2017%2fREG9&pageSchemaId=&wildcatnav="
                 });
             });
         </script>
@@ -1270,7 +1270,7 @@ justify-content: flex-start;}</style></div></div>
 
 	
 
-		<div class="adcontainer" id="ad1509219745425top-container">
+		<div class="adcontainer" id="ad1509219936260top-container">
 
 			
 
@@ -1350,7 +1350,7 @@ justify-content: flex-start;}</style></div></div>
 
 						adConf = {
 
-							id: 'ad1509219745425top',
+							id: 'ad1509219936260top',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=728x90&iu=/4595/nfl.scores/scores&t=slot%3Dtop%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -1360,7 +1360,7 @@ justify-content: flex-start;}</style></div></div>
 
 							sizes: sizes,
 
-							render: '#ad1509219745425top-container',
+							render: '#ad1509219936260top-container',
 
 							isSticky: 'false',
 
@@ -1464,7 +1464,7 @@ justify-content: flex-start;}</style></div></div>
 
 	
 
-		<div class="adcontainer" id="ad1509219745329spon-container">
+		<div class="adcontainer" id="ad1509219936165spon-container">
 
 			
 
@@ -1544,7 +1544,7 @@ justify-content: flex-start;}</style></div></div>
 
 						adConf = {
 
-							id: 'ad1509219745329spon',
+							id: 'ad1509219936165spon',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=985x50&iu=/4595/nfl.scores/scores&t=slot%3Dspon%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -1554,7 +1554,7 @@ justify-content: flex-start;}</style></div></div>
 
 							sizes: sizes,
 
-							render: '#ad1509219745329spon-container',
+							render: '#ad1509219936165spon-container',
 
 							isSticky: '',
 
@@ -1634,7 +1634,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					 <li class=""><a href="/scores/2015/PRE0" class="week-item">Hall of Fame</a></li>
+					 <li class=""><a href="/scores/2017/PRE0" class="week-item">Hall of Fame</a></li>
 
 				
 					
@@ -1650,7 +1650,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					 <li class=""><a href="/scores/2015/PRE1" class="week-item">1</a></li>
+					 <li class=""><a href="/scores/2017/PRE1" class="week-item">1</a></li>
 
 				
 					
@@ -1666,7 +1666,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					 <li class=""><a href="/scores/2015/PRE2" class="week-item">2</a></li>
+					 <li class=""><a href="/scores/2017/PRE2" class="week-item">2</a></li>
 
 				
 					
@@ -1682,7 +1682,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					 <li class=""><a href="/scores/2015/PRE3" class="week-item">3</a></li>
+					 <li class=""><a href="/scores/2017/PRE3" class="week-item">3</a></li>
 
 				
 					
@@ -1698,7 +1698,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					 <li class=""><a href="/scores/2015/PRE4" class="week-item">4</a></li>
+					 <li class=""><a href="/scores/2017/PRE4" class="week-item">4</a></li>
 
 				
 			</ul>
@@ -1708,12 +1708,100 @@ justify-content: flex-start;}</style></div></div>
 					
 					
 						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG1" class="week-item">1</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG2" class="week-item">2</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG3" class="week-item">3</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG4" class="week-item">4</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG5" class="week-item">5</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG6" class="week-item">6</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG7" class="week-item">7</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2017/REG8" class="week-item">8</a></li>
+
+				
+					
+					
+						
 							
 						
 						
 					
 
-					<li class="active-week"><a href="/scores/2015/REG1" class="week-item">1</a></li>
+					<li class="active-week"><a href="/scores/2017/REG9" class="week-item">9</a></li>
 
 				
 					
@@ -1724,7 +1812,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG2" class="week-item">2</a></li>
+					<li class=""><a href="/scores/2017/REG10" class="week-item">10</a></li>
 
 				
 					
@@ -1735,7 +1823,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG3" class="week-item">3</a></li>
+					<li class=""><a href="/scores/2017/REG11" class="week-item">11</a></li>
 
 				
 					
@@ -1746,7 +1834,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG4" class="week-item">4</a></li>
+					<li class=""><a href="/scores/2017/REG12" class="week-item">12</a></li>
 
 				
 					
@@ -1757,7 +1845,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG5" class="week-item">5</a></li>
+					<li class=""><a href="/scores/2017/REG13" class="week-item">13</a></li>
 
 				
 					
@@ -1768,7 +1856,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG6" class="week-item">6</a></li>
+					<li class=""><a href="/scores/2017/REG14" class="week-item">14</a></li>
 
 				
 					
@@ -1779,7 +1867,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG7" class="week-item">7</a></li>
+					<li class=""><a href="/scores/2017/REG15" class="week-item">15</a></li>
 
 				
 					
@@ -1790,7 +1878,7 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG8" class="week-item">8</a></li>
+					<li class=""><a href="/scores/2017/REG16" class="week-item">16</a></li>
 
 				
 					
@@ -1801,170 +1889,13 @@ justify-content: flex-start;}</style></div></div>
 						
 					
 
-					<li class=""><a href="/scores/2015/REG9" class="week-item">9</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG10" class="week-item">10</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG11" class="week-item">11</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG12" class="week-item">12</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG13" class="week-item">13</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG14" class="week-item">14</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG15" class="week-item">15</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG16" class="week-item">16</a></li>
-
-				
-					
-					
-						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2015/REG17" class="week-item">17</a></li>
+					<li class=""><a href="/scores/2017/REG17" class="week-item">17</a></li>
 
 				
 			</ul>
-			 
-		      <a href="#postSeason" class="post-season season-select ">POST SEASON</a>
-				<ul class="post-season-games">
-					
-						
-							
-							
-							
-							
-							
-						
-						
-							
-							
-						
-						<li class=""><a href="/scores/2015/POST18" class="week-item">Wild Card</a></li>
-					
-						
-							
-							
-							
-							
-							
-						
-						
-							
-							
-						
-						<li class=""><a href="/scores/2015/POST19" class="week-item">Divisional</a></li>
-					
-						
-							
-							
-							
-							
-							
-						
-						
-							
-							
-						
-						<li class=""><a href="/scores/2015/POST20" class="week-item">Conference</a></li>
-					
-						
-							
-							
-							
-							
-							
-						
-						
-							
-							
-						
-						<li class=""><a href="/scores/2015/POST22" class="week-item">Super Bowl</a></li>
-					
-					
-						
-							
-							
-						
-						
-							
-							
-						
-						<li class=""><a href="/scores/2015/PRO21" class="week-item">Pro Bowl</a></li>
-					
-				</ul> 
-	
 			   	
 			 <form action="/scores/v2" class="year-select-form">
-			 	<input type="submit" value="GO" class="year-select-submit"/><a href="#" class="season-dd-anchor"><span class="text">2015</span><span class="triangle"></span></a>
+			 	<input type="submit" value="GO" class="year-select-submit"/><a href="#" class="season-dd-anchor"><span class="text">2017</span><span class="triangle"></span></a>
 			 	
 				<ol class="year-selector">			
 					
@@ -2068,7 +1999,7 @@ justify-content: flex-start;}</style></div></div>
 	
 	
 	<ul class="scores-page-title with-big-plays">
-		<li><h2 class="week-title">Week 1</h2></li>
+		<li><h2 class="week-title">Week 9</h2></li>
 		
 	</ul>
 <div style="clear: both"></div>
@@ -2083,9 +2014,9 @@ justify-content: flex-start;}</style></div></div>
 			var datasource, request, interval, bp, Constants = nfl.constants, urlVars = {}, BigPlays = Y.NFL.BigPlays, isCurrentWeek = false;
 			
 			urlVars = {
-				season: "2015",
+				season: "2017",
 				seasonType: "REG",
-				week: "1",
+				week: "9",
 				context: "video"
 			};
 					
@@ -2164,10 +2095,37 @@ justify-content: flex-start;}</style></div></div>
 	<ul class="scores-page-title with-big-plays bye">
 		
 			
+				<li>
+					<p>Teams with Byes:
+						
+						
+							<a href='/teams/profile?team=NE'>Patriots</a>
+							, 
+							
+						
+							<a href='/teams/profile?team=CLE'>Browns</a>
+							, 
+							
+						
+							<a href='/teams/profile?team=PIT'>Steelers</a>
+							, 
+							
+						
+							<a href='/teams/profile?team=LAC'>Chargers</a>
+							, 
+							
+						
+							<a href='/teams/profile?team=CHI'>Bears</a>
+							, 
+							
+						
+							<a href='/teams/profile?team=MIN'>Vikings</a>
+							
+							
+						
+					</p>
+				</li>
 			
-				
-					<li><p>Teams with Byes: None</p></li>
-				
 			
 		
 		
@@ -2177,7 +2135,7 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
@@ -2195,7 +2153,7 @@ justify-content: flex-start;}</style></div></div>
 
 	
 
-		<div class="adcontainer" id="ad1509219745331center-container">
+		<div class="adcontainer" id="ad1509219936166center-container">
 
 			
 
@@ -2275,7 +2233,7 @@ justify-content: flex-start;}</style></div></div>
 
 						adConf = {
 
-							id: 'ad1509219745331center',
+							id: 'ad1509219936166center',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=300x250&iu=/4595/nfl.scores/scores&t=slot%3Dcenter%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -2285,7 +2243,7 @@ justify-content: flex-start;}</style></div></div>
 
 							sizes: sizes,
 
-							render: '#ad1509219745331center-container',
+							render: '#ad1509219936166center-container',
 
 							isSticky: '',
 
@@ -2341,94 +2299,79 @@ justify-content: flex-start;}</style></div></div>
 		</div>
 	</div>
 	
-	<div id="sb-wrapper-2015091000"	>
+	<div id="sb-wrapper-2017110200"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091000">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Thu, Sep 10</span>
-						<span class="network" title="Aired on Network">nbc</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=PIT"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/PIT.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=PIT">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=PIT">Steelers</a></p>
-								</div>
-								<p class="total-score">21</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">3</span><span class="third-qt">8</span><span class="fourth-qt">10</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110200">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Thu, Nov 2</span>
+				
+				<span class="network" title="Airing on Network Channel">NFLN</span>
+				<span class="tickets-link"><a href="/tickets/new-york-jets?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=BUF"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/BUF.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=BUF">Bills</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=NE"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NE.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=NE">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=NE">Patriots</a></p>
-								</div>
-								<p class="total-score">28</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">14</span><span class="third-qt">7</span><span class="fourth-qt">7</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091000/2015/REG1/steelers@patriots" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>15</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091000/2015/REG1/steelers@patriots#menu=highlights|contentId:0ap3000000525766&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Week 1: Steelers vs. Patriots highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=NYJ"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYJ.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-4-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=NYJ">Jets</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110200/2017/REG9/bills@jets" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >8:25 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110200/2017/REG9/bills@jets#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110200/2017/REG9/bills@jets"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091000" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110200" class="share">
 
 
 
@@ -2446,7 +2389,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_bp1d14v5"></div>
+<div id="sbc_63t3pc87"></div>
 
 
 
@@ -2482,9 +2425,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_bp1d14v5',
+				srcNode: '#sbc_63t3pc87',
 
-				barId: 'sbb_bp1d14v5',
+				barId: 'sbb_63t3pc87',
 
 				skinName: 'default',
 
@@ -2502,9 +2445,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Steelers vs Patriots match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Bills vs Jets match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091000/2015/REG1/steelers@patriots',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110200/2017/REG9/bills@jets',
 
 				
 
@@ -2543,12 +2486,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -2557,98 +2498,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091303"	>
+	<div id="sb-wrapper-2017110501"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091303">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">cbs</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=MIA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/MIA.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=MIA">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=MIA">Dolphins</a></p>
-								</div>
-								<p class="total-score">17</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">7</span><span class="third-qt">0</span><span class="fourth-qt">10</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110501">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/houston-texans?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=IND"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/IND.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-5-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=IND">Colts</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=WAS"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/WAS.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=WAS">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=WAS">Redskins</a></p>
-								</div>
-								<p class="total-score">10</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">7</span><span class="third-qt">0</span><span class="fourth-qt">0</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091303/2015/REG1/dolphins@redskins" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>9</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091303/2015/REG1/dolphins@redskins#menu=highlights|contentId:0ap3000000529466&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Week 1: Dolphins vs. Redskins highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=HOU"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/HOU.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=HOU">Texans</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110501/2017/REG9/colts@texans" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110501/2017/REG9/colts@texans#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110501/2017/REG9/colts@texans"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091303" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110501" class="share">
 
 
 
@@ -2666,7 +2592,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_786ielqm"></div>
+<div id="sbc_1t858256"></div>
 
 
 
@@ -2702,9 +2628,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_786ielqm',
+				srcNode: '#sbc_1t858256',
 
-				barId: 'sbb_786ielqm',
+				barId: 'sbb_1t858256',
 
 				skinName: 'default',
 
@@ -2722,9 +2648,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Dolphins vs Redskins match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Colts vs Texans match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091303/2015/REG1/dolphins@redskins',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110501/2017/REG9/colts@texans',
 
 				
 
@@ -2763,12 +2689,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -2777,98 +2701,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091304"	>
+	<div id="sb-wrapper-2017110502"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091304">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">cbs</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=IND"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/IND.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=IND">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=IND">Colts</a></p>
-								</div>
-								<p class="total-score">14</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">0</span><span class="third-qt">8</span><span class="fourth-qt">6</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110502">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/jacksonville-jaguars?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=CIN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CIN.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-4-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=CIN">Bengals</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=BUF"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/BUF.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=BUF">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=BUF">Bills</a></p>
-								</div>
-								<p class="total-score">27</p>
-								<p class="quarters-score"><span class="first-qt">7</span><span class="second-qt">10</span><span class="third-qt">7</span><span class="fourth-qt">3</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091304/2015/REG1/colts@bills" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>8</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091304/2015/REG1/colts@bills#menu=highlights|contentId:0ap3000000528828&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Colts Andrew Luck intercepted by Ronald Darby</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=JAX"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/JAX.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=JAX">Jaguars</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110502/2017/REG9/bengals@jaguars" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110502/2017/REG9/bengals@jaguars#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110502/2017/REG9/bengals@jaguars"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091304" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110502" class="share">
 
 
 
@@ -2886,7 +2795,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_r81woais"></div>
+<div id="sbc_d5pr27m8"></div>
 
 
 
@@ -2922,9 +2831,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_r81woais',
+				srcNode: '#sbc_d5pr27m8',
 
-				barId: 'sbb_r81woais',
+				barId: 'sbb_d5pr27m8',
 
 				skinName: 'default',
 
@@ -2942,9 +2851,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Colts vs Bills match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Bengals vs Jaguars match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091304/2015/REG1/colts@bills',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110502/2017/REG9/bengals@jaguars',
 
 				
 
@@ -2983,12 +2892,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -2997,98 +2904,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091305"	>
+	<div id="sb-wrapper-2017110503"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091305">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">cbs</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=CLE"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CLE.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=CLE">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=CLE">Browns</a></p>
-								</div>
-								<p class="total-score">10</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">10</span><span class="third-qt">0</span><span class="fourth-qt">0</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110503">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/new-orleans-saints?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=TB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TB.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-4-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=TB">Buccaneers</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=NYJ"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYJ.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=NYJ">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=NYJ">Jets</a></p>
-								</div>
-								<p class="total-score">31</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">14</span><span class="third-qt">10</span><span class="fourth-qt">7</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091305/2015/REG1/browns@jets" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>12</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091305/2015/REG1/browns@jets#menu=highlights|contentId:0ap3000000529349&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Week 1: Browns vs Jets highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=NO"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NO.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=NO">Saints</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110503/2017/REG9/buccaneers@saints" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110503/2017/REG9/buccaneers@saints#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110503/2017/REG9/buccaneers@saints"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091305" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110503" class="share">
 
 
 
@@ -3106,7 +2998,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_31m3a77w"></div>
+<div id="sbc_rf0l58yn"></div>
 
 
 
@@ -3142,9 +3034,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_31m3a77w',
+				srcNode: '#sbc_rf0l58yn',
 
-				barId: 'sbb_31m3a77w',
+				barId: 'sbb_rf0l58yn',
 
 				skinName: 'default',
 
@@ -3162,9 +3054,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Browns vs Jets match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Buccaneers vs Saints match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091305/2015/REG1/browns@jets',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110503/2017/REG9/buccaneers@saints',
 
 				
 
@@ -3203,12 +3095,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -3217,98 +3107,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091306"	>
+	<div id="sb-wrapper-2017110504"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091306">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">cbs</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=KC"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/KC.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=KC">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=KC">Chiefs</a></p>
-								</div>
-								<p class="total-score">27</p>
-								<p class="quarters-score"><span class="first-qt">14</span><span class="second-qt">13</span><span class="third-qt">0</span><span class="fourth-qt">0</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110504">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/new-york-giants?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=LA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/LA.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(5-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=LA">Rams</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=HOU"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/HOU.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=HOU">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=HOU">Texans</a></p>
-								</div>
-								<p class="total-score">20</p>
-								<p class="quarters-score"><span class="first-qt">6</span><span class="second-qt">3</span><span class="third-qt">0</span><span class="fourth-qt">11</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091306/2015/REG1/chiefs@texans" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>12</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091306/2015/REG1/chiefs@texans#menu=highlights|contentId:0ap3000000529785&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Week 1: Chiefs vs. Texans highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=NYG"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYG.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(1-6-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=NYG">Giants</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110504/2017/REG9/rams@giants" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110504/2017/REG9/rams@giants#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110504/2017/REG9/rams@giants"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091306" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110504" class="share">
 
 
 
@@ -3326,7 +3201,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_iku37j8b"></div>
+<div id="sbc_p0bk0bq8"></div>
 
 
 
@@ -3362,9 +3237,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_iku37j8b',
+				srcNode: '#sbc_p0bk0bq8',
 
-				barId: 'sbb_iku37j8b',
+				barId: 'sbb_p0bk0bq8',
 
 				skinName: 'default',
 
@@ -3382,9 +3257,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Chiefs vs Texans match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Rams vs Giants match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091306/2015/REG1/chiefs@texans',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110504/2017/REG9/rams@giants',
 
 				
 
@@ -3423,12 +3298,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -3437,98 +3310,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091302"	>
+	<div id="sb-wrapper-2017110500"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091302">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">fox</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=CAR"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CAR.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=CAR">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=CAR">Panthers</a></p>
-								</div>
-								<p class="total-score">20</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">7</span><span class="third-qt">7</span><span class="fourth-qt">3</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110500">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/carolina-panthers?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=ATL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/ATL.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=ATL">Falcons</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=JAC"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/JAC.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=JAC">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=JAC">Jaguars</a></p>
-								</div>
-								<p class="total-score">9</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">6</span><span class="third-qt">0</span><span class="fourth-qt">0</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091302/2015/REG1/panthers@jaguars" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>10</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091302/2015/REG1/panthers@jaguars#menu=highlights|contentId:0ap3000000528873&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Panthers Josh Norman recovers Jaguars Allen Hurns' fumbled ball</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=CAR"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CAR.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=CAR">Panthers</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110500/2017/REG9/falcons@panthers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110500/2017/REG9/falcons@panthers#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110500/2017/REG9/falcons@panthers"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091302" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110500" class="share">
 
 
 
@@ -3546,7 +3404,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_jhwf007g"></div>
+<div id="sbc_w8te432i"></div>
 
 
 
@@ -3582,9 +3440,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_jhwf007g',
+				srcNode: '#sbc_w8te432i',
 
-				barId: 'sbb_jhwf007g',
+				barId: 'sbb_w8te432i',
 
 				skinName: 'default',
 
@@ -3602,9 +3460,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Panthers vs Jaguars match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Falcons vs Panthers match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091302/2015/REG1/panthers@jaguars',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110500/2017/REG9/falcons@panthers',
 
 				
 
@@ -3643,12 +3501,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -3657,98 +3513,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091301"	>
+	<div id="sb-wrapper-2017110505"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091301">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">fox</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=SEA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SEA.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=SEA">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=SEA">Seahawks</a></p>
-								</div>
-								<p class="total-score">31</p>
-								<p class="quarters-score"><span class="first-qt">7</span><span class="second-qt">3</span><span class="third-qt">3</span><span class="fourth-qt">18</span><span class="ot-qt">0</span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110505">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/philadelphia-eagles?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=DEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DEN.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=DEN">Broncos</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=STL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/STL.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=STL">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=STL">Rams</a></p>
-								</div>
-								<p class="total-score">34</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">10</span><span class="third-qt">14</span><span class="fourth-qt">7</span><span class="ot-qt">3</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091301/2015/REG1/seahawks@rams" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL OT</span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>15</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091301/2015/REG1/seahawks@rams#menu=highlights|contentId:0ap3000000530314&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>GameDay: Seahawks vs Rams highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=PHI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/PHI.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(6-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=PHI">Eagles</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110505/2017/REG9/broncos@eagles" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110505/2017/REG9/broncos@eagles#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110505/2017/REG9/broncos@eagles"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091301" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110505" class="share">
 
 
 
@@ -3766,7 +3607,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_866h0gct"></div>
+<div id="sbc_5m3jky0n"></div>
 
 
 
@@ -3802,9 +3643,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_866h0gct',
+				srcNode: '#sbc_5m3jky0n',
 
-				barId: 'sbb_866h0gct',
+				barId: 'sbb_5m3jky0n',
 
 				skinName: 'default',
 
@@ -3822,9 +3663,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Seahawks vs Rams match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Broncos vs Eagles match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091301/2015/REG1/seahawks@rams',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110505/2017/REG9/broncos@eagles',
 
 				
 
@@ -3863,12 +3704,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -3877,98 +3716,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091300"	>
+	<div id="sb-wrapper-2017110506"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091300">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">fox</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=GB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/GB.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=GB">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=GB">Packers</a></p>
-								</div>
-								<p class="total-score">31</p>
-								<p class="quarters-score"><span class="first-qt">7</span><span class="second-qt">3</span><span class="third-qt">7</span><span class="fourth-qt">14</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110506">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/tennessee-titans?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=BAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/BAL.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-4-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=BAL">Ravens</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=CHI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CHI.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=CHI">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=CHI">Bears</a></p>
-								</div>
-								<p class="total-score">23</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">10</span><span class="third-qt">3</span><span class="fourth-qt">7</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091300/2015/REG1/packers@bears" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>14</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091300/2015/REG1/packers@bears#menu=highlights|contentId:0ap3000000529429&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Week 1: Packers vs Bears highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=TEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TEN.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=TEN">Titans</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110506/2017/REG9/ravens@titans" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110506/2017/REG9/ravens@titans#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110506/2017/REG9/ravens@titans"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091300" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110506" class="share">
 
 
 
@@ -3986,7 +3810,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_xel40q0o"></div>
+<div id="sbc_403qs2s0"></div>
 
 
 
@@ -4022,9 +3846,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_xel40q0o',
+				srcNode: '#sbc_403qs2s0',
 
-				barId: 'sbb_xel40q0o',
+				barId: 'sbb_403qs2s0',
 
 				skinName: 'default',
 
@@ -4042,9 +3866,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Packers vs Bears match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Ravens vs Titans match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091300/2015/REG1/packers@bears',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110506/2017/REG9/ravens@titans',
 
 				
 
@@ -4083,12 +3907,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -4097,91 +3919,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091308"	>
+	<div id="sb-wrapper-2017110507"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091308">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">fox</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=DET"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DET.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=DET">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=DET">Lions</a></p>
-								</div>
-								<p class="total-score">28</p>
-								<p class="quarters-score"><span class="first-qt">7</span><span class="second-qt">14</span><span class="third-qt">0</span><span class="fourth-qt">7</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110507">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/san-francisco-49ers?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=ARI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/ARI.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-4-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=ARI">Cardinals</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=SD"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SD.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=SD">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=SD">Chargers</a></p>
-								</div>
-								<p class="total-score">33</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">7</span><span class="third-qt">10</span><span class="fourth-qt">13</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091308/2015/REG1/lions@chargers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>16</span></div>
-						<div style="clear:both"></div>
-						 
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=SF"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SF.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(0-7-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=SF">49ers</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110507/2017/REG9/cardinals@49ers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >4:05 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110507/2017/REG9/cardinals@49ers#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110507/2017/REG9/cardinals@49ers"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091308" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110507" class="share">
 
 
 
@@ -4199,7 +4013,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_c682pq8v"></div>
+<div id="sbc_j5f0vyfy"></div>
 
 
 
@@ -4235,9 +4049,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_c682pq8v',
+				srcNode: '#sbc_j5f0vyfy',
 
-				barId: 'sbb_c682pq8v',
+				barId: 'sbb_j5f0vyfy',
 
 				skinName: 'default',
 
@@ -4255,9 +4069,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Lions vs Chargers match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Cardinals vs 49ers match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091308/2015/REG1/lions@chargers',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110507/2017/REG9/cardinals@49ers',
 
 				
 
@@ -4296,12 +4110,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -4310,98 +4122,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091307"	>
+	<div id="sb-wrapper-2017110508"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091307">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">fox</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=NO"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NO.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=NO">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=NO">Saints</a></p>
-								</div>
-								<p class="total-score">19</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">7</span><span class="third-qt">3</span><span class="fourth-qt">6</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110508">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/seattle-seahawks?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=WAS"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/WAS.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=WAS">Redskins</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=ARI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/ARI.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=ARI">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=ARI">Cardinals</a></p>
-								</div>
-								<p class="total-score">31</p>
-								<p class="quarters-score"><span class="first-qt">7</span><span class="second-qt">7</span><span class="third-qt">3</span><span class="fourth-qt">14</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091307/2015/REG1/saints@cardinals" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>14</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091307/2015/REG1/saints@cardinals#menu=highlights|contentId:0ap3000000529929&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Week 1: Saints vs. Cardinals highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=SEA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SEA.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=SEA">Seahawks</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110508/2017/REG9/redskins@seahawks" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >4:05 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110508/2017/REG9/redskins@seahawks#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110508/2017/REG9/redskins@seahawks"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091307" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110508" class="share">
 
 
 
@@ -4419,7 +4216,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_w8376bn5"></div>
+<div id="sbc_4ggwqmi4"></div>
 
 
 
@@ -4455,9 +4252,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_w8376bn5',
+				srcNode: '#sbc_4ggwqmi4',
 
-				barId: 'sbb_w8376bn5',
+				barId: 'sbb_4ggwqmi4',
 
 				skinName: 'default',
 
@@ -4475,9 +4272,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Saints vs Cardinals match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Redskins vs Seahawks match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091307/2015/REG1/saints@cardinals',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110508/2017/REG9/redskins@seahawks',
 
 				
 
@@ -4516,12 +4313,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -4530,91 +4325,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091309"	>
+	<div id="sb-wrapper-2017110509"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091309">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">cbs</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=BAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/BAL.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=BAL">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=BAL">Ravens</a></p>
-								</div>
-								<p class="total-score">13</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">3</span><span class="third-qt">10</span><span class="fourth-qt">0</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110509">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/dallas-cowboys?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=KC"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/KC.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(5-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=KC">Chiefs</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=DEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DEN.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=DEN">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=DEN">Broncos</a></p>
-								</div>
-								<p class="total-score">19</p>
-								<p class="quarters-score"><span class="first-qt">6</span><span class="second-qt">3</span><span class="third-qt">7</span><span class="fourth-qt">3</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091309/2015/REG1/ravens@broncos" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>4</span></div>
-						<div style="clear:both"></div>
-						 
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=DAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DAL.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=DAL">Cowboys</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110509/2017/REG9/chiefs@cowboys" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >4:25 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110509/2017/REG9/chiefs@cowboys#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110509/2017/REG9/chiefs@cowboys"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091309" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110509" class="share">
 
 
 
@@ -4632,7 +4419,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_ba8wox3w"></div>
+<div id="sbc_786032uh"></div>
 
 
 
@@ -4668,9 +4455,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_ba8wox3w',
+				srcNode: '#sbc_786032uh',
 
-				barId: 'sbb_ba8wox3w',
+				barId: 'sbb_786032uh',
 
 				skinName: 'default',
 
@@ -4688,9 +4475,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Ravens vs Broncos match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Chiefs vs Cowboys match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091309/2015/REG1/ravens@broncos',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110509/2017/REG9/chiefs@cowboys',
 
 				
 
@@ -4729,12 +4516,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -4743,91 +4528,83 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091310"	>
+	<div id="sb-wrapper-2017110510"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091310">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">cbs</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=CIN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CIN.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=CIN">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=CIN">Bengals</a></p>
-								</div>
-								<p class="total-score">33</p>
-								<p class="quarters-score"><span class="first-qt">7</span><span class="second-qt">17</span><span class="third-qt">9</span><span class="fourth-qt">0</span><span class="ot-qt"></span></p>
 
-							</div>
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110510">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Nov 5</span>
+				
+				<span class="network" title="Airing on Network Channel">nbc</span>
+				<span class="tickets-link"><a href="/tickets/miami-dolphins?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=OAK"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/OAK.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-4-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=OAK">Raiders</a></p>							
 						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=OAK"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/OAK.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=OAK">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=OAK">Raiders</a></p>
-								</div>
-								<p class="total-score">13</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">0</span><span class="third-qt">0</span><span class="fourth-qt">13</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091310/2015/REG1/bengals@raiders" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>9</span></div>
-						<div style="clear:both"></div>
-						 
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
+						<p class="total-score">--</p> 							
 					</div>
 				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=MIA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/MIA.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=MIA">Dolphins</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110510/2017/REG9/raiders@dolphins" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >8:30 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110510/2017/REG9/raiders@dolphins#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110510/2017/REG9/raiders@dolphins"></fb:comments-count></a></div>
+
 			</div>
-			
-			<div id="share-2015091310" class="share">
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2017110510" class="share">
 
 
 
@@ -4845,7 +4622,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_4kxwgaw4"></div>
+<div id="sbc_76h2l5w5"></div>
 
 
 
@@ -4881,9 +4658,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_4kxwgaw4',
+				srcNode: '#sbc_76h2l5w5',
 
-				barId: 'sbb_4kxwgaw4',
+				barId: 'sbb_76h2l5w5',
 
 				skinName: 'default',
 
@@ -4901,9 +4678,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Bengals vs Raiders match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Raiders vs Dolphins match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091310/2015/REG1/bengals@raiders',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110510/2017/REG9/raiders@dolphins',
 
 				
 
@@ -4942,12 +4719,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+</div>
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
@@ -4956,91 +4731,23 @@ justify-content: flex-start;}</style></div></div>
 		
 		
 		
-		<!-- state: POST -->
+		<!-- state: PRE -->
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2015091311"	>
+	<div id="sb-wrapper-2017110600"	>
 	
 		
 		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
+			<!-- BEGIN INCLUDE scoresbox/pre -->
 
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091311">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">cbs</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=TEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TEN.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=TEN">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=TEN">Titans</a></p>
-								</div>
-								<p class="total-score">42</p>
-								<p class="quarters-score"><span class="first-qt">21</span><span class="second-qt">14</span><span class="third-qt">7</span><span class="fourth-qt">0</span><span class="ot-qt"></span></p>
 
-							</div>
-						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=TB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TB.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=TB">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=TB">Buccaneers</a></p>
-								</div>
-								<p class="total-score">14</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">7</span><span class="third-qt">0</span><span class="fourth-qt">7</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091311/2015/REG1/titans@buccaneers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>13</span></div>
-						<div style="clear:both"></div>
-						 
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
-					</div>
-				</div>
-			</div>
-			
-			<div id="share-2015091311" class="share">
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
 
 
 
@@ -5048,439 +4755,59 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_73ygjc1a"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_73ygjc1a',
-
-				barId: 'sbb_73ygjc1a',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2017110600">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Mon, Nov 6</span>
 				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Titans vs Buccaneers match-up on NFL.com\'s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2015091311/2015/REG1/titans@buccaneers',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
+				<span class="network" title="Airing on Network Channel">espn</span>
+				<span class="tickets-link"><a href="/tickets/green-bay-packers?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
 		</div>
-		<!-- END INCLUDE scores/nav -->
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=DET"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DET.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(3-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=DET">Lions</a></p>							
+						</div>
+						<p class="total-score">--</p> 							
+					</div>
+				</div>
+			</div>					     
+			<div class="team-wrapper">			
+				<div class="home-team">
+					<a href="/teams/profile?team=GB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/GB.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(4-3-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=GB">Packers</a></p>
+						</div>
+						<p class="total-score">--</p> 
+					</div>
+				</div>	
+			</div>					
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2017110600/2017/REG9/lions@packers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >8:30 PM  ET</span></p>
+				<div class="comments" style="clear:both"><a href="/gamecenter/2017110600/2017/REG9/lions@packers#tab=discuss"><fb:comments-count href="http://www.nfl.com/gamecenter/2017110600/2017/REG9/lions@packers"></fb:comments-count></a></div>
 
-	
-
-
-		
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
 	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: POST -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2015091312"	>
-	
-		
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
-
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091312">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Sun, Sep 13</span>
-						<span class="network" title="Aired on Network">nbc</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=NYG"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYG.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=NYG">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=NYG">Giants</a></p>
-								</div>
-								<p class="total-score">26</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">10</span><span class="third-qt">3</span><span class="fourth-qt">10</span><span class="ot-qt"></span></p>
-
-							</div>
-						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=DAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DAL.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=DAL">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=DAL">Cowboys</a></p>
-								</div>
-								<p class="total-score">27</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">3</span><span class="third-qt">7</span><span class="fourth-qt">14</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091312/2015/REG1/giants@cowboys" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>11</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091312/2015/REG1/giants@cowboys#menu=highlights|contentId:0ap3000000530033&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>GameDay: Giants vs. Cowboys highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
-					</div>
-				</div>
-			</div>
-			
-			<div id="share-2015091312" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_1v7byj8b"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_1v7byj8b',
-
-				barId: 'sbb_1v7byj8b',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Giants vs Cowboys match-up on NFL.com\'s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2015091312/2015/REG1/giants@cowboys',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
-
-	
-
-
-		
 	</div>
-	<!-- isCurrentWeek = false -->
 	
-
-		
-		
-		
-		<!-- state: POST -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2015091400"	>
-	
-		
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
-
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091400">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Mon, Sep 14</span>
-						<span class="network" title="Aired on Network">espn</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=PHI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/PHI.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=PHI">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=PHI">Eagles</a></p>
-								</div>
-								<p class="total-score">24</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">3</span><span class="third-qt">14</span><span class="fourth-qt">7</span><span class="ot-qt"></span></p>
-
-							</div>
-						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=ATL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/ATL.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=ATL">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=ATL">Falcons</a></p>
-								</div>
-								<p class="total-score">26</p>
-								<p class="quarters-score"><span class="first-qt">3</span><span class="second-qt">17</span><span class="third-qt">0</span><span class="fourth-qt">6</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091400/2015/REG1/eagles@falcons" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>14</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091400/2015/REG1/eagles@falcons#menu=highlights|contentId:0ap3000000530981&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Eagles vs. Falcons highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
-					</div>
-				</div>
-			</div>
-			
-			<div id="share-2015091400" class="share">
+	<div id="share-2017110600" class="share">
 
 
 
@@ -5498,7 +4825,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_11474esx"></div>
+<div id="sbc_1m277n66"></div>
 
 
 
@@ -5534,9 +4861,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_11474esx',
+				srcNode: '#sbc_1m277n66',
 
-				barId: 'sbb_11474esx',
+				barId: 'sbb_1m277n66',
 
 				skinName: 'default',
 
@@ -5554,9 +4881,9 @@ justify-content: flex-start;}</style></div></div>
 
 				
 
-				title: 'Check out the Eagles vs Falcons match-up on NFL.com\'s GameCenter.',
+				title: 'Check out the Lions vs Packers match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2015091400/2015/REG1/eagles@falcons',
+				linkBack: 'http://www.nfl.com/gamecenter/2017110600/2017/REG9/lions@packers',
 
 				
 
@@ -5595,232 +4922,10 @@ justify-content: flex-start;}</style></div></div>
 
 
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
-
-	
-
-
-		
-	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: POST -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2015091401"	>
-	
-		
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/post -->
-
-	
-	
-		
-		
-		
-		
-		
-		<div class="scorebox-wrapper">
-			<div class="new-score-box-wrapper" id="scorebox-2015091401">
-				<div class="new-score-box-heading">
-					<p>
-						<span class="date" title="Date Aired">Mon, Sep 14</span>
-						<span class="network" title="Aired on Network">espn</span>
-						<span class="quarters-total" title="Score Key by Quarter">
-							<span class="total-score">TOTAL</span>
-							<span class="quarters-score">
-								<span>1</span><span>2</span><span>3</span><span>4</span><span>OT</span>
-							</span> 
-						</span>
-					</p>
-				</div>
-				<div class="new-score-box">
-				<div class="team-wrapper">
-						<div class="away-team">
-							<a href="/teams/profile?team=MIN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/MIN.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=MIN">(0-1-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=MIN">Vikings</a></p>
-								</div>
-								<p class="total-score">3</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">0</span><span class="third-qt">0</span><span class="fourth-qt">3</span><span class="ot-qt"></span></p>
-
-							</div>
-						</div>
-					</div>
-					<div class="team-wrapper">
-						<div class="home-team">
-							<a href="/teams/profile?team=SF"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SF.png" class='team-logo' alt=""/></a>
-							<div class="team-data">
-								<div class="team-info">
-									<p class="team-record">
-										
-											<a href="/teams/profile?team=SF">(1-0-0)</a>
-										
-									</p>
-									<p class="team-name"><a href="/teams/profile?team=SF">49ers</a></p>
-								</div>
-								<p class="total-score">20</p>
-								<p class="quarters-score"><span class="first-qt">0</span><span class="second-qt">7</span><span class="third-qt">3</span><span class="fourth-qt">10</span><span class="ot-qt"></span></p>
-							</div>
-						</div>
-					</div>
-					<div class="game-center-area">
-						<a href="/gamecenter/2015091401/2015/REG1/vikings@49ers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-active.png" alt=""/></a>
-						<p><span class="time-left">FINAL </span></p>
-						<div style="clear:right"></div>
-						<div class="big-plays"><span class="title">BIG PLAYS</span><span class='big-plays-count'>7</span></div>
-						<div style="clear:both"></div>
-						 
-							<div class="highlight-link">
-								<a href="/gamecenter/2015091401/2015/REG1/vikings@49ers#menu=highlights|contentId:0ap3000000531072&tab=analyze">
-									<div class="highlight-button"><div class="highlight-arrow"></div></div>
-									<p>Vikings vs. 49ers highlights</p>
-								</a>
-							</div>
-						
-					</div>
-					<div class="products-social">
-						<p>
-							<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> FULL GAME</a></span>
-						</p>
-					</div>
-				</div>
-			</div>
-			
-			<div id="share-2015091401" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_ddv5vem3"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_ddv5vem3',
-
-				barId: 'sbb_ddv5vem3',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Vikings vs 49ers match-up on NFL.com\'s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2015091401/2015/REG1/vikings@49ers',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
 </div>
-		</div>
-		<!-- END INCLUDE scores/nav -->
+<!-- END INCLUDE scoresbox/pre -->
 
-	
-
-
+		
 		
 	</div>
 	<!-- isCurrentWeek = false -->
