@@ -66,19 +66,48 @@ def power_rankings():
     week_power = soup.find("div", attrs={"class":"table-wrapper"})
     game_team = week_power.find_all('tr', attrs={"class":"player-rankings-stats"})
 
-    tonight = game_team[0]
+    for i in range(0, len(game_team)):
+        tonight = game_team[i]
 
-    team_rank = tonight.find('span', attrs={"class":"rank"}).get_text()
-    team_name = tonight.find('td', attrs={"class":"cell-left team"}).get_text()
-    team_comment = tonight.find('td', attrs={"class":"cell-left dek"}).get_text()
+        team_rank = tonight.find('span', attrs={"class":"rank"}).get_text()
 
-    print(team_rank.strip())
-    print(team_name.strip())
-    print(team_comment.strip())
+        if tonight.find('td', attrs={"class": "cell-left change-up"}) is None:
+             team_rank_up = 0
+        else:
+             team_rank_up = tonight.find('td', attrs={"class": "cell-left change-up"}).get_text()
+
+        if tonight.find('td', attrs={"class": "cell-left change-down"})  is None:
+             team_rank_down = 0
+        else:
+             team_rank_down = tonight.find('td', attrs={"class": "cell-left change-down"}).get_text()
+
+
+
+        team_stats = tonight.find_all('td', attrs={"class": "cell-left"})
+        team_stat = team_stats[4].get_text()
+
+
+        team_name = tonight.find('td', attrs={"class":"cell-left team"}).get_text()
+        team_comment = tonight.find('td', attrs={"class":"cell-left dek"}).get_text()
+
+        print(team_rank.strip())
+
+        if int(team_rank_up) > 0:
+            print('+' + team_rank_up.strip())
+        elif int(team_rank_down) > 0:
+            print('-' + team_rank_down.strip())
+        else:
+            print('`')
+
+
+        print(team_name.strip())
+        print(team_stat.strip())
+        print(team_comment.strip())
 
 
 if __name__ == '__main__':
     ensure_dir(directory_data)
     #GetUrl()
     power_rankings()
-    find_week_games()
+    #find_week_games()
+
