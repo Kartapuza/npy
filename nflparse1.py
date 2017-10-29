@@ -40,7 +40,7 @@ def GetUrl():
   output_file.write(r.text)
 
  try:
-  r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 2))
+  r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 1))
  except requests.exceptions.ReadTimeout:
     print('Oops. Read timeout occured')
  except requests.exceptions.ConnectTimeout:
@@ -148,10 +148,23 @@ def power_rankings():
         print(team_stat.strip())
         print(team_comment.strip())
 
+def espn_read():
+    espn_1 = open('espn.html', 'r')
+    my_string = espn_1.read()
+
+    soup = BeautifulSoup(my_string, 'html.parser')
+    week_pick_espn = soup.find("table", attrs={"class": "tablehead"})
+    game_pick = week_pick_espn.find_all('tr', attrs={"class": "team"})
+
+    for i in range(0, len(game_pick)):
+        tonight = game_pick[i]
+        print(tonight)
+
 
 if __name__ == '__main__':
     ensure_dir(directory_data)
-    GetUrl()
+    #GetUrl()
     #power_rankings()
     #find_week_games()
+    espn_read()
 
