@@ -1,6 +1,7 @@
 import os
-import requests
-from bs4 import BeautifulSoup
+import requests  #__version__ = '2.18.4'
+from bs4 import BeautifulSoup #__version__ = "4.0.0b"
+import re
 
 #Создание структуры каталогов
 current_dir = os.getcwd()
@@ -154,7 +155,9 @@ def espn_read():
 
     soup = BeautifulSoup(my_string, 'html.parser')
     week_pick_espn = soup.find("table", attrs={"class": "tablehead"})
-    game_pick = week_pick_espn.find_all('tr', attrs={"class": "team"})
+    #game_pick = week_pick_espn.find_all('tr', attrs={"class": "^team^"})
+    game_pick = week_pick_espn.find_all('tr', attrs={"class": re.compile("row team-")})
+
 
     for i in range(0, len(game_pick)):
         tonight = game_pick[i]
