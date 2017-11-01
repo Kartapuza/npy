@@ -132,7 +132,7 @@ def power_rankings():
              team_rank_down = tonight.find('td', attrs={"class": "cell-left change-down"}).get_text()
 
         team_stats = tonight.find_all('td', attrs={"class": "cell-left"})
-        team_stat = team_stats[4].get_text()
+        team_stat = team_stats[1].get_text()
 
         team_name = tonight.find('td', attrs={"class":"cell-left team"}).get_text()
         team_comment = tonight.find('td', attrs={"class":"cell-left dek"}).get_text()
@@ -155,19 +155,21 @@ def espn_read():
 
     soup = BeautifulSoup(my_string, 'html.parser')
     week_pick_espn = soup.find("table", attrs={"class": "tablehead"})
-    #game_pick = week_pick_espn.find_all('tr', attrs={"class": "^team^"})
     game_pick = week_pick_espn.find_all('tr', attrs={"class": re.compile("row team-")})
-
 
     for i in range(0, len(game_pick)):
         tonight = game_pick[i]
-        print(tonight)
+        game_day_pick = tonight.find_all('div', attrs={"class": re.compile("teampick logo")})
+        for j in range(0, len(game_day_pick)):
+            topick = game_day_pick[j]
+            print(game_day_pick[j].get_text())
+        print('---')
 
 
 if __name__ == '__main__':
     ensure_dir(directory_data)
     #GetUrl()
-    #power_rankings()
-    #find_week_games()
+    power_rankings()
+    find_week_games()
     espn_read()
 
