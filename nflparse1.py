@@ -22,8 +22,8 @@ def GetUrl():
 
  url_powerrankings = 'https://www.cbssports.com/nfl/powerrankings/'
 
- url_espn = 'http://www.espn.com/nfl/picks/_/week/8'
- url_cbs = 'https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/8'
+ url_espn = 'http://www.espn.com/nfl/picks/_/week/9'
+ url_cbs = 'https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/9'
 
 
  url_bwin = 'https://www.bwin.com/'
@@ -41,7 +41,7 @@ def GetUrl():
   output_file.write(r.text)
 
  try:
-  r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 1))
+  r = requests.get(url_cbs, headers=headers, verify=False, timeout=(15, 1))
  except requests.exceptions.ReadTimeout:
     print('Oops. Read timeout occured')
  except requests.exceptions.ConnectTimeout:
@@ -168,7 +168,7 @@ def espn_read():
 
 if __name__ == '__main__':
     ensure_dir(directory_data)
-    #GetUrl()
+    GetUrl()
     power_rankings()
     find_week_games()
     espn_read()
