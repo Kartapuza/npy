@@ -7,6 +7,13 @@ import re
 current_dir = os.getcwd()
 directory_data = (current_dir + '\data')
 
+# url_nfl = 'http://www.nfl.com/scores'
+url_nfl = 'none'
+url_powerrankings = 'none'
+url_espn = 'none'
+url_cbs  = 'none'
+url_bwin = 'none'
+
 def ensure_dir(directory):
  if not os.path.exists(directory):
     os.makedirs(directory)
@@ -16,38 +23,64 @@ def save_file(name_file, lines):
  save_changes.writelines(lines)
  save_changes.close()
 
+def Load_Settings():
+    global url_nfl
+    settings_1 = open('settings.txt', 'r')
+    my_string = settings_1.readlines()
+    print(my_string[0], my_string[1])
+    url_nfl = 'nont'
+    if my_string[0] =='1':
+       print('ok')
+       url_nfl = my_string[1]
+    else: url_nfl = 'none'
+
+    if my_string[2] =='1':
+       url_powerrankings = my_string[3]
+    else: url_powerrankings = 'none'
+
+    if my_string[4] =='1':
+       url_espn = my_string[5]
+    else: url_espn = 'none'
+
+    if my_string[6] =='1':
+       url_cbs = my_string[7]
+    else: url_cbs = 'none'
+
+    if my_string[8] =='1':
+       url_bwin = my_string[9]
+    else: url_bwin = 'none'
+
 def GetUrl():
- #url_nfl = 'http://www.nfl.com/scores'
- url_nfl = 'http://www.nfl.com/scores/2017/REG10'
-
- url_powerrankings = 'https://www.cbssports.com/nfl/powerrankings/'
-
- url_espn = 'http://www.espn.com/nfl/picks/_/week/10'
- url_cbs = 'https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/10'
-
-
- url_bwin = 'https://www.bwin.com/'
+ global url_nfl
+ print(url_nfl, len(url_nfl))
  headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
  }
- r = requests.get(url_nfl, headers=headers)
- with open('scores.html', 'w') as output_file:
-  output_file.write(r.text)
- r = requests.get(url_powerrankings , headers=headers)
- with open('power.html', 'w') as output_file:
-  output_file.write(r.text)
- r = requests.get(url_espn, headers=headers)
- with open('espn.html', 'w') as output_file:
-  output_file.write(r.text)
+ if len(url_nfl) > 5:
+    r = requests.get(url_nfl, headers=headers)
+    with open('scores.html', 'w') as output_file:
+        output_file.write(r.text)
 
- try:
-  r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 1))
- except requests.exceptions.ReadTimeout:
-    print('Oops. Read timeout occured')
- except requests.exceptions.ConnectTimeout:
-    print('Oops. Connection timeout occured!')
- with open('cbs.html', 'w') as output_file:
-  output_file.write(r.text)
+ if len(url_powerrankings) > 5:
+    r = requests.get(url_powerrankings , headers=headers)
+    with open('power.html', 'w') as output_file:
+        output_file.write(r.text)
+
+ if len(url_espn) > 5:
+    r = requests.get(url_espn, headers=headers)
+    with open('espn.html', 'w') as output_file:
+        output_file.write(r.text)
+
+ if len(url_cbs) > 5:
+    print(url_cbs, len(url_cbs))
+    try:
+     r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 1))
+    except requests.exceptions.ReadTimeout:
+     print('Oops. Read timeout occured')
+    except requests.exceptions.ConnectTimeout:
+     print('Oops. Connection timeout occured!')
+    with open('cbs.html', 'w') as output_file:
+     output_file.write(r.text)
 
 def find_week_games():
     nflsite_1 = open('scores.html', 'r')
@@ -167,6 +200,7 @@ def espn_read():
 
 if __name__ == '__main__':
     ensure_dir(directory_data)
+    Load_Settings()
     GetUrl()
     power_rankings()
     find_week_games()
