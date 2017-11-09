@@ -7,13 +7,6 @@ import re
 current_dir = os.getcwd()
 directory_data = (current_dir + '\data')
 
-# url_nfl = 'http://www.nfl.com/scores'
-url_nfl = 'none'
-url_powerrankings = 'none'
-url_espn = 'none'
-url_cbs  = 'none'
-url_bwin = 'none'
-
 def ensure_dir(directory):
  if not os.path.exists(directory):
     os.makedirs(directory)
@@ -24,35 +17,31 @@ def save_file(name_file, lines):
  save_changes.close()
 
 def Load_Settings():
-    global url_nfl
+    global url_nfl, url_powerrankings, url_espn, url_cbs, url_bwin
+    url_nfl = url_powerrankings = url_espn = url_cbs = url_bwin = 'none'
     settings_1 = open('settings.txt', 'r')
     my_string = settings_1.readlines()
-    print(my_string[0], my_string[1])
-    url_nfl = 'nont'
-    if my_string[0] =='1':
-       print('ok')
-       url_nfl = my_string[1]
+    if my_string[0].strip() == '1':
+       url_nfl = my_string[1].strip()
     else: url_nfl = 'none'
 
-    if my_string[2] =='1':
-       url_powerrankings = my_string[3]
+    if my_string[2].strip() =='1':
+       url_powerrankings = my_string[3].strip()
     else: url_powerrankings = 'none'
 
-    if my_string[4] =='1':
-       url_espn = my_string[5]
+    if my_string[4].strip() == '1':
+       url_espn = my_string[5].strip()
     else: url_espn = 'none'
 
-    if my_string[6] =='1':
-       url_cbs = my_string[7]
+    if my_string[6].strip() =='1':
+       url_cbs = my_string[7].strip()
     else: url_cbs = 'none'
 
-    if my_string[8] =='1':
-       url_bwin = my_string[9]
+    if my_string[8].strip() =='1':
+       url_bwin = my_string[9].strip()
     else: url_bwin = 'none'
 
 def GetUrl():
- global url_nfl
- print(url_nfl, len(url_nfl))
  headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
  }
@@ -72,7 +61,6 @@ def GetUrl():
         output_file.write(r.text)
 
  if len(url_cbs) > 5:
-    print(url_cbs, len(url_cbs))
     try:
      r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 1))
     except requests.exceptions.ReadTimeout:
