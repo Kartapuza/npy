@@ -168,7 +168,7 @@ def espn_read():
 
 if __name__ == '__main__':
     ensure_dir(directory_data)
-    GetUrl()
+    #GetUrl()
     power_rankings()
     find_week_games()
     espn_read()
