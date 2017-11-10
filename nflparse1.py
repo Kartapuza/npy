@@ -2,6 +2,13 @@ import os
 import requests  #__version__ = '2.18.4'
 from bs4 import BeautifulSoup #__version__ = "4.0.0b"
 import re
+import urllib3
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+from os.path import basename
+import sys
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 #Создание структуры каталогов
 current_dir = os.getcwd()
@@ -62,13 +69,13 @@ def GetUrl():
 
  if len(url_cbs) > 5:
     try:
-     r = requests.get(url_cbs, headers=headers, verify=False, timeout=(10, 1))
+     r = requests.get(url_cbs, headers=headers,  verify=False, timeout=(10, 1))
     except requests.exceptions.ReadTimeout:
      print('Oops. Read timeout occured')
     except requests.exceptions.ConnectTimeout:
      print('Oops. Connection timeout occured!')
-    with open('cbs.html', 'w') as output_file:
-     output_file.write(r.text)
+    with open('cbs.html', 'w', encoding='utf-8') as output_file:
+        output_file.write(r.text)
 
 def find_week_games():
     nflsite_1 = open('scores.html', 'r')
@@ -183,14 +190,30 @@ def espn_read():
         for j in range(0, len(game_day_pick)):
             topick = game_day_pick[j]
             print(game_day_pick[j].get_text())
-        print('---')
+        print('e--')
 
+def cbs_read():
+    cbs_1 = open('cbs.html', 'r')
+    my_string = cbs_1.read()
+
+    soup = BeautifulSoup(my_string, 'html.parser')
+    week_pick_cbs = soup.find("table", attrs={"id": "oddsTable"})
+    game_pick = week_pick_cbs.find_all('tr', attrs={"class": re.compile(r'[a-z]||row||r''[a-z]')})
+    for i in range(0, len(game_pick)):
+        tonight = game_pick[i]
+        game_day_pick = tonight.find_all('img', attrs={"src": re.compile(r'[a-z]||.png||r''[a-z]')})
+        for j in range(0, len(game_day_pick)):
+            p_url = game_day_pick[j].get('src')
+            p_name = p_url.split('/')[-1]
+            print(p_name.split('.')[0])
+        print('c--')
 
 if __name__ == '__main__':
+    sys.stdout = open('result.out', 'w')
     ensure_dir(directory_data)
     Load_Settings()
     GetUrl()
     power_rankings()
     find_week_games()
     espn_read()
-
+    cbs_read()
