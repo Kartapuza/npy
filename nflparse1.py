@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup #__version__ = "4.0.0b"
 import re
 import urllib3
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-from os.path import basename
 import sys
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
@@ -213,7 +212,11 @@ if __name__ == '__main__':
     ensure_dir(directory_data)
     Load_Settings()
     GetUrl()
-    power_rankings()
-    find_week_games()
-    espn_read()
-    cbs_read()
+    if len(url_nfl) > 5:
+        find_week_games()
+    if len(url_powerrankings) > 5:
+        power_rankings()
+    if len(url_espn) > 5:
+        espn_read()
+    if len(url_cbs) > 5:
+        cbs_read()
