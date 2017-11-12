@@ -291,7 +291,7 @@ window.NFL_GLOBAL_CACHE.NFL_SUBS = [];
     NFL_MIN_ENABLED:          false,
     CURRENT_SEASON:           "2017",
     CURRENT_SEASONTYPE:       "REG",
-    COUNTRY_CODE:             "es",
+    COUNTRY_CODE:             "ru",
     ET_OFFSET:                (function () {
       var offset  = ("-0500").match(/([\+\-]\d\d)(\d\d)/),
         hours   = parseInt(offset[1], 10),
@@ -721,7 +721,7 @@ nfl.constants.SS_CONF.sponMobileClickThrough = '';
   
   
     
-    <!-- DEFAULT BROWSER PANEL  com.nfl.site.domain.browserpanel.BrowserPanel@605e85e0 -->
+    <!-- DEFAULT BROWSER PANEL  com.nfl.site.domain.browserpanel.BrowserPanel@54b521dd -->
   
 
 
@@ -1270,7 +1270,7 @@ justify-content: flex-start;}</style></div></div>
 
 	
 
-		<div class="adcontainer" id="ad1510403791564top-container">
+		<div class="adcontainer" id="ad1510447182255top-container">
 
 			
 
@@ -1350,7 +1350,7 @@ justify-content: flex-start;}</style></div></div>
 
 						adConf = {
 
-							id: 'ad1510403791564top',
+							id: 'ad1510447182255top',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=728x90&iu=/4595/nfl.scores/scores&t=slot%3Dtop%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -1360,7 +1360,7 @@ justify-content: flex-start;}</style></div></div>
 
 							sizes: sizes,
 
-							render: '#ad1510403791564top-container',
+							render: '#ad1510447182255top-container',
 
 							isSticky: 'false',
 
@@ -1466,7 +1466,7 @@ justify-content: flex-start;}</style></div></div>
 
 	
 
-		<div class="adcontainer" id="ad1510403791475spon-container">
+		<div class="adcontainer" id="ad1510447182169spon-container">
 
 			
 
@@ -1546,7 +1546,7 @@ justify-content: flex-start;}</style></div></div>
 
 						adConf = {
 
-							id: 'ad1510403791475spon',
+							id: 'ad1510447182169spon',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=985x50&iu=/4595/nfl.scores/scores&t=slot%3Dspon%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -1556,7 +1556,7 @@ justify-content: flex-start;}</style></div></div>
 
 							sizes: sizes,
 
-							render: '#ad1510403791475spon-container',
+							render: '#ad1510447182169spon-container',
 
 							isSticky: '',
 
@@ -2140,7 +2140,7 @@ justify-content: flex-start;}</style></div></div>
 
 	
 
-		<div class="adcontainer" id="ad1510403791476center-container">
+		<div class="adcontainer" id="ad1510447182171center-container">
 
 			
 
@@ -2220,7 +2220,7 @@ justify-content: flex-start;}</style></div></div>
 
 						adConf = {
 
-							id: 'ad1510403791476center',
+							id: 'ad1510447182171center',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=300x250&iu=/4595/nfl.scores/scores&t=slot%3Dcenter%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -2230,7 +2230,7 @@ justify-content: flex-start;}</style></div></div>
 
 							sizes: sizes,
 
-							render: '#ad1510403791476center-container',
+							render: '#ad1510447182171center-container',
 
 							isSticky: '',
 
@@ -2311,7 +2311,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
 				<span class="tickets-link"><a href="/tickets/chicago-bears?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -2376,7 +2376,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_k4j7gi18"></div>
+<div id="sbc_ha401m5l"></div>
 
 
 
@@ -2412,9 +2412,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_k4j7gi18',
+				srcNode: '#sbc_ha401m5l',
 
-				barId: 'sbb_k4j7gi18',
+				barId: 'sbb_ha401m5l',
 
 				skinName: 'default',
 
@@ -2520,7 +2520,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">cbs</span>
 				<span class="tickets-link"><a href="/tickets/detroit-lions?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -2585,7 +2585,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_nm37q18s"></div>
+<div id="sbc_7j81e465"></div>
 
 
 
@@ -2621,9 +2621,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_nm37q18s',
+				srcNode: '#sbc_7j81e465',
 
-				barId: 'sbb_nm37q18s',
+				barId: 'sbb_7j81e465',
 
 				skinName: 'default',
 
@@ -2729,7 +2729,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">cbs</span>
 				<span class="tickets-link"><a href="/tickets/indianapolis-colts?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -2794,7 +2794,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_70kykkv1"></div>
+<div id="sbc_p2m28cx8"></div>
 
 
 
@@ -2830,9 +2830,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_70kykkv1',
+				srcNode: '#sbc_p2m28cx8',
 
-				barId: 'sbb_70kykkv1',
+				barId: 'sbb_p2m28cx8',
 
 				skinName: 'default',
 
@@ -2938,7 +2938,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">cbs</span>
 				<span class="tickets-link"><a href="/tickets/jacksonville-jaguars?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -3003,7 +3003,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_c6v5xa6b"></div>
+<div id="sbc_545a1fxk"></div>
 
 
 
@@ -3039,9 +3039,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_c6v5xa6b',
+				srcNode: '#sbc_545a1fxk',
 
-				barId: 'sbb_c6v5xa6b',
+				barId: 'sbb_545a1fxk',
 
 				skinName: 'default',
 
@@ -3147,7 +3147,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
 				<span class="tickets-link"><a href="/tickets/buffalo-bills?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -3212,7 +3212,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_ejgt846l"></div>
+<div id="sbc_1r0vt1af"></div>
 
 
 
@@ -3248,9 +3248,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_ejgt846l',
+				srcNode: '#sbc_1r0vt1af',
 
-				barId: 'sbb_ejgt846l',
+				barId: 'sbb_1r0vt1af',
 
 				skinName: 'default',
 
@@ -3356,7 +3356,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">cbs</span>
 				<span class="tickets-link"><a href="/tickets/tampa-bay-buccaneers?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -3421,7 +3421,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_knn1t820"></div>
+<div id="sbc_51n20dli"></div>
 
 
 
@@ -3457,9 +3457,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_knn1t820',
+				srcNode: '#sbc_51n20dli',
 
-				barId: 'sbb_knn1t820',
+				barId: 'sbb_51n20dli',
 
 				skinName: 'default',
 
@@ -3565,7 +3565,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
 				<span class="tickets-link"><a href="/tickets/washington-redskins?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -3630,7 +3630,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_a88p280j"></div>
+<div id="sbc_338167bi"></div>
 
 
 
@@ -3666,9 +3666,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_a88p280j',
+				srcNode: '#sbc_338167bi',
 
-				barId: 'sbb_a88p280j',
+				barId: 'sbb_338167bi',
 
 				skinName: 'default',
 
@@ -3774,7 +3774,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
 				<span class="tickets-link"><a href="/tickets/tennessee-titans?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -3839,7 +3839,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_dlk2ue3r"></div>
+<div id="sbc_087cg6t6"></div>
 
 
 
@@ -3875,9 +3875,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_dlk2ue3r',
+				srcNode: '#sbc_087cg6t6',
 
-				barId: 'sbb_dlk2ue3r',
+				barId: 'sbb_087cg6t6',
 
 				skinName: 'default',
 
@@ -3983,7 +3983,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">cbs</span>
 				<span class="tickets-link"><a href="/tickets/los-angeles-rams?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -4048,7 +4048,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_756r8u4d"></div>
+<div id="sbc_hn50lq2r"></div>
 
 
 
@@ -4084,9 +4084,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_756r8u4d',
+				srcNode: '#sbc_hn50lq2r',
 
-				barId: 'sbb_756r8u4d',
+				barId: 'sbb_hn50lq2r',
 
 				skinName: 'default',
 
@@ -4192,7 +4192,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
 				<span class="tickets-link"><a href="/tickets/atlanta-falcons?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -4257,7 +4257,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_6n583w1h"></div>
+<div id="sbc_3u2i0io8"></div>
 
 
 
@@ -4293,9 +4293,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_6n583w1h',
+				srcNode: '#sbc_3u2i0io8',
 
-				barId: 'sbb_6n583w1h',
+				barId: 'sbb_3u2i0io8',
 
 				skinName: 'default',
 
@@ -4401,7 +4401,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
 				<span class="tickets-link"><a href="/tickets/san-francisco-49ers?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -4466,7 +4466,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_qf3061f5"></div>
+<div id="sbc_s8ld1mnm"></div>
 
 
 
@@ -4502,9 +4502,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_qf3061f5',
+				srcNode: '#sbc_s8ld1mnm',
 
-				barId: 'sbb_qf3061f5',
+				barId: 'sbb_s8ld1mnm',
 
 				skinName: 'default',
 
@@ -4610,7 +4610,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">dom, nov 12</span>
+				<span class="date" title="Date Airing">Sun, Nov 12</span>
 				
 				<span class="network" title="Airing on Network Channel">nbc</span>
 				<span class="tickets-link"><a href="/tickets/denver-broncos?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -4675,7 +4675,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_34s54vl4"></div>
+<div id="sbc_2i886jqo"></div>
 
 
 
@@ -4711,9 +4711,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_34s54vl4',
+				srcNode: '#sbc_2i886jqo',
 
-				barId: 'sbb_34s54vl4',
+				barId: 'sbb_2i886jqo',
 
 				skinName: 'default',
 
@@ -4819,7 +4819,7 @@ justify-content: flex-start;}</style></div></div>
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">lun, nov 13</span>
+				<span class="date" title="Date Airing">Mon, Nov 13</span>
 				
 				<span class="network" title="Airing on Network Channel">espn</span>
 				<span class="tickets-link"><a href="/tickets/carolina-panthers?icampaign=Scores_Tickets">GET TICKETS</a></span>
@@ -4884,7 +4884,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_61g30t1u"></div>
+<div id="sbc_5le5l528"></div>
 
 
 
@@ -4920,9 +4920,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_61g30t1u',
+				srcNode: '#sbc_5le5l528',
 
-				barId: 'sbb_61g30t1u',
+				barId: 'sbb_5le5l528',
 
 				skinName: 'default',
 
@@ -5021,7 +5021,7 @@ justify-content: flex-start;}</style></div></div>
 			<div class="new-score-box-wrapper" id="scorebox-2017110900">
 				<div class="new-score-box-heading">
 					<p>
-						<span class="date" title="Date Aired">jue, nov 9</span>
+						<span class="date" title="Date Aired">Thu, Nov 9</span>
 						<span class="network" title="Aired on Network">nbc, NFLN</span>
 						<span class="quarters-total" title="Score Key by Quarter">
 							<span class="total-score">TOTAL</span>
@@ -5108,7 +5108,7 @@ justify-content: flex-start;}</style></div></div>
 
 
 
-<div id="sbc_lg38xt26"></div>
+<div id="sbc_5mq425cd"></div>
 
 
 
@@ -5144,9 +5144,9 @@ justify-content: flex-start;}</style></div></div>
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_lg38xt26',
+				srcNode: '#sbc_5mq425cd',
 
-				barId: 'sbb_lg38xt26',
+				barId: 'sbb_5mq425cd',
 
 				skinName: 'default',
 
