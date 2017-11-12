@@ -40,11 +40,17 @@ def Read_Stat():
     allgame_team_time = stat_all_read.find_all('td', attrs={"class": "time"})
 
     for i in range(0, len(allgame_team_name)):
+        team_link1A2B = allgame_team_name[i].find_all('a')
+        for j in range(0, len(team_link1A2B)):
+            team_link1A = team_link1A2B[0].get('href')
+            team_link2B = team_link1A2B[1].get('href')
         print(allgame_team_name[i].get_text().strip())
         print(allgame_team_score[i].get_text().strip())
         print(allgame_team_time[i].get_text().strip())
+        print(team_link1A)
+        print(team_link2B)
+        team_link1A = team_link2B = ''
         print('s--')
-
 
 if __name__ == '__main__':
     sys.stdout = open('resultstat.out', 'w')
