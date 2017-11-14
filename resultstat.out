@@ -26,14 +26,6 @@ s--
 
 
 s--
-Minnesota
-Buffalo
-17
-        10
-2017-08-10 7:00 PM
-/stats/team/football/nfl/57
-/stats/team/football/nfl/53
-s--
 Atlanta
 Miami
 20
@@ -42,13 +34,13 @@ Miami
 /stats/team/football/nfl/49
 /stats/team/football/nfl/65
 s--
-Washington
-Baltimore
-3
-        23
-2017-08-10 7:30 PM
-/stats/team/football/nfl/51
-/stats/team/football/nfl/48
+Minnesota
+Buffalo
+17
+        10
+2017-08-10 7:00 PM
+/stats/team/football/nfl/57
+/stats/team/football/nfl/53
 s--
 Jacksonville
 New England
@@ -58,13 +50,13 @@ New England
 /stats/team/football/nfl/69
 /stats/team/football/nfl/44
 s--
-New Orleans
-Cleveland
-14
-        20
-2017-08-10 8:00 PM
-/stats/team/football/nfl/70
-/stats/team/football/nfl/60
+Washington
+Baltimore
+3
+        23
+2017-08-10 7:30 PM
+/stats/team/football/nfl/51
+/stats/team/football/nfl/48
 s--
 Denver
 Chicago
@@ -73,6 +65,14 @@ Chicago
 2017-08-10 8:00 PM
 /stats/team/football/nfl/61
 /stats/team/football/nfl/43
+s--
+New Orleans
+Cleveland
+14
+        20
+2017-08-10 8:00 PM
+/stats/team/football/nfl/70
+/stats/team/football/nfl/60
 s--
 Philadelphia
 Green Bay
@@ -264,14 +264,6 @@ Arizona
 /stats/team/football/nfl/43
 /stats/team/football/nfl/45
 s--
-LA Rams
-Oakland
-24
-        21
-2017-08-19 10:00 PM
-/stats/team/football/nfl/64
-/stats/team/football/nfl/66
-s--
 Denver
 San Francisco
 33
@@ -279,6 +271,14 @@ San Francisco
 2017-08-19 10:00 PM
 /stats/team/football/nfl/61
 /stats/team/football/nfl/58
+s--
+LA Rams
+Oakland
+24
+        21
+2017-08-19 10:00 PM
+/stats/team/football/nfl/64
+/stats/team/football/nfl/66
 s--
 
 
@@ -372,14 +372,6 @@ Atlanta
 /stats/team/football/nfl/45
 /stats/team/football/nfl/49
 s--
-Cleveland
-Tampa Bay
-13
-        9
-2017-08-26 7:30 PM
-/stats/team/football/nfl/60
-/stats/team/football/nfl/68
-s--
 Indianapolis
 Pittsburgh
 19
@@ -388,13 +380,13 @@ Pittsburgh
 /stats/team/football/nfl/67
 /stats/team/football/nfl/46
 s--
-Houston
-New Orleans
-0
-        13
-2017-08-26 8:00 PM
-/stats/team/football/nfl/42
-/stats/team/football/nfl/70
+Cleveland
+Tampa Bay
+13
+        9
+2017-08-26 7:30 PM
+/stats/team/football/nfl/60
+/stats/team/football/nfl/68
 s--
 LA Chargers
 LA Rams
@@ -403,6 +395,14 @@ LA Rams
 2017-08-26 8:00 PM
 /stats/team/football/nfl/47
 /stats/team/football/nfl/64
+s--
+Houston
+New Orleans
+0
+        13
+2017-08-26 8:00 PM
+/stats/team/football/nfl/42
+/stats/team/football/nfl/70
 s--
 Oakland
 Dallas
@@ -464,22 +464,6 @@ NY Jets
 /stats/team/football/nfl/40
 /stats/team/football/nfl/54
 s--
-Detroit
-Buffalo
-17
-        27
-2017-08-31 7:00 PM
-/stats/team/football/nfl/50
-/stats/team/football/nfl/53
-s--
-LA Rams
-Green Bay
-10
-        24
-2017-08-31 7:00 PM
-/stats/team/football/nfl/64
-/stats/team/football/nfl/39
-s--
 Cincinnati
 Indianapolis
 6
@@ -487,6 +471,14 @@ Indianapolis
 2017-08-31 7:00 PM
 /stats/team/football/nfl/41
 /stats/team/football/nfl/67
+s--
+Detroit
+Buffalo
+17
+        27
+2017-08-31 7:00 PM
+/stats/team/football/nfl/50
+/stats/team/football/nfl/53
 s--
 Jacksonville
 Atlanta
@@ -496,13 +488,13 @@ Atlanta
 /stats/team/football/nfl/69
 /stats/team/football/nfl/49
 s--
-Washington
-Tampa Bay
-13
-        10
-2017-08-31 7:30 PM
-/stats/team/football/nfl/51
-/stats/team/football/nfl/68
+LA Rams
+Green Bay
+10
+        24
+2017-08-31 7:00 PM
+/stats/team/football/nfl/64
+/stats/team/football/nfl/39
 s--
 NY Giants
 New England
@@ -520,13 +512,13 @@ Carolina
 /stats/team/football/nfl/46
 /stats/team/football/nfl/59
 s--
-Baltimore
-New Orleans
-14
-        13
-2017-08-31 8:00 PM
-/stats/team/football/nfl/48
-/stats/team/football/nfl/70
+Washington
+Tampa Bay
+13
+        10
+2017-08-31 7:30 PM
+/stats/team/football/nfl/51
+/stats/team/football/nfl/68
 s--
 Cleveland
 Chicago
@@ -543,6 +535,14 @@ Minnesota
 2017-08-31 8:00 PM
 /stats/team/football/nfl/65
 /stats/team/football/nfl/57
+s--
+Baltimore
+New Orleans
+14
+        13
+2017-08-31 8:00 PM
+/stats/team/football/nfl/48
+/stats/team/football/nfl/70
 s--
 Tennessee
 Kansas City
@@ -596,14 +596,6 @@ s--
 
 
 s--
-NY Jets
-Buffalo
-12
-        21
-2017-09-10 1:00 PM
-/stats/team/football/nfl/54
-/stats/team/football/nfl/53
-s--
 Arizona
 Detroit
 23
@@ -620,6 +612,14 @@ Cleveland
 /stats/team/football/nfl/46
 /stats/team/football/nfl/60
 s--
+NY Jets
+Buffalo
+12
+        21
+2017-09-10 1:00 PM
+/stats/team/football/nfl/54
+/stats/team/football/nfl/53
+s--
 Atlanta
 Chicago
 23
@@ -628,14 +628,6 @@ Chicago
 /stats/team/football/nfl/49
 /stats/team/football/nfl/43
 s--
-Baltimore
-Cincinnati
-20
-        0
-2017-09-10 1:00 PM
-/stats/team/football/nfl/48
-/stats/team/football/nfl/41
-s--
 Jacksonville
 Houston
 29
@@ -643,6 +635,14 @@ Houston
 2017-09-10 1:00 PM
 /stats/team/football/nfl/69
 /stats/team/football/nfl/42
+s--
+Baltimore
+Cincinnati
+20
+        0
+2017-09-10 1:00 PM
+/stats/team/football/nfl/48
+/stats/team/football/nfl/41
 s--
 Oakland
 Tennessee
@@ -730,14 +730,6 @@ Kansas City
 /stats/team/football/nfl/40
 /stats/team/football/nfl/63
 s--
-Cleveland
-Baltimore
-10
-        24
-2017-09-17 1:00 PM
-/stats/team/football/nfl/60
-/stats/team/football/nfl/48
-s--
 Arizona
 Indianapolis
 16
@@ -746,21 +738,13 @@ Indianapolis
 /stats/team/football/nfl/45
 /stats/team/football/nfl/67
 s--
-Tennessee
-Jacksonville
-37
-        16
+Minnesota
+Pittsburgh
+9
+        26
 2017-09-17 1:00 PM
-/stats/team/football/nfl/62
-/stats/team/football/nfl/69
-s--
-New England
-New Orleans
-36
-        20
-2017-09-17 1:00 PM
-/stats/team/football/nfl/44
-/stats/team/football/nfl/70
+/stats/team/football/nfl/57
+/stats/team/football/nfl/46
 s--
 Buffalo
 Carolina
@@ -770,6 +754,14 @@ Carolina
 /stats/team/football/nfl/53
 /stats/team/football/nfl/59
 s--
+Cleveland
+Baltimore
+10
+        24
+2017-09-17 1:00 PM
+/stats/team/football/nfl/60
+/stats/team/football/nfl/48
+s--
 Chicago
 Tampa Bay
 7
@@ -778,13 +770,21 @@ Tampa Bay
 /stats/team/football/nfl/43
 /stats/team/football/nfl/68
 s--
-Minnesota
-Pittsburgh
-9
-        26
+New England
+New Orleans
+36
+        20
 2017-09-17 1:00 PM
-/stats/team/football/nfl/57
-/stats/team/football/nfl/46
+/stats/team/football/nfl/44
+/stats/team/football/nfl/70
+s--
+Tennessee
+Jacksonville
+37
+        16
+2017-09-17 1:00 PM
+/stats/team/football/nfl/62
+/stats/team/football/nfl/69
 s--
 NY Jets
 Oakland
@@ -810,14 +810,6 @@ Seattle
 /stats/team/football/nfl/58
 /stats/team/football/nfl/52
 s--
-Washington
-LA Rams
-27
-        20
-2017-09-17 4:25 PM
-/stats/team/football/nfl/51
-/stats/team/football/nfl/64
-s--
 Dallas
 Denver
 17
@@ -825,6 +817,14 @@ Denver
 2017-09-17 4:25 PM
 /stats/team/football/nfl/56
 /stats/team/football/nfl/61
+s--
+Washington
+LA Rams
+27
+        20
+2017-09-17 4:25 PM
+/stats/team/football/nfl/51
+/stats/team/football/nfl/64
 s--
 Green Bay
 Atlanta
@@ -870,37 +870,13 @@ Jacksonville
 /stats/team/football/nfl/48
 /stats/team/football/nfl/69
 s--
-Cleveland
-Indianapolis
-28
-        31
+New Orleans
+Carolina
+34
+        13
 2017-09-24 1:00 PM
-/stats/team/football/nfl/60
-/stats/team/football/nfl/67
-s--
-Denver
-Buffalo
-16
-        26
-2017-09-24 1:00 PM
-/stats/team/football/nfl/61
-/stats/team/football/nfl/53
-s--
-Pittsburgh
-Chicago
-17
-        23
-2017-09-24 1:00 PM
-/stats/team/football/nfl/46
-/stats/team/football/nfl/43
-s--
-NY Giants
-Philadelphia
-24
-        27
-2017-09-24 1:00 PM
-/stats/team/football/nfl/55
-/stats/team/football/nfl/40
+/stats/team/football/nfl/70
+/stats/team/football/nfl/59
 s--
 Tampa Bay
 Minnesota
@@ -909,6 +885,14 @@ Minnesota
 2017-09-24 1:00 PM
 /stats/team/football/nfl/68
 /stats/team/football/nfl/57
+s--
+Pittsburgh
+Chicago
+17
+        23
+2017-09-24 1:00 PM
+/stats/team/football/nfl/46
+/stats/team/football/nfl/43
 s--
 Miami
 NY Jets
@@ -926,13 +910,29 @@ New England
 /stats/team/football/nfl/42
 /stats/team/football/nfl/44
 s--
-New Orleans
-Carolina
-34
-        13
+Cleveland
+Indianapolis
+28
+        31
 2017-09-24 1:00 PM
-/stats/team/football/nfl/70
-/stats/team/football/nfl/59
+/stats/team/football/nfl/60
+/stats/team/football/nfl/67
+s--
+Denver
+Buffalo
+16
+        26
+2017-09-24 1:00 PM
+/stats/team/football/nfl/61
+/stats/team/football/nfl/53
+s--
+NY Giants
+Philadelphia
+24
+        27
+2017-09-24 1:00 PM
+/stats/team/football/nfl/55
+/stats/team/football/nfl/40
 s--
 Atlanta
 Detroit
@@ -1010,6 +1010,14 @@ Miami
 /stats/team/football/nfl/70
 /stats/team/football/nfl/65
 s--
+Detroit
+Minnesota
+14
+        7
+2017-10-01 1:00 PM
+/stats/team/football/nfl/50
+/stats/team/football/nfl/57
+s--
 Jacksonville
 NY Jets
 20
@@ -1034,6 +1042,22 @@ New England
 /stats/team/football/nfl/59
 /stats/team/football/nfl/44
 s--
+LA Rams
+Dallas
+35
+        30
+2017-10-01 1:00 PM
+/stats/team/football/nfl/64
+/stats/team/football/nfl/56
+s--
+Pittsburgh
+Baltimore
+26
+        9
+2017-10-01 1:00 PM
+/stats/team/football/nfl/46
+/stats/team/football/nfl/48
+s--
 Buffalo
 Atlanta
 23
@@ -1049,30 +1073,6 @@ Houston
 2017-10-01 1:00 PM
 /stats/team/football/nfl/62
 /stats/team/football/nfl/42
-s--
-Detroit
-Minnesota
-14
-        7
-2017-10-01 1:00 PM
-/stats/team/football/nfl/50
-/stats/team/football/nfl/57
-s--
-Pittsburgh
-Baltimore
-26
-        9
-2017-10-01 1:00 PM
-/stats/team/football/nfl/46
-/stats/team/football/nfl/48
-s--
-LA Rams
-Dallas
-35
-        30
-2017-10-01 1:00 PM
-/stats/team/football/nfl/64
-/stats/team/football/nfl/56
 s--
 San Francisco
 Arizona
@@ -1142,6 +1142,14 @@ s--
 
 
 s--
+LA Chargers
+NY Giants
+27
+        22
+2017-10-08 1:00 PM
+/stats/team/football/nfl/47
+/stats/team/football/nfl/55
+s--
 Buffalo
 Cincinnati
 16
@@ -1166,22 +1174,6 @@ Detroit
 /stats/team/football/nfl/59
 /stats/team/football/nfl/50
 s--
-Tennessee
-Miami
-10
-        16
-2017-10-08 1:00 PM
-/stats/team/football/nfl/62
-/stats/team/football/nfl/65
-s--
-LA Chargers
-NY Giants
-27
-        22
-2017-10-08 1:00 PM
-/stats/team/football/nfl/47
-/stats/team/football/nfl/55
-s--
 Jacksonville
 Pittsburgh
 30
@@ -1205,6 +1197,14 @@ Cleveland
 2017-10-08 1:00 PM
 /stats/team/football/nfl/54
 /stats/team/football/nfl/60
+s--
+Tennessee
+Miami
+10
+        16
+2017-10-08 1:00 PM
+/stats/team/football/nfl/62
+/stats/team/football/nfl/65
 s--
 Baltimore
 Oakland
@@ -1266,29 +1266,13 @@ s--
 
 
 s--
-New England
-NY Jets
-24
-        17
+Cleveland
+Houston
+17
+        33
 2017-10-15 1:00 PM
-/stats/team/football/nfl/44
-/stats/team/football/nfl/54
-s--
-Chicago
-Baltimore
-27
-        24
-2017-10-15 1:00 PM
-/stats/team/football/nfl/43
-/stats/team/football/nfl/48
-s--
-San Francisco
-Washington
-24
-        26
-2017-10-15 1:00 PM
-/stats/team/football/nfl/58
-/stats/team/football/nfl/51
+/stats/team/football/nfl/60
+/stats/team/football/nfl/42
 s--
 Green Bay
 Minnesota
@@ -1298,13 +1282,29 @@ Minnesota
 /stats/team/football/nfl/39
 /stats/team/football/nfl/57
 s--
-Cleveland
-Houston
-17
-        33
+New England
+NY Jets
+24
+        17
 2017-10-15 1:00 PM
-/stats/team/football/nfl/60
-/stats/team/football/nfl/42
+/stats/team/football/nfl/44
+/stats/team/football/nfl/54
+s--
+San Francisco
+Washington
+24
+        26
+2017-10-15 1:00 PM
+/stats/team/football/nfl/58
+/stats/team/football/nfl/51
+s--
+Chicago
+Baltimore
+27
+        24
+2017-10-15 1:00 PM
+/stats/team/football/nfl/43
+/stats/team/football/nfl/48
 s--
 Detroit
 New Orleans
@@ -1322,14 +1322,6 @@ Atlanta
 /stats/team/football/nfl/65
 /stats/team/football/nfl/49
 s--
-Tampa Bay
-Arizona
-33
-        38
-2017-10-15 4:05 PM
-/stats/team/football/nfl/68
-/stats/team/football/nfl/45
-s--
 LA Rams
 Jacksonville
 27
@@ -1338,13 +1330,13 @@ Jacksonville
 /stats/team/football/nfl/64
 /stats/team/football/nfl/69
 s--
-LA Chargers
-Oakland
-17
-        16
-2017-10-15 4:25 PM
-/stats/team/football/nfl/47
-/stats/team/football/nfl/66
+Tampa Bay
+Arizona
+33
+        38
+2017-10-15 4:05 PM
+/stats/team/football/nfl/68
+/stats/team/football/nfl/45
 s--
 Pittsburgh
 Kansas City
@@ -1353,6 +1345,14 @@ Kansas City
 2017-10-15 4:25 PM
 /stats/team/football/nfl/46
 /stats/team/football/nfl/63
+s--
+LA Chargers
+Oakland
+17
+        16
+2017-10-15 4:25 PM
+/stats/team/football/nfl/47
+/stats/team/football/nfl/66
 s--
 NY Giants
 Denver
@@ -1390,6 +1390,14 @@ s--
 
 
 s--
+New Orleans
+Green Bay
+26
+        17
+2017-10-22 1:00 PM
+/stats/team/football/nfl/70
+/stats/team/football/nfl/39
+s--
 Baltimore
 Minnesota
 16
@@ -1414,6 +1422,14 @@ Miami
 /stats/team/football/nfl/54
 /stats/team/football/nfl/65
 s--
+Tennessee
+Cleveland
+12
+        9
+2017-10-22 1:00 PM
+/stats/team/football/nfl/62
+/stats/team/football/nfl/60
+s--
 Tampa Bay
 Buffalo
 27
@@ -1430,14 +1446,6 @@ LA Rams
 /stats/team/football/nfl/45
 /stats/team/football/nfl/64
 s--
-New Orleans
-Green Bay
-26
-        17
-2017-10-22 1:00 PM
-/stats/team/football/nfl/70
-/stats/team/football/nfl/39
-s--
 Carolina
 Chicago
 3
@@ -1446,14 +1454,6 @@ Chicago
 /stats/team/football/nfl/59
 /stats/team/football/nfl/43
 s--
-Tennessee
-Cleveland
-12
-        9
-2017-10-22 1:00 PM
-/stats/team/football/nfl/62
-/stats/team/football/nfl/60
-s--
 Dallas
 San Francisco
 40
@@ -1461,6 +1461,14 @@ San Francisco
 2017-10-22 4:05 PM
 /stats/team/football/nfl/56
 /stats/team/football/nfl/58
+s--
+Cincinnati
+Pittsburgh
+14
+        29
+2017-10-22 4:25 PM
+/stats/team/football/nfl/41
+/stats/team/football/nfl/46
 s--
 Denver
 LA Chargers
@@ -1477,14 +1485,6 @@ NY Giants
 2017-10-22 4:25 PM
 /stats/team/football/nfl/52
 /stats/team/football/nfl/55
-s--
-Cincinnati
-Pittsburgh
-14
-        29
-2017-10-22 4:25 PM
-/stats/team/football/nfl/41
-/stats/team/football/nfl/46
 s--
 Atlanta
 New England
@@ -1552,6 +1552,14 @@ Buffalo
 /stats/team/football/nfl/66
 /stats/team/football/nfl/53
 s--
+Indianapolis
+Cincinnati
+23
+        24
+2017-10-29 1:00 PM
+/stats/team/football/nfl/67
+/stats/team/football/nfl/41
+s--
 San Francisco
 Philadelphia
 10
@@ -1560,13 +1568,13 @@ Philadelphia
 /stats/team/football/nfl/58
 /stats/team/football/nfl/40
 s--
-Indianapolis
-Cincinnati
-23
-        24
+LA Chargers
+New England
+13
+        21
 2017-10-29 1:00 PM
-/stats/team/football/nfl/67
-/stats/team/football/nfl/41
+/stats/team/football/nfl/47
+/stats/team/football/nfl/44
 s--
 Chicago
 New Orleans
@@ -1583,14 +1591,6 @@ NY Jets
 2017-10-29 1:00 PM
 /stats/team/football/nfl/49
 /stats/team/football/nfl/54
-s--
-LA Chargers
-New England
-13
-        21
-2017-10-29 1:00 PM
-/stats/team/football/nfl/47
-/stats/team/football/nfl/44
 s--
 Houston
 Seattle
@@ -1650,14 +1650,6 @@ s--
 
 
 s--
-Tampa Bay
-New Orleans
-10
-        30
-2017-11-05 1:00 PM
-/stats/team/football/nfl/68
-/stats/team/football/nfl/70
-s--
 Atlanta
 Carolina
 17
@@ -1665,22 +1657,6 @@ Carolina
 2017-11-05 1:00 PM
 /stats/team/football/nfl/49
 /stats/team/football/nfl/59
-s--
-Denver
-Philadelphia
-23
-        51
-2017-11-05 1:00 PM
-/stats/team/football/nfl/61
-/stats/team/football/nfl/40
-s--
-Indianapolis
-Houston
-20
-        14
-2017-11-05 1:00 PM
-/stats/team/football/nfl/67
-/stats/team/football/nfl/42
 s--
 LA Rams
 NY Giants
@@ -1698,6 +1674,30 @@ Jacksonville
 /stats/team/football/nfl/41
 /stats/team/football/nfl/69
 s--
+Indianapolis
+Houston
+20
+        14
+2017-11-05 1:00 PM
+/stats/team/football/nfl/67
+/stats/team/football/nfl/42
+s--
+Tampa Bay
+New Orleans
+10
+        30
+2017-11-05 1:00 PM
+/stats/team/football/nfl/68
+/stats/team/football/nfl/70
+s--
+Denver
+Philadelphia
+23
+        51
+2017-11-05 1:00 PM
+/stats/team/football/nfl/61
+/stats/team/football/nfl/40
+s--
 Baltimore
 Tennessee
 20
@@ -1706,14 +1706,6 @@ Tennessee
 /stats/team/football/nfl/48
 /stats/team/football/nfl/62
 s--
-Arizona
-San Francisco
-20
-        10
-2017-11-05 4:05 PM
-/stats/team/football/nfl/45
-/stats/team/football/nfl/58
-s--
 Washington
 Seattle
 17
@@ -1721,6 +1713,14 @@ Seattle
 2017-11-05 4:05 PM
 /stats/team/football/nfl/51
 /stats/team/football/nfl/52
+s--
+Arizona
+San Francisco
+20
+        10
+2017-11-05 4:05 PM
+/stats/team/football/nfl/45
+/stats/team/football/nfl/58
 s--
 Kansas City
 Dallas
@@ -1774,104 +1774,104 @@ s--
 s--
 Cleveland
 Detroit
-0
-        0
+24
+        38
 2017-11-12 1:00 PM
 /stats/team/football/nfl/60
 /stats/team/football/nfl/50
 s--
-Green Bay
-Chicago
-0
-        0
-2017-11-12 1:00 PM
-/stats/team/football/nfl/39
-/stats/team/football/nfl/43
-s--
-Cincinnati
-Tennessee
-0
-        0
-2017-11-12 1:00 PM
-/stats/team/football/nfl/41
-/stats/team/football/nfl/62
-s--
-New Orleans
-Buffalo
-0
-        0
-2017-11-12 1:00 PM
-/stats/team/football/nfl/70
-/stats/team/football/nfl/53
-s--
 NY Jets
 Tampa Bay
-0
-        0
+10
+        15
 2017-11-12 1:00 PM
 /stats/team/football/nfl/54
 /stats/team/football/nfl/68
 s--
 LA Chargers
 Jacksonville
-0
-        0
+17
+        20
 2017-11-12 1:00 PM
 /stats/team/football/nfl/47
 /stats/team/football/nfl/69
 s--
-Minnesota
-Washington
-0
-        0
+New Orleans
+Buffalo
+47
+        10
 2017-11-12 1:00 PM
-/stats/team/football/nfl/57
-/stats/team/football/nfl/51
+/stats/team/football/nfl/70
+/stats/team/football/nfl/53
+s--
+Cincinnati
+Tennessee
+20
+        24
+2017-11-12 1:00 PM
+/stats/team/football/nfl/41
+/stats/team/football/nfl/62
+s--
+Green Bay
+Chicago
+23
+        16
+2017-11-12 1:00 PM
+/stats/team/football/nfl/39
+/stats/team/football/nfl/43
 s--
 Pittsburgh
 Indianapolis
-0
-        0
+20
+        17
 2017-11-12 1:00 PM
 /stats/team/football/nfl/46
 /stats/team/football/nfl/67
 s--
+Minnesota
+Washington
+38
+        30
+2017-11-12 1:00 PM
+/stats/team/football/nfl/57
+/stats/team/football/nfl/51
+s--
 Houston
 LA Rams
-0
-        0
+7
+        33
 2017-11-12 4:05 PM
 /stats/team/football/nfl/42
 /stats/team/football/nfl/64
 s--
-Dallas
-Atlanta
-0
-        0
-2017-11-12 4:25 PM
-/stats/team/football/nfl/56
-/stats/team/football/nfl/49
-s--
 NY Giants
 San Francisco
-0
-        0
+21
+        31
 2017-11-12 4:25 PM
 /stats/team/football/nfl/55
 /stats/team/football/nfl/58
 s--
+Dallas
+Atlanta
+7
+        27
+2017-11-12 4:25 PM
+/stats/team/football/nfl/56
+/stats/team/football/nfl/49
+s--
 New England
 Denver
-0
-        0
+41
+        16
 2017-11-12 8:30 PM
 /stats/team/football/nfl/44
 /stats/team/football/nfl/61
 s--
 Miami
 Carolina
-0
-        0
+21
+        45
 2017-11-13 8:30 PM
 /stats/team/football/nfl/65
 /stats/team/football/nfl/59
@@ -1896,30 +1896,6 @@ s--
 
 
 s--
-Tampa Bay
-Miami
-0
-        0
-2017-11-19 1:00 PM
-/stats/team/football/nfl/68
-/stats/team/football/nfl/65
-s--
-LA Rams
-Minnesota
-0
-        0
-2017-11-19 1:00 PM
-/stats/team/football/nfl/64
-/stats/team/football/nfl/57
-s--
-Jacksonville
-Cleveland
-0
-        0
-2017-11-19 1:00 PM
-/stats/team/football/nfl/69
-/stats/team/football/nfl/60
-s--
 Washington
 New Orleans
 0
@@ -1936,6 +1912,22 @@ Chicago
 /stats/team/football/nfl/50
 /stats/team/football/nfl/43
 s--
+Jacksonville
+Cleveland
+0
+        0
+2017-11-19 1:00 PM
+/stats/team/football/nfl/69
+/stats/team/football/nfl/60
+s--
+Tampa Bay
+Miami
+0
+        0
+2017-11-19 1:00 PM
+/stats/team/football/nfl/68
+/stats/team/football/nfl/65
+s--
 Baltimore
 Green Bay
 0
@@ -1943,14 +1935,6 @@ Green Bay
 2017-11-19 1:00 PM
 /stats/team/football/nfl/48
 /stats/team/football/nfl/39
-s--
-Arizona
-Houston
-0
-        0
-2017-11-19 1:00 PM
-/stats/team/football/nfl/45
-/stats/team/football/nfl/42
 s--
 Kansas City
 NY Giants
@@ -1960,6 +1944,22 @@ NY Giants
 /stats/team/football/nfl/63
 /stats/team/football/nfl/55
 s--
+Arizona
+Houston
+0
+        0
+2017-11-19 1:00 PM
+/stats/team/football/nfl/45
+/stats/team/football/nfl/42
+s--
+LA Rams
+Minnesota
+0
+        0
+2017-11-19 1:00 PM
+/stats/team/football/nfl/64
+/stats/team/football/nfl/57
+s--
 Buffalo
 LA Chargers
 0
@@ -1968,14 +1968,6 @@ LA Chargers
 /stats/team/football/nfl/53
 /stats/team/football/nfl/47
 s--
-New England
-Oakland
-0
-        0
-2017-11-19 4:25 PM
-/stats/team/football/nfl/44
-/stats/team/football/nfl/66
-s--
 Cincinnati
 Denver
 0
@@ -1983,6 +1975,14 @@ Denver
 2017-11-19 4:25 PM
 /stats/team/football/nfl/41
 /stats/team/football/nfl/61
+s--
+New England
+Oakland
+0
+        0
+2017-11-19 4:25 PM
+/stats/team/football/nfl/44
+/stats/team/football/nfl/66
 s--
 Philadelphia
 Dallas
@@ -2036,6 +2036,14 @@ s--
 
 
 s--
+Cleveland
+Cincinnati
+0
+        0
+2017-11-26 1:00 PM
+/stats/team/football/nfl/60
+/stats/team/football/nfl/41
+s--
 Tampa Bay
 Atlanta
 0
@@ -2052,14 +2060,6 @@ NY Jets
 /stats/team/football/nfl/59
 /stats/team/football/nfl/54
 s--
-Miami
-New England
-0
-        0
-2017-11-26 1:00 PM
-/stats/team/football/nfl/65
-/stats/team/football/nfl/44
-s--
 Chicago
 Philadelphia
 0
@@ -2067,22 +2067,6 @@ Philadelphia
 2017-11-26 1:00 PM
 /stats/team/football/nfl/43
 /stats/team/football/nfl/40
-s--
-Buffalo
-Kansas City
-0
-        0
-2017-11-26 1:00 PM
-/stats/team/football/nfl/53
-/stats/team/football/nfl/63
-s--
-Cleveland
-Cincinnati
-0
-        0
-2017-11-26 1:00 PM
-/stats/team/football/nfl/60
-/stats/team/football/nfl/41
 s--
 Tennessee
 Indianapolis
@@ -2092,13 +2076,21 @@ Indianapolis
 /stats/team/football/nfl/62
 /stats/team/football/nfl/67
 s--
-New Orleans
-LA Rams
+Buffalo
+Kansas City
 0
         0
-2017-11-26 4:05 PM
-/stats/team/football/nfl/70
-/stats/team/football/nfl/64
+2017-11-26 1:00 PM
+/stats/team/football/nfl/53
+/stats/team/football/nfl/63
+s--
+Miami
+New England
+0
+        0
+2017-11-26 1:00 PM
+/stats/team/football/nfl/65
+/stats/team/football/nfl/44
 s--
 Seattle
 San Francisco
@@ -2107,6 +2099,14 @@ San Francisco
 2017-11-26 4:05 PM
 /stats/team/football/nfl/52
 /stats/team/football/nfl/58
+s--
+New Orleans
+LA Rams
+0
+        0
+2017-11-26 4:05 PM
+/stats/team/football/nfl/70
+/stats/team/football/nfl/64
 s--
 Jacksonville
 Arizona
@@ -2160,21 +2160,13 @@ s--
 
 
 s--
-New England
-Buffalo
+Detroit
+Baltimore
 0
         0
 2017-12-03 1:00 PM
-/stats/team/football/nfl/44
-/stats/team/football/nfl/53
-s--
-Houston
-Tennessee
-0
-        0
-2017-12-03 1:00 PM
-/stats/team/football/nfl/42
-/stats/team/football/nfl/62
+/stats/team/football/nfl/50
+/stats/team/football/nfl/48
 s--
 Kansas City
 NY Jets
@@ -2184,22 +2176,6 @@ NY Jets
 /stats/team/football/nfl/63
 /stats/team/football/nfl/54
 s--
-Denver
-Miami
-0
-        0
-2017-12-03 1:00 PM
-/stats/team/football/nfl/61
-/stats/team/football/nfl/65
-s--
-Detroit
-Baltimore
-0
-        0
-2017-12-03 1:00 PM
-/stats/team/football/nfl/50
-/stats/team/football/nfl/48
-s--
 Minnesota
 Atlanta
 0
@@ -2207,6 +2183,14 @@ Atlanta
 2017-12-03 1:00 PM
 /stats/team/football/nfl/57
 /stats/team/football/nfl/49
+s--
+New England
+Buffalo
+0
+        0
+2017-12-03 1:00 PM
+/stats/team/football/nfl/44
+/stats/team/football/nfl/53
 s--
 Carolina
 New Orleans
@@ -2223,6 +2207,22 @@ Chicago
 2017-12-03 1:00 PM
 /stats/team/football/nfl/58
 /stats/team/football/nfl/43
+s--
+Houston
+Tennessee
+0
+        0
+2017-12-03 1:00 PM
+/stats/team/football/nfl/42
+/stats/team/football/nfl/62
+s--
+Denver
+Miami
+0
+        0
+2017-12-03 1:00 PM
+/stats/team/football/nfl/61
+/stats/team/football/nfl/65
 s--
 Indianapolis
 Jacksonville
@@ -2248,14 +2248,6 @@ LA Chargers
 /stats/team/football/nfl/60
 /stats/team/football/nfl/47
 s--
-LA Rams
-Arizona
-0
-        0
-2017-12-03 4:25 PM
-/stats/team/football/nfl/64
-/stats/team/football/nfl/45
-s--
 NY Giants
 Oakland
 0
@@ -2263,6 +2255,14 @@ Oakland
 2017-12-03 4:25 PM
 /stats/team/football/nfl/55
 /stats/team/football/nfl/66
+s--
+LA Rams
+Arizona
+0
+        0
+2017-12-03 4:25 PM
+/stats/team/football/nfl/64
+/stats/team/football/nfl/45
 s--
 Philadelphia
 Seattle
@@ -2300,14 +2300,6 @@ s--
 
 
 s--
-Indianapolis
-Buffalo
-0
-        0
-2017-12-10 1:00 PM
-/stats/team/football/nfl/67
-/stats/team/football/nfl/53
-s--
 San Francisco
 Houston
 0
@@ -2315,14 +2307,6 @@ Houston
 2017-12-10 1:00 PM
 /stats/team/football/nfl/58
 /stats/team/football/nfl/42
-s--
-Seattle
-Jacksonville
-0
-        0
-2017-12-10 1:00 PM
-/stats/team/football/nfl/52
-/stats/team/football/nfl/69
 s--
 Minnesota
 Carolina
@@ -2340,6 +2324,14 @@ Cleveland
 /stats/team/football/nfl/39
 /stats/team/football/nfl/60
 s--
+Seattle
+Jacksonville
+0
+        0
+2017-12-10 1:00 PM
+/stats/team/football/nfl/52
+/stats/team/football/nfl/69
+s--
 Detroit
 Tampa Bay
 0
@@ -2347,6 +2339,14 @@ Tampa Bay
 2017-12-10 1:00 PM
 /stats/team/football/nfl/50
 /stats/team/football/nfl/68
+s--
+Indianapolis
+Buffalo
+0
+        0
+2017-12-10 1:00 PM
+/stats/team/football/nfl/67
+/stats/team/football/nfl/53
 s--
 Oakland
 Kansas City
@@ -2364,14 +2364,6 @@ Cincinnati
 /stats/team/football/nfl/43
 /stats/team/football/nfl/41
 s--
-NY Jets
-Denver
-0
-        0
-2017-12-10 4:05 PM
-/stats/team/football/nfl/54
-/stats/team/football/nfl/61
-s--
 Tennessee
 Arizona
 0
@@ -2387,6 +2379,14 @@ LA Chargers
 2017-12-10 4:05 PM
 /stats/team/football/nfl/51
 /stats/team/football/nfl/47
+s--
+NY Jets
+Denver
+0
+        0
+2017-12-10 4:05 PM
+/stats/team/football/nfl/54
+/stats/team/football/nfl/61
 s--
 Philadelphia
 LA Rams
@@ -2472,30 +2472,6 @@ Cleveland
 /stats/team/football/nfl/48
 /stats/team/football/nfl/60
 s--
-Cincinnati
-Minnesota
-0
-        0
-2017-12-17 1:00 PM
-/stats/team/football/nfl/41
-/stats/team/football/nfl/57
-s--
-Philadelphia
-NY Giants
-0
-        0
-2017-12-17 1:00 PM
-/stats/team/football/nfl/40
-/stats/team/football/nfl/55
-s--
-Arizona
-Washington
-0
-        0
-2017-12-17 1:00 PM
-/stats/team/football/nfl/45
-/stats/team/football/nfl/51
-s--
 Green Bay
 Carolina
 0
@@ -2503,14 +2479,6 @@ Carolina
 2017-12-17 1:00 PM
 /stats/team/football/nfl/39
 /stats/team/football/nfl/59
-s--
-Miami
-Buffalo
-0
-        0
-2017-12-17 1:00 PM
-/stats/team/football/nfl/65
-/stats/team/football/nfl/53
 s--
 Houston
 Jacksonville
@@ -2520,6 +2488,38 @@ Jacksonville
 /stats/team/football/nfl/42
 /stats/team/football/nfl/69
 s--
+Philadelphia
+NY Giants
+0
+        0
+2017-12-17 1:00 PM
+/stats/team/football/nfl/40
+/stats/team/football/nfl/55
+s--
+Miami
+Buffalo
+0
+        0
+2017-12-17 1:00 PM
+/stats/team/football/nfl/65
+/stats/team/football/nfl/53
+s--
+Arizona
+Washington
+0
+        0
+2017-12-17 1:00 PM
+/stats/team/football/nfl/45
+/stats/team/football/nfl/51
+s--
+Cincinnati
+Minnesota
+0
+        0
+2017-12-17 1:00 PM
+/stats/team/football/nfl/41
+/stats/team/football/nfl/57
+s--
 LA Rams
 Seattle
 0
@@ -2528,14 +2528,6 @@ Seattle
 /stats/team/football/nfl/64
 /stats/team/football/nfl/52
 s--
-Tennessee
-San Francisco
-0
-        0
-2017-12-17 4:25 PM
-/stats/team/football/nfl/62
-/stats/team/football/nfl/58
-s--
 New England
 Pittsburgh
 0
@@ -2543,6 +2535,14 @@ Pittsburgh
 2017-12-17 4:25 PM
 /stats/team/football/nfl/44
 /stats/team/football/nfl/46
+s--
+Tennessee
+San Francisco
+0
+        0
+2017-12-17 4:25 PM
+/stats/team/football/nfl/62
+/stats/team/football/nfl/58
 s--
 Dallas
 Oakland
@@ -2582,14 +2582,6 @@ Green Bay
 /stats/team/football/nfl/57
 /stats/team/football/nfl/39
 s--
-Detroit
-Cincinnati
-0
-        0
-2017-12-24 1:00 PM
-/stats/team/football/nfl/50
-/stats/team/football/nfl/41
-s--
 Tampa Bay
 Carolina
 0
@@ -2598,21 +2590,13 @@ Carolina
 /stats/team/football/nfl/68
 /stats/team/football/nfl/59
 s--
-Denver
-Washington
+LA Rams
+Tennessee
 0
         0
 2017-12-24 1:00 PM
-/stats/team/football/nfl/61
-/stats/team/football/nfl/51
-s--
-Cleveland
-Chicago
-0
-        0
-2017-12-24 1:00 PM
-/stats/team/football/nfl/60
-/stats/team/football/nfl/43
+/stats/team/football/nfl/64
+/stats/team/football/nfl/62
 s--
 Atlanta
 New Orleans
@@ -2621,14 +2605,6 @@ New Orleans
 2017-12-24 1:00 PM
 /stats/team/football/nfl/49
 /stats/team/football/nfl/70
-s--
-LA Rams
-Tennessee
-0
-        0
-2017-12-24 1:00 PM
-/stats/team/football/nfl/64
-/stats/team/football/nfl/62
 s--
 Miami
 Kansas City
@@ -2645,6 +2621,30 @@ NY Jets
 2017-12-24 1:00 PM
 /stats/team/football/nfl/47
 /stats/team/football/nfl/54
+s--
+Cleveland
+Chicago
+0
+        0
+2017-12-24 1:00 PM
+/stats/team/football/nfl/60
+/stats/team/football/nfl/43
+s--
+Detroit
+Cincinnati
+0
+        0
+2017-12-24 1:00 PM
+/stats/team/football/nfl/50
+/stats/team/football/nfl/41
+s--
+Denver
+Washington
+0
+        0
+2017-12-24 1:00 PM
+/stats/team/football/nfl/61
+/stats/team/football/nfl/51
 s--
 Buffalo
 New England
@@ -2694,21 +2694,21 @@ Philadelphia
 /stats/team/football/nfl/66
 /stats/team/football/nfl/40
 s--
-Green Bay
-Detroit
+Houston
+Indianapolis
 0
         0
 2017-12-31 1:00 PM
-/stats/team/football/nfl/39
-/stats/team/football/nfl/50
+/stats/team/football/nfl/42
+/stats/team/football/nfl/67
 s--
-New Orleans
-Tampa Bay
+Dallas
+Philadelphia
 0
         0
 2017-12-31 1:00 PM
-/stats/team/football/nfl/70
-/stats/team/football/nfl/68
+/stats/team/football/nfl/56
+/stats/team/football/nfl/40
 s--
 Carolina
 Atlanta
@@ -2718,6 +2718,14 @@ Atlanta
 /stats/team/football/nfl/59
 /stats/team/football/nfl/49
 s--
+New Orleans
+Tampa Bay
+0
+        0
+2017-12-31 1:00 PM
+/stats/team/football/nfl/70
+/stats/team/football/nfl/68
+s--
 Chicago
 Minnesota
 0
@@ -2726,13 +2734,13 @@ Minnesota
 /stats/team/football/nfl/43
 /stats/team/football/nfl/57
 s--
-Houston
-Indianapolis
+Cleveland
+Pittsburgh
 0
         0
 2017-12-31 1:00 PM
-/stats/team/football/nfl/42
-/stats/team/football/nfl/67
+/stats/team/football/nfl/60
+/stats/team/football/nfl/46
 s--
 Buffalo
 Miami
@@ -2750,13 +2758,13 @@ Tennessee
 /stats/team/football/nfl/69
 /stats/team/football/nfl/62
 s--
-NY Jets
-New England
+Washington
+NY Giants
 0
         0
 2017-12-31 1:00 PM
-/stats/team/football/nfl/54
-/stats/team/football/nfl/44
+/stats/team/football/nfl/51
+/stats/team/football/nfl/55
 s--
 Cincinnati
 Baltimore
@@ -2766,29 +2774,21 @@ Baltimore
 /stats/team/football/nfl/41
 /stats/team/football/nfl/48
 s--
-Dallas
-Philadelphia
+NY Jets
+New England
 0
         0
 2017-12-31 1:00 PM
-/stats/team/football/nfl/56
-/stats/team/football/nfl/40
+/stats/team/football/nfl/54
+/stats/team/football/nfl/44
 s--
-Washington
-NY Giants
+Green Bay
+Detroit
 0
         0
 2017-12-31 1:00 PM
-/stats/team/football/nfl/51
-/stats/team/football/nfl/55
-s--
-Cleveland
-Pittsburgh
-0
-        0
-2017-12-31 1:00 PM
-/stats/team/football/nfl/60
-/stats/team/football/nfl/46
+/stats/team/football/nfl/39
+/stats/team/football/nfl/50
 s--
 Arizona
 Seattle

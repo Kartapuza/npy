@@ -103,7 +103,7 @@ def find_week_games():
             score_third_qt = away_team.find('span', attrs={"class": "third-qt"}).get_text()
             score_fourth_qt = away_team.find('span', attrs={"class": "fourth-qt"}).get_text()
             score_ot_qt = away_team.find('span', attrs={"class": "ot-qt"}).get_text()
-
+        print('s--')
         print(away_name)
         print(away_record.strip())
         print(away_score.strip())
@@ -163,7 +163,7 @@ def power_rankings():
 
         team_name = tonight.find('td', attrs={"class":"cell-left team"}).get_text()
         team_comment = tonight.find('td', attrs={"class":"cell-left dek"}).get_text()
-
+        print('p--')
         print(team_rank.strip())
 
         if int(team_rank_up) > 0:
@@ -186,26 +186,23 @@ def espn_read():
     for i in range(0, len(game_pick)):
         tonight = game_pick[i]
         game_day_pick = tonight.find_all('div', attrs={"class": re.compile(r'[a-z]||teampick logo||r''[a-z]')})
+        print('e--')
         for j in range(0, len(game_day_pick)):
             topick = game_day_pick[j]
             print(game_day_pick[j].get_text())
-        print('e--')
 
 def cbs_read():
     cbs_1 = open('cbs.html', 'r')
     my_string = cbs_1.read()
-
     soup = BeautifulSoup(my_string, 'html.parser')
     week_pick_cbs = soup.find("table", attrs={"id": "oddsTable"})
-    game_pick = week_pick_cbs.find_all('tr', attrs={"class": re.compile(r'[a-z]||row||r''[a-z]')})
-    for i in range(0, len(game_pick)):
-        tonight = game_pick[i]
-        game_day_pick = tonight.find_all('img', attrs={"src": re.compile(r'[a-z]||.png||r''[a-z]')})
-        for j in range(0, len(game_day_pick)):
-            p_url = game_day_pick[j].get('src')
+    game_day_pick = week_pick_cbs.find_all('div', attrs={"class": "writerPicksCtr"})
+    print('c--')
+    for j in range(0, len(game_day_pick)):
+            team_img_name = game_day_pick[j].find_all('img')
+            p_url = team_img_name[0].get('src')
             p_name = p_url.split('/')[-1]
             print(p_name.split('.')[0])
-        print('c--')
 
 if __name__ == '__main__':
     sys.stdout = open('result.out', 'w')
