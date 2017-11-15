@@ -1,2 +1,6 @@
 1
 http://stats.bet365.chalkpartners.com/stats/schedule/football/nfl
+1
+http://stats.bet365.chalkpartners.com/stats/team/football/nfl/61
+1
+http://stats.bet365.chalkpartners.com/stats/gamelog/football/nfl/61
