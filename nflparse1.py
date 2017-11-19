@@ -53,17 +53,17 @@ def GetUrl():
  }
  if len(url_nfl) > 5:
     r = requests.get(url_nfl, headers=headers)
-    with open('scores.html', 'w') as output_file:
+    with open('scores.html', 'w', encoding='utf-8') as output_file:
         output_file.write(r.text)
 
  if len(url_powerrankings) > 5:
     r = requests.get(url_powerrankings , headers=headers)
-    with open('power.html', 'w') as output_file:
+    with open('power.html', 'w', encoding='utf-8') as output_file:
         output_file.write(r.text)
 
  if len(url_espn) > 5:
     r = requests.get(url_espn, headers=headers)
-    with open('espn.html', 'w') as output_file:
+    with open('espn.html', 'w', encoding='utf-8') as output_file:
         output_file.write(r.text)
 
  if len(url_cbs) > 5:

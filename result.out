@@ -1,129 +1,129 @@
 s--
-Seahawks
-(6-3-0)
-22
-7 8 0 7 
-Cardinals
-(4-5-0)
-16
-0 7 3 6 
-s--
-Packers
-(5-4-0)
-23
-3 7 3 10 
-Bears
-(3-6-0)
-16
-3 3 0 10 
-s--
-Browns
-(0-9-0)
-24
-10 0 14 0 
-Lions
-(5-4-0)
-38
-3 14 7 14 
-s--
-Steelers
-(7-2-0)
-20
-0 3 6 11 
-Colts
-(3-7-0)
-17
-0 10 7 0 
-s--
-Chargers
-(3-6-0)
-17
-0 7 7 3 0
-Jaguars
-(6-3-0)
-20
-6 0 8 3 3
-s--
-Saints
-(7-2-0)
-47
-7 10 20 10 
 Bills
 (5-4-0)
-10
-3 0 0 7 
-s--
-Jets
-(4-6-0)
-10
-0 3 0 7 
-Buccaneers
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
+Chargers
 (3-6-0)
-15
-3 0 6 6 
-s--
-Vikings
-(7-2-0)
-38
-7 21 7 3 
-Redskins
-(4-5-0)
-30
-10 7 3 10 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Bengals
 (3-6-0)
-20
-6 7 0 7 
-Titans
-(6-3-0)
-24
-7 10 0 7 
-s--
-Texans
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
+Broncos
 (3-6-0)
-7
-0 7 0 0 
-Rams
-(7-2-0)
-33
-3 6 21 3 
-s--
-Cowboys
-(5-4-0)
-7
-7 0 0 0 
-Falcons
-(5-4-0)
-27
-3 7 7 10 
-s--
-Giants
-(1-8-0)
-21
-6 7 0 8 
-49ers
-(1-9-0)
-31
-3 14 0 14 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Patriots
 (7-2-0)
-41
-14 13 7 7 
-Broncos
-(3-6-0)
-16
-6 3 7 0 
-s--
-Dolphins
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
+Raiders
 (4-5-0)
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
+s--
+Eagles
+(8-1-0)
+--
+_ _ _ _ 
+Cowboys
+(5-4-0)
+--
+_ _ _ _ 
+s--
+Falcons
+(5-4-0)
+--
+_ _ _ _ 
+Seahawks
+(6-3-0)
+--
+_ _ _ _ 
+s--
+Titans
+(6-4-0)
+17
+7 0 10 0 
+Steelers
+(8-2-0)
+40
+10 6 7 17 
+s--
+Lions
+
+27
+0 21 0 6 
+Bears
+
+24
+10 7 0 7 
+s--
+Jaguars
+
+19
+7 3 0 9 
+Browns
+
+7
+0 7 0 0 
+s--
+Ravens
+
+23
+0 6 7 10 
+Packers
+
+0
+0 0 0 0 
+s--
+Cardinals
+
 21
-0 7 7 7 
-Panthers
-(7-3-0)
-45
-3 14 21 7 
+0 14 7 0 
+Texans
+
+31
+0 10 7 14 
+s--
+Buccaneers
+
+30
+3 17 0 10 
+Dolphins
+
+20
+7 0 6 7 
+s--
+Rams
+
+7
+7 0 0 0 
+Vikings
+
+24
+0 7 0 17 
+s--
+Chiefs
+
+9
+0 3 0 6 0
+Giants
+
+12
+0 6 0 3 3
+s--
+Redskins
+
+31
+10 7 7 7 0
+Saints
+
+34
+10 3 0 18 3
 p--
 1
 `
@@ -140,13 +140,13 @@ p--
 3
 `
 Steelers
-7-2-0
+8-2-0
 They have just four days to fix their issues from the Colts game. Where is the explosive offense?
 p--
 4
 `
 Rams
-7-2-0
+7-3-0
 They continue to roll up big numbers on offense. That unit faces a major test at Minnesota this week.
 p--
 5
@@ -158,13 +158,13 @@ p--
 6
 `
 Vikings
-7-2-0
+8-2-0
 If Case Keenum can continue to put up good numbers, like he did against the Redskins, they can beat anybody. The Rams are a nice challenge this week.
 p--
 7
 +1
 Chiefs
-6-3-0
+6-4-0
 They come off a much-needed bye. Their fast start has faded by losing three of four. They need to pick it up on defense.
 p--
 8
@@ -182,7 +182,7 @@ p--
 10
 +1
 Jaguars
-6-3-0
+7-3-0
 The defense is special, but they still need to get more from the passing game. The schedule is favorable the rest of the way, starting with Cleveland this week.
 p--
 11
@@ -200,13 +200,13 @@ p--
 13
 +1
 Titans
-6-3-0
+6-4-0
 They aren't winning pretty, but they are finding a way to pull out games. The short-week road game against the Steelers won't be easy.
 p--
 14
 +2
 Lions
-5-4-0
+6-4-0
 They are still alive in the division and certainly as a potential wild-card team. Down the stretch, they have to be better than they were against Cleveland.
 p--
 15
@@ -224,19 +224,19 @@ p--
 17
 `
 Ravens
-4-5-0
+5-5-0
 If they are to make a second-half push, the offense needs to pick it up. Maybe they found something during the bye week.
 p--
 18
 +3
 Packers
-5-4-0
+5-5-0
 The defense rose up and played well against the Bears last Sunday. That has to be the case the rest of the way. They need to pick it up with Aaron Rodgers out.
 p--
 19
 -1
 Cardinals
-4-5-0
+4-6-0
 A team that couldn't afford any more injuries had a bunch more last week. It might be Blaine Gabbert time at quarterback, which is an improvement over Drew Stanton.
 p--
 20
@@ -290,13 +290,13 @@ p--
 28
 -1
 Texans
-3-6-0
+4-6-0
 They are playing for next year. They just don't have the talent with all the injuries they've had.
 p--
 29
 -1
 Bears
-3-6-0
+3-7-0
 Losing to the Packers pretty much means it's a non-playoff season. What does that mean for the future of coach John Fox?
 p--
 30
@@ -308,304 +308,345 @@ p--
 31
 -1
 Giants
-1-8-0
+2-8-0
 When does Ben McAdoo go since ownership said it won't be during the season? This team has quit on him in a big way. That's not a good sign.
 p--
 32
 `
 Browns
-0-9-0
+0-10-0
 It looks like it's going to be a potential 0-16 season. They do show some fight, but they just aren't good enough.
 e--
 e--
 e--
 e--
-Seahawks Seattle
-Seahawks Seattle
-Seahawks Seattle
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+e--
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+e--
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Ravens Baltimore
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+e--
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+e--
 Cardinals Arizona
-Seahawks Seattle
-Seahawks Seattle
-Seahawks Seattle
-Seahawks Seattle
-Seahawks Seattle
+Texans Houston
+Texans Houston
 Cardinals Arizona
-Seahawks Seattle
+Cardinals Arizona
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Cardinals Arizona
+Cardinals Arizona
+e--
+Rams Los Angeles
+Vikings Minnesota
+Rams Los Angeles
+Vikings Minnesota
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
 e--
 Saints New Orleans
 Saints New Orleans
 Saints New Orleans
-Bills Buffalo
 Saints New Orleans
 Saints New Orleans
 Saints New Orleans
 Saints New Orleans
 Saints New Orleans
-Bills Buffalo
+Saints New Orleans
+Saints New Orleans
 Saints New Orleans
 e--
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
-Bears Chicago
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
 e--
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
+Buccaneers Tampa Bay
+Buccaneers Tampa Bay
+Dolphins Miami
+Dolphins Miami
+Buccaneers Tampa Bay
+Buccaneers Tampa Bay
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
 e--
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-e--
-Jaguars Jacksonville
-Jaguars Jacksonville
-Jaguars Jacksonville
 Chargers Los Angeles
-Jaguars Jacksonville
-Jaguars Jacksonville
-Jaguars Jacksonville
-Jaguars Jacksonville
-Jaguars Jacksonville
-Jaguars Jacksonville
-Jaguars Jacksonville
+Chargers Los Angeles
+Chargers Los Angeles
+Bills Buffalo
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Bills Buffalo
+Bills Buffalo
 e--
-Jets New York
-Jets New York
-Buccaneers Tampa Bay
-Jets New York
-Buccaneers Tampa Bay
-Jets New York
-Jets New York
-Buccaneers Tampa Bay
-Jets New York
-Jets New York
-Jets New York
-e--
-Titans Tennessee
-Titans Tennessee
-Titans Tennessee
+Broncos Denver
 Bengals Cincinnati
-Titans Tennessee
-Titans Tennessee
-Titans Tennessee
-Titans Tennessee
-Titans Tennessee
-Titans Tennessee
-Titans Tennessee
+Bengals Cincinnati
+Bengals Cincinnati
+Broncos Denver
+Broncos Denver
+Broncos Denver
+Broncos Denver
+Broncos Denver
+Broncos Denver
+Broncos Denver
 e--
-Vikings Minnesota
-Redskins Washington
-Redskins Washington
-Redskins Washington
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Redskins Washington
-Vikings Minnesota
-Vikings Minnesota
+Patriots New England
+Patriots New England
+Patriots New England
+Raiders Oakland
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
 e--
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-e--
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
 Cowboys Dallas
+Cowboys Dallas
+Eagles Philadelphia
+e--
+Seahawks Seattle
+Seahawks Seattle
 Falcons Atlanta
-Cowboys Dallas
-Cowboys Dallas
+Seahawks Seattle
+Seahawks Seattle
+Seahawks Seattle
 Falcons Atlanta
-Cowboys Dallas
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Cowboys Dallas
-Cowboys Dallas
-e--
-Giants New York
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-Giants New York
-Giants New York
-e--
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-e--
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-e--
+Seahawks Seattle
+Seahawks Seattle
+Seahawks Seattle
+Seahawks Seattle
 e--
 c--
-STNFRD
-STNFRD
-STNFRD
-STNFRD
-WASH
-WASH
-WASH
+MICH
+WISC
+WISC
+WISC
+WISC
+WISC
+WISC
+NWEST
+NWEST
+MINN
+NWEST
+NWEST
+NWEST
+MINN
+BAMA
+BAMA
+MERCER
+BAMA
+BAMA
+BAMA
+MERCER
+LAMON
+LAMON
+LAMON
+LAMON
+LAMON
+LAMON
+LAMON
+MIAMI
+UVA
+UVA
+UVA
+UVA
+UVA
+UVA
+MEMP
+SMU
+SMU
+SMU
+SMU
+SMU
+SMU
+TXTECH
+TCU
+TXTECH
+TXTECH
+TCU
+TCU
+TXTECH
 UCF
-UCONN
-UCONN
 UCF
 UCF
-UCONN
+TEMPLE
+TEMPLE
+TEMPLE
 UCF
-RUT
-PSU
-RUT
-RUT
-RUT
-RUT
-PSU
-IOWAST
-IOWAST
-IOWAST
+MISSST
+MISSST
+MISSST
+ARK
+MISSST
+MISSST
+MISSST
+CLEM
+CLEM
+CIT
+CLEM
+CLEM
+CLEM
+CLEM
+UK
+UGA
+UGA
+UGA
+UK
+UGA
+UK
+OKLA
+OKLA
+KANSAS
+OKLA
+OKLA
+KANSAS
+OKLA
+ND
+ND
+NAVY
+NAVY
+NAVY
+NAVY
+ND
+ILL
+ILL
+ILL
+OHIOST
+ILL
+ILL
+OHIOST
 OKLAST
 OKLAST
-IOWAST
-IOWAST
+KSTATE
+KSTATE
+OKLAST
+KSTATE
+KSTATE
+PSU
+PSU
+NEB
+PSU
+NEB
+PSU
+PSU
+spacer
+MICHST
+MICHST
+MICHST
+MICHST
+MICHST
+spacer
+TENN
 LSU
+TENN
+TENN
 LSU
+TENN
 LSU
-LSU
-LSU
-LSU
-LSU
-BC
-BC
+WAKE
 NCST
-BC
+WAKE
+WAKE
 NCST
-BC
-BC
-MICHST
-MICHST
-OHIOST
-OHIOST
-MICHST
-MICHST
-MICHST
-VATECH
-GATECH
-GATECH
-GATECH
-VATECH
-GATECH
-GATECH
-IOWA
-IOWA
-WISC
-IOWA
-WISC
-IOWA
-IOWA
-AUBURN
-AUBURN
-UGA
-AUBURN
-UGA
-UGA
-AUBURN
-CLEM
-CLEM
-CLEM
-FSU
-CLEM
-FSU
-CLEM
-COLO
+NCST
+WAKE
 USC
 USC
 USC
 USC
 USC
-USC
+UCLA
+UCLA
+STNFRD
+CAL
+STNFRD
+STNFRD
+STNFRD
+CAL
+CAL
+BOISE
+BOISE
+BOISE
+AF
+BOISE
+BOISE
+AF
 UTAH
-WASHST
-WASHST
-WASHST
+WASH
+WASH
+WASH
 UTAH
 UTAH
-WASHST
-NWEST
-NWEST
-NWEST
-NWEST
-NWEST
-NWEST
-NWEST
-MISSST
-BAMA
-BAMA
-BAMA
-BAMA
-MISSST
-MISSST
-TCU
-TCU
-TCU
-TCU
-TCU
-TCU
-TCU
-MIAMI
-MIAMI
-ND
-ND
-ND
-ND
-MIAMI
+UTAH
