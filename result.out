@@ -1,40 +1,4 @@
 s--
-Bills
-(5-4-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Chargers
-(3-6-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Bengals
-(3-6-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Broncos
-(3-6-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Patriots
-(7-2-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Raiders
-(4-5-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Eagles
-(8-1-0)
---
-_ _ _ _ 
-Cowboys
-(5-4-0)
---
-_ _ _ _ 
-s--
 Falcons
 (5-4-0)
 --
@@ -54,87 +18,123 @@ Steelers
 10 6 7 17 
 s--
 Lions
-
+(6-4-0)
 27
 0 21 0 6 
 Bears
-
+(3-7-0)
 24
 10 7 0 7 
 s--
 Jaguars
-
+(7-3-0)
 19
 7 3 0 9 
 Browns
-
+(0-10-0)
 7
 0 7 0 0 
 s--
 Ravens
-
+(5-5-0)
 23
 0 6 7 10 
 Packers
-
+(5-5-0)
 0
 0 0 0 0 
 s--
 Cardinals
-
+(4-6-0)
 21
 0 14 7 0 
 Texans
-
+(4-6-0)
 31
 0 10 7 14 
 s--
 Buccaneers
-
+(4-6-0)
 30
 3 17 0 10 
 Dolphins
-
+(4-6-0)
 20
 7 0 6 7 
 s--
 Rams
-
+(7-3-0)
 7
 7 0 0 0 
 Vikings
-
+(8-2-0)
 24
 0 7 0 17 
 s--
 Chiefs
-
+(6-4-0)
 9
 0 3 0 6 0
 Giants
-
+(2-8-0)
 12
 0 6 0 3 3
 s--
 Redskins
-
+(4-6-0)
 31
 10 7 7 7 0
 Saints
-
+(8-2-0)
 34
 10 3 0 18 3
+s--
+Bills
+(5-5-0)
+24
+7 0 3 14 
+Chargers
+(4-6-0)
+54
+10 27 10 7 
+s--
+Bengals
+(4-6-0)
+20
+6 7 0 7 
+Broncos
+(3-7-0)
+17
+7 0 3 7 
+s--
+Patriots
+(8-2-0)
+33
+7 10 13 3 
+Raiders
+(4-6-0)
+8
+0 0 0 8 
+s--
+Eagles
+(9-1-0)
+37
+7 0 16 14 
+Cowboys
+(5-5-0)
+9
+6 3 0 0 
 p--
 1
 `
 Eagles
-8-1-0
+9-1-0
 They come off their bye with a big division game on the road against the Cowboys on Sunday night. If they win that, the division title is almost a lock.
 p--
 2
 `
 Patriots
-7-2-0
+8-2-0
 They are getting back to looking like a Super Bowl return is certainly possible. Tom Brady is having an MVP season.
 p--
 3
@@ -152,7 +152,7 @@ p--
 5
 `
 Saints
-7-2-0
+8-2-0
 They have won seven straight games and clearly are in the conversation as the NFC's best team. The defense is for real.
 p--
 6
@@ -194,7 +194,7 @@ p--
 12
 -5
 Cowboys
-5-4-0
+5-5-0
 They need to pick up all areas without Ezekiel Elliott around. If they are to be the division champs, they have to do it starting this week against the Eagles.
 p--
 13
@@ -212,13 +212,13 @@ p--
 15
 -3
 Bills
-5-4-0
+5-5-0
 The past two weeks haven't been kind to the Bills. Getting blown out hasn't been a good look. Now they face a long road trip to play the Chargers.
 p--
 16
 -1
 Redskins
-4-5-0
+4-6-0
 What happened to the defense against the Vikings? That's a bad loss for a team that can't afford them and now faces a tough road game against the Saints.
 p--
 17
@@ -242,31 +242,31 @@ p--
 20
 -1
 Chargers
-3-6-0
+4-6-0
 They continue to lose close game after close game. It's too bad because this team has talent.
 p--
 21
 -1
 Raiders
-4-5-0
+4-6-0
 They come off their bye with a big one in Mexico City against the Patriots. The defense has to be better in the second half if they are to be a playoff team.
 p--
 22
 `
 Dolphins
-4-5-0
+4-6-0
 At 4-5, they have major issues on offense. They just aren't good enough on that side of the ball.
 p--
 23
 `
 Broncos
-3-6-0
+3-7-0
 The lack of offense has impacted this team in a big way. The heat is now on John Elway. Who saw that coming?
 p--
 24
 +5
 Buccaneers
-3-6-0
+4-6-0
 There is a chance Ryan Fitzpatrick could be the quarterback the rest of the way. But their season has been a disappointment anyway.
 p--
 25
@@ -278,7 +278,7 @@ p--
 26
 -1
 Bengals
-3-6-0
+4-6-0
 This season is done. Losing in consecutive weeks to AFC South teams pretty much ends their playoff chances.
 p--
 27
