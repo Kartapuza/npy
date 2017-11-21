@@ -50,14 +50,13 @@ def GetUrl():
 def Read_All_Stats():
     stat_1 = open('statsall.html', 'r')
     my_string = stat_1.read()
-
     soup = BeautifulSoup(my_string, 'html.parser')
-    stat_all_read = soup.find("div", attrs={"id": "chalk_stats"})
+    #stat_all_read = soup.find("div", attrs={"id": "chalk_stats"})
+    stat_all_read = soup.find("div", id = "chalk_stats")
     allgame_stats = stat_all_read.find_all('td', attrs={"class": re.compile('(team|score|time)')})
     allgame_team_name =  stat_all_read.find_all('td', attrs={"class": "team"})
     allgame_team_score = stat_all_read.find_all('td', attrs={"class": "score"})
     allgame_team_time = stat_all_read.find_all('td', attrs={"class": "time"})
-
     for i in range(0, len(allgame_team_name)):
         team_link1A2B = allgame_team_name[i].find_all('a')
         for j in range(0, len(team_link1A2B)):

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwQBWFdXGwsAVFlUBgg="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><meta content="en" http-equiv="Content-Language"><meta name="google" content="notranslate"><link rel="preconnect dns-prefetch" href="https://sportshub.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sportsfly.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sports.cbsimg.net"><title>NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview - CBSSports.com</title><meta itemprop="name" content="NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview - CBSSports.com"><meta name="description" content="The Vikings and Rams -- yes, the Vikings and Rams -- are running wild in a topsy-turvy NFC"><meta itemprop="description" content="The Vikings and Rams -- yes, the Vikings and Rams -- are running wild in a topsy-turvy NFC"><link rel="canonical" href="https://www.cbssports.com/nfl/powerrankings/"><link rel="amphtml" href="https://www.cbssports.com/nfl/news/nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview/amp/"><meta property="og:site_name" content="CBSSports.com"><meta property="og:title" content="NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview"><meta property="og:description" content="The Vikings and Rams -- yes, the Vikings and Rams -- are running wild in a topsy-turvy NFC"><meta property="og:image" content="https://sportshub.cbsistatic.com/i/r/2017/11/14/96978288-aa75-47da-958c-0af342e5eaad/thumbnail/770x433/59583eedfd105c1557c97c832d1045c9/nov-14-pr.jpg"><meta property="og:type" content="Article"><meta property="og:url" content="https://www.cbssports.com/nfl/powerrankings/"><meta itemprop="speakable" itemscope itemtype="http://schema.org/SpeakableSpecification" itemref="speakable-meta-1 speakable-meta-2"><meta id="speakable-meta-1" itemprop="cssSelector" content=".article-headline"><meta id="speakable-meta-2" itemprop="cssSelector" content=".article-subline"><meta property="fb:pages" content="25902406772"><meta property="fb:app_id" content="297742330311988"><meta property="fb:admins" content="100002967552623"><meta property="article:publisher" content="https://www.facebook.com/cbssports"><meta content="14885860" property="twitter:account_id"><meta content="summary" property="twitter:card"><meta content="https://www.cbssports.com/nfl/powerrankings/" property="twitter:url"><meta content="NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview" property="twitter:title"><meta content="The Vikings and Rams -- yes, the Vikings and Rams -- are running wild in a topsy-turvy NFC" property="twitter:description"><meta content="https://sportshub.cbsistatic.com/i/r/2017/11/14/96978288-aa75-47da-958c-0af342e5eaad/thumbnail/770x433/59583eedfd105c1557c97c832d1045c9/nov-14-pr.jpg" property="twitter:image"><meta content="@cbssports" property="twitter:site"><meta content="@PriscoCBS" property="twitter:creator"><meta content="CBSSports.com features live scoring and news for NFL football, MLB baseball, NBA basketball, NHL hockey, college basketball and football. CBSSports.com is also your source for fantasy sports news." name="msapplication-tooltip"><meta content="https://www.cbssports.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#1483b2" name="msapplication-navbutton-color"><link rel="alternate" href="android-app://com.handmark.sportcaster/cbssportsapp/https://www.cbssports.com/nfl/powerrankings/"><meta name="google-site-verification" content="EdjXVFTZ6BgUzS3Void8cMiXXzE6bXDvNg-Yjl3VZj8"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone.png"><link rel="apple-touch-icon" sizes="76x76" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad-retina.png"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/css/main.desktop.css"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/css/icon-moon/icon-moon.css"><script type="text/javascript" src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediajs/js-build/libs/require-2.3.5.js"></script><script type="text/javascript">
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwQBWFdXGwsAVFlUBgg="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><meta content="en" http-equiv="Content-Language"><meta name="google" content="notranslate"><link rel="preconnect dns-prefetch" href="https://sportshub.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sportsfly.cbsistatic.com"><link rel="preconnect dns-prefetch" href="https://sports.cbsimg.net"><title>NFL Power Rankings: The Patriots and Steelers are who we thought they were - CBSSports.com</title><meta itemprop="name" content="NFL Power Rankings: The Patriots and Steelers are who we thought they were - CBSSports.com"><meta name="description" content="It looks like a two-horse race for the AFC's No. 1 seed with the Chiefs fading"><meta itemprop="description" content="It looks like a two-horse race for the AFC's No. 1 seed with the Chiefs fading"><link rel="canonical" href="https://www.cbssports.com/nfl/powerrankings/"><link rel="amphtml" href="https://www.cbssports.com/nfl/news/nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were/amp/"><meta property="og:site_name" content="CBSSports.com"><meta property="og:title" content="NFL Power Rankings: The Patriots and Steelers are who we thought they were"><meta property="og:description" content="It looks like a two-horse race for the AFC's No. 1 seed with the Chiefs fading"><meta property="og:image" content="https://sportshub.cbsistatic.com/i/r/2017/11/21/23f8bb3f-5650-4954-a534-423487efabf8/thumbnail/770x433/28864b24de4c84cfd47077dc46661ecf/nov-21-pr.jpg"><meta property="og:type" content="Article"><meta property="og:url" content="https://www.cbssports.com/nfl/powerrankings/"><meta itemprop="speakable" itemscope itemtype="http://schema.org/SpeakableSpecification" itemref="speakable-meta-1 speakable-meta-2"><meta id="speakable-meta-1" itemprop="cssSelector" content=".article-headline"><meta id="speakable-meta-2" itemprop="cssSelector" content=".article-subline"><meta property="fb:pages" content="25902406772"><meta property="fb:app_id" content="297742330311988"><meta property="fb:admins" content="100002967552623"><meta property="article:publisher" content="https://www.facebook.com/cbssports"><meta content="14885860" property="twitter:account_id"><meta content="summary" property="twitter:card"><meta content="https://www.cbssports.com/nfl/powerrankings/" property="twitter:url"><meta content="NFL Power Rankings: The Patriots and Steelers are who we thought they were" property="twitter:title"><meta content="It looks like a two-horse race for the AFC's No. 1 seed with the Chiefs fading" property="twitter:description"><meta content="https://sportshub.cbsistatic.com/i/r/2017/11/21/23f8bb3f-5650-4954-a534-423487efabf8/thumbnail/770x433/28864b24de4c84cfd47077dc46661ecf/nov-21-pr.jpg" property="twitter:image"><meta content="@cbssports" property="twitter:site"><meta content="@PriscoCBS" property="twitter:creator"><meta content="CBSSports.com features live scoring and news for NFL football, MLB baseball, NBA basketball, NHL hockey, college basketball and football. CBSSports.com is also your source for fantasy sports news." name="msapplication-tooltip"><meta content="https://www.cbssports.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#1483b2" name="msapplication-navbutton-color"><link rel="alternate" href="android-app://com.handmark.sportcaster/cbssportsapp/https://www.cbssports.com/nfl/powerrankings/"><meta name="google-site-verification" content="EdjXVFTZ6BgUzS3Void8cMiXXzE6bXDvNg-Yjl3VZj8"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone.png"><link rel="apple-touch-icon" sizes="76x76" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/webclips/touch-icon-ipad-retina.png"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/css/main.desktop.css"><link rel="stylesheet" href="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/css/icon-moon/icon-moon.css"><script type="text/javascript" src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediajs/js-build/libs/require-2.3.5.js"></script><script type="text/javascript">
     require.config({"baseUrl":"https:\/\/sportsfly.cbsistatic.com\/fly-724\/bundles\/sportsmediajs\/js-build","urlArgs":"","config":{"version":{"fly\/components\/accordion":"1.0","fly\/components\/alert":"1.0","fly\/components\/base":"1.0","fly\/components\/carousel":"1.0","fly\/components\/dropdown":"1.0","fly\/components\/fixate":"1.0","fly\/components\/form-validate":"1.0","fly\/components\/image-gallery":"1.0","fly\/components\/iframe-messenger":"1.0","fly\/components\/load-more":"1.0","fly\/components\/load-more-article":"1.0","fly\/components\/load-more-scroll":"1.0","fly\/components\/loading":"1.0","fly\/components\/marketing-slider":"1.0","fly\/components\/modal":"1.0","fly\/components\/modal-iframe":"1.0","fly\/components\/network-bar":"1.0","fly\/components\/poll":"1.0","fly\/components\/search-player":"1.0","fly\/components\/social-button":"1.0","fly\/components\/social-counts":"1.0","fly\/components\/social-links":"1.0","fly\/components\/tabs":"1.0","fly\/components\/video":"1.0","fly\/libs\/easy-xdm":"2.4.17.1","fly\/libs\/jquery.cookie":"1.2","fly\/libs\/jquery.throttle-debounce":"1.1","fly\/libs\/jquery.widget":"1.9.2","fly\/libs\/omniture.s-code":"1.0","fly\/utils\/jquery-mobile-init":"1.0","fly\/libs\/jquery.mobile":"1.3.2","fly\/libs\/backbone":"1.0.0","fly\/libs\/underscore":"1.5.1","fly\/libs\/jquery.easing":"1.3","fly\/managers\/ad":"2.0","fly\/managers\/components":"1.0","fly\/managers\/cookie":"1.0","fly\/managers\/debug":"1.0","fly\/managers\/geo":"1.0","fly\/managers\/gpt":"4.2","fly\/managers\/history":"2.0","fly\/managers\/madison":"1.0","fly\/managers\/social-authentication":"1.0","fly\/managers\/tealium":"1.0","fly\/utils\/data-prefix":"1.0","fly\/utils\/data-selector":"1.0","fly\/utils\/function-natives":"1.0","fly\/utils\/guid":"1.0","fly\/utils\/log":"1.0","fly\/utils\/object-helper":"1.0","fly\/utils\/string-helper":"1.0","fly\/utils\/string-vars":"1.0","fly\/utils\/url-helper":"1.0","libs\/jshashtable":"2.1","libs\/select2":"3.5.1","libs\/jsonp":"2.4.0","libs\/jquery\/mobile":"1.4.5","libs\/modernizr.custom":"2.6.2","libs\/velocity":"1.2.2","libs\/dataTables":"1.10.6","libs\/dataTables.fixedColumns":"3.0.4","libs\/dataTables.fixedHeader":"2.1.2","libs\/dateformat":"1.0.3","libs\/waypoints\/infinite":"3.1.1","libs\/waypoints\/inview":"3.1.1","libs\/waypoints\/jquery.waypoints":"3.1.1","libs\/waypoints\/sticky":"3.1.1","libs\/jquery\/dotdotdot":"1.6.1","libs\/jquery\/flexslider":"2.1","libs\/jquery\/lazyload":"1.9.3","libs\/jquery\/maskedinput":"1.3.1","libs\/jquery\/marquee":"1.3.1","libs\/jquery\/numberformatter":"1.2.3","libs\/jquery\/placeholder":"0.2.4","libs\/jquery\/scrollbar":"0.1.6","libs\/jquery\/tablesorter":"2.0.5","libs\/jquery\/touchswipe":"1.6.18","libs\/jquery\/ui\/jquery.ui.core":"1.11.4","libs\/jquery\/ui\/jquery.ui.draggable":"1.11.4","libs\/jquery\/ui\/jquery.ui.mouse":"1.11.4","libs\/jquery\/ui\/jquery.ui.position":"1.11.4","libs\/jquery\/ui\/jquery.ui.slider":"1.11.4","libs\/jquery\/ui\/jquery.ui.sortable":"1.11.4","libs\/jquery\/ui\/jquery.ui.touch-punch":"0.2.3","libs\/jquery\/ui\/jquery.ui.autocomplete":"1.11.4","libs\/jquery\/ui\/jquery.ui.accordion":"1.11.4","libs\/jquery\/ui\/jquery.ui.tabs":"1.11.4","libs\/jquery\/ui\/jquery.ui.menu":"1.11.4","libs\/jquery\/ui\/jquery.ui.dialog":"1.11.4","libs\/jquery\/ui\/jquery.ui.resizable":"1.11.4","libs\/jquery\/ui\/jquery.ui.button":"1.11.4","libs\/jquery\/ui\/jquery.ui.tooltip":"1.11.4","libs\/jquery\/ui\/jquery.ui.effects":"1.11.4","libs\/jquery\/ui\/jquery.ui.datepicker":"1.11.4"}},"shim":{"liveconnection\/managers\/connection":{"deps":["liveconnection\/libs\/sockjs-0.3.4"]},"liveconnection\/libs\/sockjs-0.3.4":{"exports":"SockJS"},"libs\/setValueFromArray":{"exports":"set"},"libs\/getValueFromArray":{"exports":"get"},"fly\/libs\/jquery.mobile-1.3.2":["version!fly\/utils\/jquery-mobile-init"],"libs\/backbone.marionette":{"deps":["jquery","version!fly\/libs\/underscore","version!fly\/libs\/backbone"],"exports":"Marionette"},"fly\/libs\/underscore-1.5.1":{"exports":"_"},"fly\/libs\/backbone-1.0.0":{"deps":["version!fly\/libs\/underscore","jquery"],"exports":"Backbone"},"libs\/jquery\/ui\/jquery.ui.tabs-1.11.4":["jquery","version!libs\/jquery\/ui\/jquery.ui.core","version!fly\/libs\/jquery.widget"],"libs\/jquery\/flexslider-2.1":["jquery"],"libs\/dataTables.fixedColumns-3.0.4":["jquery","version!libs\/dataTables"],"libs\/dataTables.fixedHeader-2.1.2":["jquery","version!libs\/dataTables"]},"map":{"*":{"facebook":"https:\/\/connect.facebook.net\/en_US\/sdk.js","facebook-debug":"https:\/\/connect.facebook.net\/en_US\/all\/debug.js","google":"https:\/\/apis.google.com\/js\/plusone.js","google-signin":"https:\/\/apis.google.com\/js\/client:platform.js","google-csa":"https:\/\/www.google.com\/adsense\/search\/async-ads.js","google-javascript-api":"https:\/\/www.google.com\/jsapi","google-client-api":"https:\/\/apis.google.com\/js\/api:client.js","gpt":"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js","recaptcha":"https:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js","twitter":"https:\/\/platform.twitter.com\/widgets.js","mpx":"libs\/tpPdk","tealium":"\/\/tags.tiqcdn.com\/utag\/cbsi\/cbssportssite\/prod\/utag.js","taboola":"https:\/\/cdn.taboola.com\/libtrc\/cbsinteractive-cbssports\/loader.js","sharethrough":"https:\/\/native.sharethrough.com\/assets\/tag.js","newsroom":"https:\/\/c2.taboola.com\/nr\/cbsinteractive-cbssports\/newsroom.js","disqus":"\/\/cbs-sports-prod.disqus.com\/embed.js","disqus-commentcount":"\/\/cbs-sports-prod.disqus.com\/count.js"}}});
 
         
@@ -14,7 +14,7 @@
     window.SportsPageVars = {
         ads: {
             enabled: true,
-            data: {"gpt":{"targeting":{"device":"desktop","ptype":"stories","cid":"nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview","env":"prod"},"adConfig":{"network":{"local":7336,"dev":7336,"qa":8264,"stage":8264,"prod":8264},"method":"async-inline","regions":[],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom","disableInitialLoad":false},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"leaderTop":{"sizes":[[728,90],[970,66],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"skyBox":{"sizes":[[980,45]],"position":"top"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"nflnetworkBarTop":{"sizes":[[750,50]],"position":"top"},"nflnetworkMarqueeTop":{"sizes":[[170,100]],"position":"top"},"nflnetworkMarquee2Top":{"sizes":[[400,45]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"leaderPlus2Bottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderMiddle":{"sizes":[[728,90],[970,66]],"position":"middle"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mRailTopLeft":{"sizes":[[170,360]],"position":"top"},"mRailBottomLeft":{"sizes":[[170,230]],"position":"bottom"},"mLeaderTop":{"sizes":[[1170,150]],"position":"top"},"mLeaderMiddle":{"sizes":[[1170,150]],"position":"middle"},"mRailTopRight":{"sizes":[[370,345]],"position":"top"},"mStoryInset":{"sizes":[[300,310]],"position":"top"},"mDropdown":{"sizes":[[220,350]],"position":"top"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}},"sharethroughTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughArticle":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"433f2831"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughScoreboard":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"1KzYzb2nt1prfLivSYMjVJCV"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mpuHomeArenaFlex":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"pHEZXrGTz8xAczhbvBryALrh"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeArenaMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"rSRFToMHkC84SmYyCbF6LsXG"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryInc":{"sizes":[[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"}},"videoThumbnailTop":{"sizes":[[171,231]],"position":"top"},"videoLiveEventSponsor":{"sizes":[[234,60]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"mobileNflnetworkMarqueeTop":{"sizes":[[300,100]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"mobileHomeFlexTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileHomeFlexBottom":{"sizes":[[11,11],[300,250]],"position":"bottom","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileArenaFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilent":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileFlexSilentTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"gubJdWNSqW4KERyShJGTxkGt"}},"mobileFlexTop":{"sizes":[[300,250],[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle2":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexBottom":{"sizes":[[320,50],[300,250],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexInc":{"sizes":[[320,50],[300,250],[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileBannerTop2":{"sizes":[[320,51]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileMpuBottom2":{"sizes":[[300,250]],"position":"bottom2"},"mpuMiddle":{"sizes":[[300,50]],"position":"middle"},"mpuTop":{"sizes":[[320,50]],"position":"top"},"mobileMpuTop":{"sizes":[[300,250]],"position":"top"},"mobileMpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mobileMarketingMpuTop":{"sizes":[[320,100]],"position":"top"},"mobileMarketingMpuMiddle":{"sizes":[[320,100]],"position":"middle"},"mobileMarketingMpuBottom":{"sizes":[[320,100]],"position":"bottom"},"mobileNativeTop2":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeTeamTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pjJXawoyvqmBkden6uzUT6kQ"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeGtTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"83b0ae49"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeBottom2":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughPos2":{"sizes":[[11,11]],"position":2,"customTargeting":{"strnativekey":"54ab0589"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mobileMpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cbssports","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["top_strip","leader_plus_top","leader_top","m_leader_top","skin","mpu_plus_top","mpu_top","mpu_top_gametracker","m_marquee_top","m_rail_top_left","m_rail_top_right","sharethrough_top","sharethrough_bottom","native_arena","native_arena_middle","native_arena_silent","leader_middle","m_leader_middle","mpu_middle","m_story_inset","m_dropdown","leader_plus2_bottom","leader_bottom","mpu_bottom","m_rail_bottom_left","native_story_top","native_story_middle","native_story_bottom","native_story_bottom2","video_live_event_sponsor"],"disableInitialLoadRefresh":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableRepeatedAds":true,"disableAdIncrement":false},"containerId":"9b9325809cfdb","slotVars":{"network":"8264","siteName":"cbssports","collapseEmptyDiv":"1","topics":"nfl\/media\/power_rankings\/powerrankings","platform":"desktop"},"adType":"gpt","adDivIds":["native-story-middle-9b9325809cfdb","mpu-plus-top-9b9325809cfdb","mpu-middle-9b9325809cfdb","leader-bottom-9b9325809cfdb","intromercial-9b9325809cfdb","top-strip-9b9325809cfdb","skin-9b9325809cfdb","leader-top-9b9325809cfdb","nflnetwork-bar-top-9b9325809cfdb"]},"cookieName":"cbssports_ad","cookieServicePath":"\/ad\/ad-cookie\/","session":6,"subSession":4,"useFirstPageTargeting":true}
+            data: {"gpt":{"targeting":{"device":"desktop","ptype":"stories","cid":"nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were","env":"prod"},"adConfig":{"network":{"local":7336,"dev":7336,"qa":8264,"stage":8264,"prod":8264},"method":"async-inline","regions":[],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top","eventCallbacks":{"slotRenderEnded":"adSkinCallback"}},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom","disableInitialLoad":false},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"leaderTop":{"sizes":[[728,90],[970,66],[970,90]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderboardCallback"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"skyBox":{"sizes":[[980,45]],"position":"top"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"nflnetworkBarTop":{"sizes":[[750,50]],"position":"top"},"nflnetworkMarqueeTop":{"sizes":[[170,100]],"position":"top"},"nflnetworkMarquee2Top":{"sizes":[[400,45]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"leaderPlus2Bottom":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderMiddle":{"sizes":[[728,90],[970,66]],"position":"middle"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mRailTopLeft":{"sizes":[[170,360]],"position":"top"},"mRailBottomLeft":{"sizes":[[170,230]],"position":"bottom"},"mLeaderTop":{"sizes":[[1170,150]],"position":"top"},"mLeaderMiddle":{"sizes":[[1170,150]],"position":"middle"},"mRailTopRight":{"sizes":[[370,345]],"position":"top"},"mStoryInset":{"sizes":[[300,310]],"position":"top"},"mDropdown":{"sizes":[[220,350]],"position":"top"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}},"sharethroughTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"a749ea2b"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughArticle":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"433f2831"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughScoreboard":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"1KzYzb2nt1prfLivSYMjVJCV"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mpuHomeArenaFlex":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"pHEZXrGTz8xAczhbvBryALrh"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeArenaMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"rSRFToMHkC84SmYyCbF6LsXG"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"nativeStoryInc":{"sizes":[[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"pUtkm6PEEeEqSsKgmNRVvEGN"}},"videoThumbnailTop":{"sizes":[[171,231]],"position":"top"},"videoLiveEventSponsor":{"sizes":[[234,60]],"position":"top"}},"mobile":{"adUnits":{"intromercial":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"topStrip":{"sizes":[[5,5]],"position":"top","eventCallbacks":{"slotRenderEnded":"skyBoxCallback"}},"mobileNflnetworkMarqueeTop":{"sizes":[[300,100]],"position":"top"},"mobileNflnetworkTop":{"sizes":[[300,100]],"position":"top"},"mobileHomeFlexTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileHomeFlexBottom":{"sizes":[[11,11],[300,250]],"position":"bottom","customTargeting":{"strnativekey":"FPbxvZ35anf9AJRvNfe6i5bj"}},"mobileHomeFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"4QaKVuofR1D6XYNp5djXh8m5"}},"mobileArenaFlexSilentMiddle":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilent":{"sizes":[[11,11],[300,250]],"position":"middle","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileArenaFlexSilentBottom2":{"sizes":[[11,11],[300,250]],"position":"bottom2","customTargeting":{"strnativekey":"p19egy6FqHCsS251t1yj2EBy"}},"mobileFlexSilentTop":{"sizes":[[11,11],[300,250]],"position":"top","customTargeting":{"strnativekey":"gubJdWNSqW4KERyShJGTxkGt"}},"mobileFlexTop":{"sizes":[[300,250],[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexMiddle2":{"sizes":[[320,50],[300,250],[11,11]],"position":"middle2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexBottom":{"sizes":[[320,50],[300,250],[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileFlexInc":{"sizes":[[320,50],[300,250],[11,11]],"position":"inc","disableInitialLoad":true,"customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"}},"mobileBannerTop2":{"sizes":[[320,51]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileMpuBottom2":{"sizes":[[300,250]],"position":"bottom2"},"mpuMiddle":{"sizes":[[300,50]],"position":"middle"},"mpuTop":{"sizes":[[320,50]],"position":"top"},"mobileMpuTop":{"sizes":[[300,250]],"position":"top"},"mobileMpuMiddle":{"sizes":[[300,250]],"position":"middle"},"mobileMarketingMpuTop":{"sizes":[[320,100]],"position":"top"},"mobileMarketingMpuMiddle":{"sizes":[[320,100]],"position":"middle"},"mobileMarketingMpuBottom":{"sizes":[[320,100]],"position":"bottom"},"mobileNativeTop2":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeTeamTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"pjJXawoyvqmBkden6uzUT6kQ"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeGtTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"83b0ae49"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeBottom2":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"nJQjFMCYfivejGXoqNXYEKsY"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"sharethroughPos2":{"sizes":[[11,11]],"position":2,"customTargeting":{"strnativekey":"54ab0589"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryTop":{"sizes":[[11,11]],"position":"top","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryMiddle":{"sizes":[[11,11]],"position":"middle","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom":{"sizes":[[11,11]],"position":"bottom","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mobileNativeStoryBottom2":{"sizes":[[11,11]],"position":"bottom2","customTargeting":{"strnativekey":"UhpLuUjohuTPZ7eAodkse53o"},"eventCallbacks":{"slotRenderEnded":"nativeAdContainerClear"}},"mMarqueeTop":{"sizes":[[356,365]],"position":"top"},"mobileMpuTopGametracker":{"sizes":[[300,250]],"position":"top","disableInitialLoad":true,"eventCallbacks":{"slotRenderEnded":"clear20second"}}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cbssports","collapseEmptyDiv":true,"setRefreshUnfilledSlots":false,"setClearUnfilledSlots":true,"disableInitialLoad":false,"disableInitialLoadCompanions":true,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["top_strip","leader_plus_top","leader_top","m_leader_top","skin","mpu_plus_top","mpu_top","mpu_top_gametracker","m_marquee_top","m_rail_top_left","m_rail_top_right","sharethrough_top","sharethrough_bottom","native_arena","native_arena_middle","native_arena_silent","leader_middle","m_leader_middle","mpu_middle","m_story_inset","m_dropdown","leader_plus2_bottom","leader_bottom","mpu_bottom","m_rail_bottom_left","native_story_top","native_story_middle","native_story_bottom","native_story_bottom2","video_live_event_sponsor"],"disableInitialLoadRefresh":true,"enableHeaderBidding":true,"disableClearTargetingOnInit":true,"enableRepeatedAds":true,"disableAdIncrement":false},"containerId":"9b9325809cfdb","slotVars":{"network":"8264","siteName":"cbssports","collapseEmptyDiv":"1","topics":"nfl\/media\/power_rankings\/powerrankings","platform":"desktop"},"adType":"gpt","adDivIds":["native-story-middle-9b9325809cfdb","mpu-plus-top-9b9325809cfdb","mpu-middle-9b9325809cfdb","leader-bottom-9b9325809cfdb","intromercial-9b9325809cfdb","top-strip-9b9325809cfdb","skin-9b9325809cfdb","leader-top-9b9325809cfdb","nflnetwork-bar-top-9b9325809cfdb"]},"cookieName":"cbssports_ad","cookieServicePath":"\/ad\/ad-cookie\/","session":6,"subSession":4,"useFirstPageTargeting":true}
         },
         assetsVersion: {
             version: 'fly-724'
@@ -66,7 +66,7 @@
 		        __tealium_data_guid=window.uuid.v1();
 		    }
 
-		    var _utag_obj={"isEnabled":true,"articleAuthorId":["68759b1e-d6b1-11e3-ab74-f4ce46b921d8"],"articleAuthorName":["pete prisco"],"articleId":"2e625a6d-a89b-4659-a1aa-d60544826a78","articlePubDate":"2017-11-14 15:23:27","articleTitle":"nfl power rankings: upstart rams, vikings battle in potential playoff preview","articleType":"content_article_vembed:story","deviceType":"desktop","isDev":"0","pageNum":"1","pageType":"stories","siteHier":["media","nfl","power rankings"],"siteSection":["media","nfl","","","power rankings",""],"siteType":"desktop web","topicId":["f9d653c1-f145-42fd-836f-c5f09d0cbd5a"],"topicName":["nfl"],"userState":"not authenticated","userType":"anon","dwAccount":"cbsicbssportssite","dwHost":"dw.cbsi.com","siteId":175,"reportSuiteId":"cbsicbssportssite","bkSiteId":3344,"limit":4,"pageName":"\/nfl\/news\/nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview\/","pageTypeId":"6914","pageOntologyId":"23167","contentOrigin":"cbssports.com original","siteName":"cbssports","tealium":{"profile":"cbssportssite","env":"prod"}};    
+		    var _utag_obj={"isEnabled":true,"articleAuthorId":["68759b1e-d6b1-11e3-ab74-f4ce46b921d8"],"articleAuthorName":["pete prisco"],"articleId":"de2c441e-bd75-4b74-8c18-d4c619c7f750","articlePubDate":"2017-11-21 15:40:41","articleTitle":"nfl power rankings: the patriots and steelers are who we thought they were","articleType":"content_article_vembed:story","deviceType":"desktop","isDev":"0","pageNum":"1","pageType":"stories","siteHier":["media","nfl","power rankings"],"siteSection":["media","nfl","","","power rankings",""],"siteType":"desktop web","topicId":["f9d653c1-f145-42fd-836f-c5f09d0cbd5a"],"topicName":["nfl"],"userState":"not authenticated","userType":"anon","dwAccount":"cbsicbssportssite","dwHost":"dw.cbsi.com","siteId":175,"reportSuiteId":"cbsicbssportssite","bkSiteId":3344,"limit":4,"pageName":"\/nfl\/news\/nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were\/","pageTypeId":"6914","pageOntologyId":"23167","contentOrigin":"cbssports.com original","siteName":"cbssports","tealium":{"profile":"cbssportssite","env":"prod"}};    
 		    _utag_obj.pageViewGuid=__tealium_data_guid;
 		    var utag_data=_utag_obj;
 		</script><script>
@@ -76,10 +76,10 @@
             window.scrollTo(window.pageXOffset, window.pageYOffset + 1);
         }
     }
-</script><script src="//js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script></head><body data-cms-edit='{"url":"http://cms.cbssports.com/content/article/2e625a6d-a89b-4659-a1aa-d60544826a78"}' class=" skybox-auto-collapse">
+</script><script src="//js-sec.indexww.com/ht/ls-cbssports.js" async></script><script type="text/javascript" src="https://mtrx.go.sonobi.com/morpheus.cbssports.4073.js" async></script></head><body data-cms-edit='{"url":"http://cms.cbssports.com/content/article/de2c441e-bd75-4b74-8c18-d4c619c7f750"}' class=" skybox-auto-collapse">
         <div id="cbs-site-data" style="display: none">
         site: media | arena: nfl | pageType: stories | 
-        section:  | slug: nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview | sport: football | route: article_single_league_latest | 
+        section:  | slug: nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were | sport: football | route: article_single_league_latest | 
         6-keys: media/spln/nfl/reg/free/powerrankings
     </div>
 
@@ -872,7 +872,7 @@
                                                                                                                 <h6 class="nav-dropdown-title">
                                                                     
             <a href="http://www.caymanislandsclassic.com/collegesportslive/?ftag=CSL-01-10aaa7h">
-            Cayman Island Classic
+            Cayman Islands Classic
         </a>
     
                                 </h6>
@@ -936,7 +936,7 @@
                                                                                                                                             <li class="nav-dropdown-item">
                                                                     
             <a href="http://www.collegesportslive.com/start/?ftag=CSL-01-10aaa6f">
-            College Sports Live
+            SportsLive
         </a>
     
                                 </li>
@@ -1007,19 +1007,19 @@
                                 </h6>
                                 <div class="nav-dropdown-top">
                                                                             <div class="nav-dropdown-image">
-                                            <a href="https://soundcloud.com/cbssportspodcasts/week-11-recap-hunt-owners-are-mad" target="_blank">
+                                            <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-stash-rodgers-johnson" target="_blank">
                                                             <figure class=" img"><img class=" is-lazy-image" alt="podcast-fantasyfootball-logo.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/06/20/bea1c43d-f08f-480e-8ad9-e93ad015bcc1/thumbnail/100x100/c78f8ee89ba37f7d572069edbd2eb552/podcast-fantasyfootball-logo.jpg" src="" height="100" width="100"></figure></a>
                                         </div>
                                                                         <div class="nav-dropdown-top-side">
                                         <p class="nav-dropdown-top-title">
                                                                             
-                                    <a href="https://soundcloud.com/cbssportspodcasts/week-11-recap-hunt-owners-are-mad" target="_blank" rel="nofollow" class="external-link">
-            Week 11 Recap 
+                                    <a href="https://soundcloud.com/cbssportspodcasts/waiver-wire-stash-rodgers-johnson" target="_blank" rel="nofollow" class="external-link">
+            Waiver Wire 
         </a>
     
                                         </p>
                                                                                     <time class="nav-dropdown-top-date">
-                                                15h ago
+                                                2h ago
                                             </time></div>
                                 </div>
                                                                     <ul><li class="nav-dropdown-item">
@@ -1143,9 +1143,9 @@
                                     <div class="item current" data-reading-list="item" section="ReadingList.1">
 
                                                 
-                        <a class="title" data-goto="2e625a6d-a89b-4659-a1aa-d60544826a78" data-url="/nfl/news/nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview/">
+                        <a class="title" data-goto="de2c441e-bd75-4b74-8c18-d4c619c7f750" data-url="/nfl/news/nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were/">
                             <div>
-                                <h5>NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview</h5>
+                                <h5>NFL Power Rankings: The Patriots and Steelers are who we thought they were</h5>
                             </div>
                         </a>
                     </div>
@@ -1156,23 +1156,23 @@
         <div class="reading-list-close"><div class="icon-moon-close-x"></div></div>
 
     </div>
-</div>            <div id="reading-list-items-container" class="reading-list-container" data-container-asset-id="2e625a6d-a89b-4659-a1aa-d60544826a78" data-teads-num="1">
+</div>            <div id="reading-list-items-container" class="reading-list-container" data-container-asset-id="de2c441e-bd75-4b74-8c18-d4c619c7f750" data-teads-num="1">
         
-                <div data-reading-list-item="2e625a6d-a89b-4659-a1aa-d60544826a78" class="data-reading-list-item">
+                <div data-reading-list-item="de2c441e-bd75-4b74-8c18-d4c619c7f750" class="data-reading-list-item">
                     <div class="fixate-top-anchor relative"></div>
 
                     <div class="container article-content">
-                        <section id="content" class="row"><article itemscope itemtype="http://schema.org/Article" class="col-12"><meta itemprop="mainEntityOfPage" content="https://www.cbssports.com/nfl/powerrankings/"><meta itemprop="headline" content="NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview"><meta itemprop="description" content="The Vikings and Rams -- yes, the Vikings and Rams -- are running wild in a topsy-turvy NFC"><div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-    <meta itemprop="url" content="https://sportshub.cbsistatic.com/i/r/2017/11/14/96978288-aa75-47da-958c-0af342e5eaad/thumbnail/770x433/59583eedfd105c1557c97c832d1045c9/nov-14-pr.jpg"><meta itemprop="width" content="433"><meta itemprop="height" content="770"></div>
-<meta itemprop="keywords" content="NFL"><meta itemprop="url" content="https://www.cbssports.com/nfl/news/nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview/"><meta itemprop="datePublished" content="2017-11-14 15:23:00"><meta itemprop="dateModified" content="2017-11-14 17:19:50"><meta itemprop="thumbnailUrl" content="https://sportshub.cbsistatic.com/i/r/2017/11/14/96978288-aa75-47da-958c-0af342e5eaad/thumbnail/770x433/59583eedfd105c1557c97c832d1045c9/nov-14-pr.jpg"><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                        <section id="content" class="row"><article itemscope itemtype="http://schema.org/Article" class="col-12"><meta itemprop="mainEntityOfPage" content="https://www.cbssports.com/nfl/powerrankings/"><meta itemprop="headline" content="NFL Power Rankings: The Patriots and Steelers are who we thought they were"><meta itemprop="description" content="It looks like a two-horse race for the AFC's No. 1 seed with the Chiefs fading"><div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://sportshub.cbsistatic.com/i/r/2017/11/21/23f8bb3f-5650-4954-a534-423487efabf8/thumbnail/770x433/28864b24de4c84cfd47077dc46661ecf/nov-21-pr.jpg"><meta itemprop="width" content="433"><meta itemprop="height" content="770"></div>
+<meta itemprop="keywords" content="NFL"><meta itemprop="url" content="https://www.cbssports.com/nfl/news/nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were/"><meta itemprop="datePublished" content="2017-11-21 15:40:00"><meta itemprop="dateModified" content="2017-11-21 16:18:19"><meta itemprop="thumbnailUrl" content="https://sportshub.cbsistatic.com/i/r/2017/11/21/23f8bb3f-5650-4954-a534-423487efabf8/thumbnail/770x433/28864b24de4c84cfd47077dc46661ecf/nov-21-pr.jpg"><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
     <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
         <meta itemprop="url" content="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/core/cbssports-logo-60x289.png"><meta itemprop="width" content="289"><meta itemprop="height" content="60"></div>
     <meta itemprop="name" content="CBS Sports"></div>
                                 <div class="row">
                                     
                                                                             <div class="article-head">
-                                            <h1 class="article-headline">NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview</h1>
-                                                                                            <h2 class="article-subline">The Vikings and Rams -- yes, the Vikings and Rams -- are running wild in a topsy-turvy NFC</h2>
+                                            <h1 class="article-headline">NFL Power Rankings: The Patriots and Steelers are who we thought they were</h1>
+                                                                                            <h2 class="article-subline">It looks like a two-horse race for the AFC's No. 1 seed with the Chiefs fading</h2>
                                                                                                                                         
 
 
@@ -1205,7 +1205,7 @@
         <li class="date-published">
                                                                    
             <span class="date-original-reading-time">
-                <time datetime="2017-11-14 15:23:00 UTC">Nov 14, 2017</time>
+                <time datetime="2017-11-21 15:40:00 UTC">2h ago</time>
                                 • 1 min read
             </span>
                     </li><li>
@@ -1247,8 +1247,8 @@
         
         
             
-    <div id="embedVideoContainer_1095667267897" class="embedVideo embed-video-player  enable-watch-and-read">
-        <iframe id="embedVideo_1095667267897" class="" src="https://www.cbssports.com/video/player/embed?args=channel%3Dnfl%26player_id%3D1095667267897%26pcid%3D1095667267897%26width%3D640%26height%3D360%26comp_ads_enabled%3Dfalse%26lazy_load%3Dfalse%26resizable%3Dtrue%26domain%3Dcbssports.com%26autoplay%3Dtrue%26watchAndRead%3D1%26css%3Dcss%252Fmedia%252Fvideo%252Fplayer%252Fembed%252Fhighlander-min.css%26war_w%3D432%26war_h%3D243%26js%3D" width="640" height="360" name="embedVideo_1095667267897" marginwidth="0" marginheight="0" allowtransparency="true" allowfullscreen="true" scrolling="no" frameborder="0"></iframe>
+    <div id="embedVideoContainer_1100843075836" class="embedVideo embed-video-player  enable-watch-and-read">
+        <iframe id="embedVideo_1100843075836" class="" src="https://www.cbssports.com/video/player/embed?args=channel%3Dnfl%26player_id%3D1100843075836%26pcid%3D1100843075836%26width%3D640%26height%3D360%26comp_ads_enabled%3Dfalse%26lazy_load%3Dfalse%26resizable%3Dtrue%26domain%3Dcbssports.com%26autoplay%3Dtrue%26watchAndRead%3D1%26css%3Dcss%252Fmedia%252Fvideo%252Fplayer%252Fembed%252Fhighlander-min.css%26war_w%3D432%26war_h%3D243%26js%3D" width="640" height="360" name="embedVideo_1100843075836" marginwidth="0" marginheight="0" allowtransparency="true" allowfullscreen="true" scrolling="no" frameborder="0"></iframe>
     </div>
 
         </div>
@@ -1270,8 +1270,8 @@
 
     
 
-            <div class="fixation sharebar-fixate" id="fantasy-article-sharebar-component" data-component="articleFixate" data-article-fixate-options='{"offset":{"top":110,"bottom":0},"guideTop":"div[data-reading-list-item=2e625a6d-a89b-4659-a1aa-d60544826a78] .fixate-sharebar-top-anchor","guideBottom":"div[data-reading-list-item=2e625a6d-a89b-4659-a1aa-d60544826a78] .fixate-sharebar-bottom-anchor","customParentClass":"sharebar-fixate-col"}'>
-                            <ul class="share-wrapper side is-vertical" data-component="sharebar" data-sharebar-options='{"articleId":"2e625a6d-a89b-4659-a1aa-d60544826a78","contentType":"article-share","description":"The Vikings and Rams -- yes, the Vikings and Rams -- are running wild in a topsy-turvy NFC","title":"NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview","rawTitle":"","url":"https:\/\/www.cbssports.com\/nfl\/powerrankings\/","via":"CBSSports","viewPanel":"","buttonsArray":["facebook","twitter","flipboard","email"]}'><li>
+            <div class="fixation sharebar-fixate" id="fantasy-article-sharebar-component" data-component="articleFixate" data-article-fixate-options='{"offset":{"top":110,"bottom":0},"guideTop":"div[data-reading-list-item=de2c441e-bd75-4b74-8c18-d4c619c7f750] .fixate-sharebar-top-anchor","guideBottom":"div[data-reading-list-item=de2c441e-bd75-4b74-8c18-d4c619c7f750] .fixate-sharebar-bottom-anchor","customParentClass":"sharebar-fixate-col"}'>
+                            <ul class="share-wrapper side is-vertical" data-component="sharebar" data-sharebar-options='{"articleId":"de2c441e-bd75-4b74-8c18-d4c619c7f750","contentType":"article-share","description":"It looks like a two-horse race for the AFC\u0027s No. 1 seed with the Chiefs fading","title":"NFL Power Rankings: The Patriots and Steelers are who we thought they were","rawTitle":"","url":"https:\/\/www.cbssports.com\/nfl\/powerrankings\/","via":"CBSSports","viewPanel":"","buttonsArray":["facebook","twitter","flipboard","email"]}'><li>
                                         
     
     <span data-popup="facebook" class="button-share icon-moon-facebook" aria-label="Facebook" title="Facebook"></span>
@@ -1310,20 +1310,20 @@
         
                             
                 
-        <div id="article-wrapper" class="article-wrapper" data-component="articleExpand"><p>When the NFL schedule came out last April, who expected <a href="https://www.cbssports.com/nfl/teams/page/LAR/los-angeles-rams">Los Angeles Rams</a> at <a href="https://www.cbssports.com/nfl/teams/page/MIN/minnesota-vikings">Minnesota Vikings</a> to be a big game?</p><p>If you say it's you, I call liar.</p><p>Yet that's what we get this week in Minneapolis. Two of the NFC's best teams, two teams trying to stake a claim as the conference's best, go at it in what is the game of the week. </p><p>It is a game that features two teams in the top 10 of my Power Rankings this week, both with 7-2 records. So where were they in the rankings when the season began? </p><div id="native-story-ad-0">
+        <div id="article-wrapper" class="article-wrapper" data-component="articleExpand"><p>We wondered if the <a href="https://www.cbssports.com/nfl/teams/page/NE/new-england-patriots">New England Patriots</a> defense was fixable, even for a football wizard like Bill Belichick.</p><p>In the first month of the 2017 season, it looked as if the Patriots would play a season full of track meets, with all the players they let walk out the door, guys like <a href="https://www.cbssports.com/nfl/players/playerpage/1723146/jamie-collins">Jamie Collins</a> and <a href="https://www.cbssports.com/nfl/players/playerpage/1971327/chandler-jones">Chandler Jones</a>, catching up with them.</p><p>I would often send out tweets tweaking the New England faithful when Jones made big plays or the Pats defense looked really bad, which was often in the first month.</p><p>Now here we are 10 weeks into the season, and it isn't that much of a concern anymore. Belichick did what he always does: He fixes things.</p><p>That's why he's arguably the best coach of all-time. It helps he has talented coordinator Matt Patricia, but Belichick made his reputation as a defensive genius, which is why the Patriots improvement in the past six games can be traced to his hoodie.</p><div id="native-story-ad-0">
 	<div id="native-story-middle-9b9325809cfdb" class="ad-native-story-middle " data-ad="native-story-middle">
     <script>
         window.console && console.log && console.log("ADS: queuing native-story-middle-9b9325809cfdb for display");
         var cbsiGptDivIds = cbsiGptDivIds || [];
         cbsiGptDivIds.push("native-story-middle-9b9325809cfdb");
     </script></div>
-</div><p>The Vikings were 21st in my rankings and the Rams were 26th, which shows you what the heck I know.</p><p>Both Vikings coach Mike Zimmer and Rams coach Sean McVay have done outstanding jobs with their teams. In his first year, McVay has taken a woeful offense and turned it into the league's top-scoring unit. Zimmer saw quarterback <a href="https://www.cbssports.com/nfl/players/playerpage/1123599/sam-bradford">Sam Bradford</a> and rookie runner <a href="https://www.cbssports.com/nfl/players/playerpage/2130893/dalvin-cook">Dalvin Cook</a> both go down for the season with injuries, and all his team does is keep on winning.</p><p>I can't wait to watch the Rams offense against the Vikings defense, which is tied for fifth in scoring defense. But keep an eye on <a href="https://www.cbssports.com/nfl/players/playerpage/1137118/case-keenum">Case Keenum</a> against the improving Rams defense. </p><p>Seeing the Rams at Vikings in a big game in November just doesn't seem right. Get used to it. I think we will see both of these teams as tough outs in the playoffs come January.</p></div><div class="power-rankings">
+</div><p>In the first four games, the Patriots gave up an average of 32 points. In the past six, it's 12.4. That's why they are again the odds-on favorite to represent the AFC in the Super Bowl, and why they are ranked second here in my Power Rankings.</p><p>The Patriots have turned it around without marquee players in the front seven, which might catch up to them at some point. They have only 17 sacks this season, which ties them for 26th in the league with the <a href="https://www.cbssports.com/nfl/teams/page/MIA/miami-dolphins">Dolphins</a> and the <a href="https://www.cbssports.com/nfl/teams/page/TEN/tennessee-titans">Titans</a>. They are also 29th in sacks per pass play. That isn't good enough. </p><p>They are still ranked last in total yards and rush yards per attempt, which is an unreal 5.0 per carry. That could be their undoing if a team decides to pound the run in the postseason to keep <a href="https://www.cbssports.com/nfl/players/playerpage/187741/tom-brady">Tom Brady</a> off the field. That number has to come down.</p><p>But the way Belichick and Patricia have improved this defense the past six weeks, who are we to doubt that it won't happen? This is why Belichick is a football-coaching star, even if sometimes it's fun to question his decisions.</p></div><div class="power-rankings">
     <div class="power-rankings-heading">
         Biggest Movers
     </div>
     <div class="biggest-movers-teams">
-                    <div class="team-movers" style="background-color: #BF093A">
-                    <span class="team-movers-logo" style="background-image: url(https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/light/TB.svg)">
+                    <div class="team-movers" style="background-color: #FB4F14">
+                    <span class="team-movers-logo" style="background-image: url(https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/light/CIN.svg)">
             </span>
             <span class="moving-up">
             </span>
@@ -1331,19 +1331,19 @@
                 5
             </span>
             <span class="team">
-                Buccaneers
+                Bengals
             </span>
         </div>
-                    <div class="team-movers" style="background-color: #C0C0C0">
-                    <span class="team-movers-logo" style="background-image: url(https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/light/DAL.svg)">
+                    <div class="team-movers" style="background-color: #96223E">
+                    <span class="team-movers-logo" style="background-image: url(https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/light/ARI.svg)">
             </span>
             <span class="moving-down">
             </span>
             <span class="score">
-                5
+                8
             </span>
             <span class="team">
-                Cowboys
+                Cardinals
             </span>
         </div>
     </div>
@@ -1378,7 +1378,7 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They come off their bye with a big division game on the road against the Cowboys on Sunday night. If they win that, the division title is almost a lock.
+                            They basically locked up the division title by dominating the Cowboys Sunday night. Now they have to try and lock up the top seed. 
                         </td>
                         <td class="cell-left ">--</td>
                         <td class="cell-left">9-1-0</td>
@@ -1397,7 +1397,7 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They are getting back to looking like a Super Bowl return is certainly possible. Tom Brady is having an MVP season. 
+                            The division is over and the schedule is soft. That means their game with the Steelers in a few weeks will likely decide the top seed in the AFC.
                         </td>
                         <td class="cell-left ">--</td>
                         <td class="cell-left">8-2-0</td>
@@ -1416,32 +1416,13 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They have just four days to fix their issues from the Colts game. Where is the explosive offense?
+                            The Steelers we saw beat the Titans is the group we expected to see this year. They will be a factor in late January if they keep that up. 
                         </td>
                         <td class="cell-left ">--</td>
                         <td class="cell-left">8-2-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
                                 4
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/LAR/los-angeles-rams" om-event="Power Rankings|NFL|Table|Los Angeles Rams|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/LAR.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Rams
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            They continue to roll up big numbers on offense. That unit faces a major test at Minnesota this week.
-                        </td>
-                        <td class="cell-left ">--</td>
-                        <td class="cell-left">7-3-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                5
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1454,13 +1435,13 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They have won seven straight games and clearly are in the conversation as the NFC's best team. The defense is for real.
+                            They showed that their future Hall of Fame quarterback could still win games with his right arm by rallying the Saints past the Redskins. The defense needs to get back on track this week against the Rams.
                         </td>
-                        <td class="cell-left ">--</td>
+                        <td class="cell-left change-up">1</td>
                         <td class="cell-left">8-2-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                6
+                                5
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1473,32 +1454,32 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            If Case Keenum can continue to put up good numbers, like he did against the Redskins, they can beat anybody. The Rams are a nice challenge this week.
+                            There is no need to take Case Keenum out of the lineup. With the pressure of that talk hanging over his head, he played well against the Rams. Let it ride. 
                         </td>
-                        <td class="cell-left ">--</td>
+                        <td class="cell-left change-up">1</td>
                         <td class="cell-left">8-2-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                7
+                                6
                             </span>
                         </td>
                         <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/KC/kansas-city-chiefs" om-event="Power Rankings|NFL|Table|Kansas City Chiefs|Logo">
+                            <a href="http://www.cbssports.com/nfl/teams/page/LAR/los-angeles-rams" om-event="Power Rankings|NFL|Table|Los Angeles Rams|Logo">
                                 <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/KC.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/LAR.svg" class="team-logo-small" alt="team logo"></figure></div>
                                 <span>
-                                    Chiefs
+                                    Rams
                                 </span>
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They come off a much-needed bye. Their fast start has faded by losing three of four. They need to pick it up on defense.
+                            They fell flat in the second half against Minnesota and now face a brutal stretch of games. They need to get the offense back on track quickly. 
                         </td>
-                        <td class="cell-left change-up">1</td>
-                        <td class="cell-left">6-4-0</td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">7-3-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                8
+                                7
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1511,32 +1492,13 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They got the offense going against the Dolphins and head to the bye feeling much better about their team. The defense is nasty.
+                            They come off their bye with a winnable game against the Jets. They seemed to be getting it going before the bye on offense, and now they get back Greg Olsen and Ryan Kalil.
                         </td>
                         <td class="cell-left change-up">1</td>
                         <td class="cell-left">7-3-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                9
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/SEA/seattle-seahawks" om-event="Power Rankings|NFL|Table|Seattle Seahawks|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/SEA.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Seahawks
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            Losing Richard Sherman for the year will really impact their Super Bowl chances. They are a different defense without him. 
-                        </td>
-                        <td class="cell-left change-up">1</td>
-                        <td class="cell-left">6-3-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                10
+                                8
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1549,13 +1511,13 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            The defense is special, but they still need to get more from the passing game. The schedule is favorable the rest of the way, starting with Cleveland this week.
+                            They don't do a lot on offense, but that defense is special. They lead the NFL in scoring defense.
                         </td>
-                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left change-up">2</td>
                         <td class="cell-left">7-3-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                11
+                                9
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1568,51 +1530,51 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They seemed to get the offense back on track against Dallas - especially by running it well -- but now face a brutal road game at Seattle.
+                            They've won two in a row and now have three straight at home, starting Sunday against the Bucs. The offense is just fine now.
                         </td>
                         <td class="cell-left change-up">2</td>
-                        <td class="cell-left">5-4-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                12
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/DAL/dallas-cowboys" om-event="Power Rankings|NFL|Table|Dallas Cowboys|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/DAL.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Cowboys
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            They need to pick up all areas without Ezekiel Elliott around. If they are to be the division champs, they have to do it starting this week against the Eagles.
-                        </td>
-                        <td class="cell-left change-down">5</td>
-                        <td class="cell-left">5-5-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                13
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/TEN/tennessee-titans" om-event="Power Rankings|NFL|Table|Tennessee Titans|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/TEN.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Titans
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            They aren't winning pretty, but they are finding a way to pull out games. The short-week road game against the Steelers won't be easy.
-                        </td>
-                        <td class="cell-left change-up">1</td>
                         <td class="cell-left">6-4-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                14
+                                10
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/KC/kansas-city-chiefs" om-event="Power Rankings|NFL|Table|Kansas City Chiefs|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/KC.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Chiefs
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They've lost four of five games and the offense isn't scoring anymore. The gimmicks don't fool like they did early in the season.
+                        </td>
+                        <td class="cell-left change-down">3</td>
+                        <td class="cell-left">6-4-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                11
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/SEA/seattle-seahawks" om-event="Power Rankings|NFL|Table|Seattle Seahawks|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/SEA.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Seahawks
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They would be out of the playoffs if they started right now. They are in big trouble. 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">6-4-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                12
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1625,51 +1587,51 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They are still alive in the division and certainly as a potential wild-card team. Down the stretch, they have to be better than they were against Cleveland.
+                            This is Matthew Stafford's team. Let him throw it around and ride his right arm. They aren't going to be a run team as much as they want to run it more. 
                         </td>
                         <td class="cell-left change-up">2</td>
                         <td class="cell-left">6-4-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                15
+                                13
                             </span>
                         </td>
                         <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/BUF/buffalo-bills" om-event="Power Rankings|NFL|Table|Buffalo Bills|Logo">
+                            <a href="http://www.cbssports.com/nfl/teams/page/DAL/dallas-cowboys" om-event="Power Rankings|NFL|Table|Dallas Cowboys|Logo">
                                 <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/BUF.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/DAL.svg" class="team-logo-small" alt="team logo"></figure></div>
                                 <span>
-                                    Bills
+                                    Cowboys
                                 </span>
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            The past two weeks haven't been kind to the Bills. Getting blown out hasn't been a good look. Now they face a long road trip to play the Chargers.
+                            Their injuries have crippled them the past two weeks and now they face a must-win game on Thursday against the Chargers.
                         </td>
-                        <td class="cell-left change-down">3</td>
+                        <td class="cell-left change-down">1</td>
                         <td class="cell-left">5-5-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                16
+                                14
                             </span>
                         </td>
                         <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/WAS/washington-redskins" om-event="Power Rankings|NFL|Table|Washington Redskins|Logo">
+                            <a href="http://www.cbssports.com/nfl/teams/page/TEN/tennessee-titans" om-event="Power Rankings|NFL|Table|Tennessee Titans|Logo">
                                 <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/WAS.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/TEN.svg" class="team-logo-small" alt="team logo"></figure></div>
                                 <span>
-                                    Redskins
+                                    Titans
                                 </span>
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            What happened to the defense against the Vikings? That's a bad loss for a team that can't afford them and now faces a tough road game against the Saints. 
+                            They just don't look right on offense. Marcus Mariota needs to pick up his play.  So does the run game. 
                         </td>
                         <td class="cell-left change-down">1</td>
-                        <td class="cell-left">4-6-0</td>
+                        <td class="cell-left">6-4-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                17
+                                15
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1682,51 +1644,13 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            If they are to make a second-half push, the offense needs to pick it up. Maybe they found something during the bye week.
+                            If the playoffs started today, they would be in the party. Their defense was impressive at Green Bay, but the offense has to do more.
                         </td>
-                        <td class="cell-left ">--</td>
+                        <td class="cell-left change-up">2</td>
                         <td class="cell-left">5-5-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                18
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/GB/green-bay-packers" om-event="Power Rankings|NFL|Table|Green Bay Packers|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/GB.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Packers
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            The defense rose up and played well against the Bears last Sunday. That has to be the case the rest of the way. They need to pick it up with Aaron Rodgers out. 
-                        </td>
-                        <td class="cell-left change-up">3</td>
-                        <td class="cell-left">5-5-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                19
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/ARI/arizona-cardinals" om-event="Power Rankings|NFL|Table|Arizona Cardinals|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/ARI.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Cardinals
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            A team that couldn't afford any more injuries had a bunch more last week. It might be Blaine Gabbert time at quarterback, which is an improvement over Drew Stanton.
-                        </td>
-                        <td class="cell-left change-down">1</td>
-                        <td class="cell-left">4-6-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                20
+                                16
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1739,13 +1663,70 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They continue to lose close game after close game. It's too bad because this team has talent.
+                            They are 4-6 and have a tough road game Thursday at Dallas to face the Cowboys. They still have a chance to win the AFC West. 
                         </td>
-                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left change-up">4</td>
                         <td class="cell-left">4-6-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
-                                21
+                                17
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/BUF/buffalo-bills" om-event="Power Rankings|NFL|Table|Buffalo Bills|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/BUF.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Bills
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            The change at quarterback to go from Tyrod Taylor to Nathan Peterman was a mistake. Now what? 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">5-5-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                18
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/WAS/washington-redskins" om-event="Power Rankings|NFL|Table|Washington Redskins|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/WAS.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Redskins
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They play the Giants on a short week Thursday after a tough loss to the Saints. That loss might have done their season in for good. 
+                        </td>
+                        <td class="cell-left change-down">2</td>
+                        <td class="cell-left">4-6-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                19
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/GB/green-bay-packers" om-event="Power Rankings|NFL|Table|Green Bay Packers|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/GB.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Packers
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They are finding out in a big way what life is like without Aaron Rodgers. It isn't pretty.
+                        </td>
+                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left">5-5-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                20
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1758,51 +1739,32 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They come off their bye with a big one in Mexico City against the Patriots. The defense has to be better in the second half if they are to be a playoff team.
+                            They just haven't looked like their 2016 team. Derek Carr has struggled this season and the defense stinks.
                         </td>
-                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left">4-6-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                21
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/CIN/cincinnati-bengals" om-event="Power Rankings|NFL|Table|Cincinnati Bengals|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/CIN.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Bengals
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            At 4-6, they are still alive in the playoff chase. The defense did a nice job at Denver.
+                        </td>
+                        <td class="cell-left change-up">5</td>
                         <td class="cell-left">4-6-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
                                 22
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/MIA/miami-dolphins" om-event="Power Rankings|NFL|Table|Miami Dolphins|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/MIA.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Dolphins
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            At 4-5, they have major issues on offense. They just aren't good enough on that side of the ball.
-                        </td>
-                        <td class="cell-left ">--</td>
-                        <td class="cell-left">4-6-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                23
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/DEN/denver-broncos" om-event="Power Rankings|NFL|Table|Denver Broncos|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/DEN.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Broncos
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            The lack of offense has impacted this team in a big way. The heat is now on John Elway. Who saw that coming? 
-                        </td>
-                        <td class="cell-left ">--</td>
-                        <td class="cell-left">3-7-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                24
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1815,9 +1777,47 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            There is a chance Ryan Fitzpatrick could be the quarterback the rest of the way. But their season has been a disappointment anyway. 
+                            They showed some fight winning at Miami and now have won two straight. They aren't done yet. 
                         </td>
-                        <td class="cell-left change-up">5</td>
+                        <td class="cell-left change-up">2</td>
+                        <td class="cell-left">4-6-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                23
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/MIA/miami-dolphins" om-event="Power Rankings|NFL|Table|Miami Dolphins|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/MIA.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Dolphins
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They might need to make a quarterback change. It's just not working with Jay Cutler, who is in the concussion protocol this week.
+                        </td>
+                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left">4-6-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                24
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/HOU/houston-texans" om-event="Power Rankings|NFL|Table|Houston Texans|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/HOU.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Texans
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They are still alive after beating the Cardinals. But they can't afford any more losses - that's for sure. 
+                        </td>
+                        <td class="cell-left change-up">4</td>
                         <td class="cell-left">4-6-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
@@ -1834,9 +1834,9 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            What happened in Tampa? Their slim chances of making a playoff run pretty much ended with a bad showing. 
+                            They come off their bye with an eye on next year after losing to the Bucs before it. Do they consider playing Christian Hackenberg at some point?
                         </td>
-                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left ">--</td>
                         <td class="cell-left">4-6-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
@@ -1844,22 +1844,41 @@
                             </span>
                         </td>
                         <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/CIN/cincinnati-bengals" om-event="Power Rankings|NFL|Table|Cincinnati Bengals|Logo">
+                            <a href="http://www.cbssports.com/nfl/teams/page/DEN/denver-broncos" om-event="Power Rankings|NFL|Table|Denver Broncos|Logo">
                                 <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/CIN.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/DEN.svg" class="team-logo-small" alt="team logo"></figure></div>
                                 <span>
-                                    Bengals
+                                    Broncos
                                 </span>
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            This season is done. Losing in consecutive weeks to AFC South teams pretty much ends their playoff chances.
+                            At 3-7, their season is done. The offense just isn't any good. They need to play Paxton Lynch.
                         </td>
-                        <td class="cell-left change-down">1</td>
-                        <td class="cell-left">4-6-0</td>
+                        <td class="cell-left change-down">3</td>
+                        <td class="cell-left">3-7-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
                                 27
+                            </span>
+                        </td>
+                        <td class="cell-left team">
+                            <a href="http://www.cbssports.com/nfl/teams/page/ARI/arizona-cardinals" om-event="Power Rankings|NFL|Table|Arizona Cardinals|Logo">
+                                <div class="logo">
+                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/ARI.svg" class="team-logo-small" alt="team logo"></figure></div>
+                                <span>
+                                    Cardinals
+                                </span>
+                            </a>
+                        </td>
+                        <td class="cell-left dek">
+                            They've had to fight through way too many injuries this season. Now the question will be whether Bruce Arians comes back for another season. 
+                        </td>
+                        <td class="cell-left change-down">8</td>
+                        <td class="cell-left">4-6-0</td>
+                    </tr><tr class="player-rankings-stats"><td class="cell-left">
+                            <span class="rank">
+                                28
                             </span>
                         </td>
                         <td class="cell-left team">
@@ -1872,29 +1891,10 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They are showing some fight in recent weeks, which is a good thing. Some young players are flashing, which is good for the future.
+                            They come off their bye with a game at home against the Titans. They have to be happy with what they are getting from Jacoby Brissett in place of Andrew Luck, but he is in the concussion protocol.
                         </td>
                         <td class="cell-left change-down">1</td>
                         <td class="cell-left">3-7-0</td>
-                    </tr><tr class="player-rankings-stats"><td class="cell-left">
-                            <span class="rank">
-                                28
-                            </span>
-                        </td>
-                        <td class="cell-left team">
-                            <a href="http://www.cbssports.com/nfl/teams/page/HOU/houston-texans" om-event="Power Rankings|NFL|Table|Houston Texans|Logo">
-                                <div class="logo">
-                                    <figure class="img"><img src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediacss/images/team-logos/nfl/HOU.svg" class="team-logo-small" alt="team logo"></figure></div>
-                                <span>
-                                    Texans
-                                </span>
-                            </a>
-                        </td>
-                        <td class="cell-left dek">
-                            They are playing for next year. They just don't have the talent with all the injuries they've had.
-                        </td>
-                        <td class="cell-left change-down">1</td>
-                        <td class="cell-left">4-6-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
                                 29
@@ -1910,9 +1910,9 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            Losing to the Packers pretty much means it's a non-playoff season. What does that mean for the future of coach John Fox? 
+                            They play close games, but can't seem to pull them out. The good news is Mitchell Trubisky is getting better, but he gets that Eagles defense this week.
                         </td>
-                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left ">--</td>
                         <td class="cell-left">3-7-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
@@ -1929,9 +1929,9 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            They won a game, and the offense looked good doing so. At some point, though, it's Jimmy Garoppolo time.
+                            They got their first victory of the season before the bye, and now face a tough home game with Seattle. The question now is when does Jimmy Garoppolo take over? 
                         </td>
-                        <td class="cell-left change-up">1</td>
+                        <td class="cell-left ">--</td>
                         <td class="cell-left">1-9-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
@@ -1948,9 +1948,9 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            When does Ben McAdoo go since ownership said it won't be during the season? This team has quit on him in a big way. That's not a good sign. 
+                            They showed some fight in beating the Chiefs. But they waited to long to get it going this season.
                         </td>
-                        <td class="cell-left change-down">1</td>
+                        <td class="cell-left ">--</td>
                         <td class="cell-left">2-8-0</td>
                     </tr><tr class="player-rankings-stats"><td class="cell-left">
                             <span class="rank">
@@ -1967,7 +1967,7 @@
                             </a>
                         </td>
                         <td class="cell-left dek">
-                            It looks like it's going to be a potential 0-16 season. They do show some fight, but they just aren't good enough. 
+                            They competed the past two weeks, which is a good sign. But will they win a game? I don't think so. 
                         </td>
                         <td class="cell-left ">--</td>
                         <td class="cell-left">0-10-0</td>
@@ -2013,20 +2013,20 @@
     
             
         
-                        <div class="collapsible disqus-wrapper module" data-component="disqusComment" data-disqus-comment-options='{"toggleComment":true,"elementId":"disqusConversation-2e625a6d-a89b-4659-a1aa-d60544826a78","articleId":"2e625a6d-a89b-4659-a1aa-d60544826a78","title":"NFL Power Rankings: Upstart Rams, Vikings battle in potential playoff preview","url":"https:\/\/www.cbssports.com\/nfl\/news\/nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview\/","contextId":"2e625a6d-a89b-4659-a1aa-d60544826a78"}'>
+                        <div class="collapsible disqus-wrapper module" data-component="disqusComment" data-disqus-comment-options='{"toggleComment":true,"elementId":"disqusConversation-de2c441e-bd75-4b74-8c18-d4c619c7f750","articleId":"de2c441e-bd75-4b74-8c18-d4c619c7f750","title":"NFL Power Rankings: The Patriots and Steelers are who we thought they were","url":"https:\/\/www.cbssports.com\/nfl\/news\/nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were\/","contextId":"de2c441e-bd75-4b74-8c18-d4c619c7f750"}'>
     
 <!-- General comments -->
 <div id="article-comment" data-component="disqusComment">
-    <button id="show-article-comment-2e625a6d-a89b-4659-a1aa-d60544826a78" class="disqus-toggle-button" type="button">
-        <span class="disqus-comment-count" data-disqus-identifier="2e625a6d-a89b-4659-a1aa-d60544826a78">
+    <button id="show-article-comment-de2c441e-bd75-4b74-8c18-d4c619c7f750" class="disqus-toggle-button" type="button">
+        <span class="disqus-comment-count" data-disqus-identifier="de2c441e-bd75-4b74-8c18-d4c619c7f750">
             Add a Comment
         </span>
     </button>
 
-    <div id="disqus-container-2e625a6d-a89b-4659-a1aa-d60544826a78" class="disqusContainer comment" style="display:none;">
+    <div id="disqus-container-de2c441e-bd75-4b74-8c18-d4c619c7f750" class="disqusContainer comment" style="display:none;">
         <div class="comment-heading-section">
             <h4 class="comment-heading">Add a Comment</h4>
-            <div id="close-x-comment-2e625a6d-a89b-4659-a1aa-d60544826a78" class="icon-moon-close-x"></div>
+            <div id="close-x-comment-de2c441e-bd75-4b74-8c18-d4c619c7f750" class="icon-moon-close-x"></div>
         </div>
         <div id="disqus_thread"></div>
     </div>
@@ -2103,7 +2103,7 @@
             </div>
 
 
-            <div id="taboola-nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview-bottom-page-thumbnails" data-taboola='{"mode":"alternating-thumbnails-L","container":"taboola-nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview-bottom-page-thumbnails","placement":"desktop-5x1-article","canonicalUrl":"https:\/\/www.cbssports.com\/nfl\/news\/nfl-power-rankings-upstart-rams-vikings-battle-in-potential-playoff-preview\/"}'>
+            <div id="taboola-nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were-bottom-page-thumbnails" data-taboola='{"mode":"alternating-thumbnails-L","container":"taboola-nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were-bottom-page-thumbnails","placement":"desktop-5x1-article","canonicalUrl":"https:\/\/www.cbssports.com\/nfl\/news\/nfl-power-rankings-the-patriots-and-steelers-are-who-we-thought-they-were\/"}'>
             </div>
         </div>
                     
@@ -2125,96 +2125,96 @@
                                                                                 
                                                         
                 
-            <a href="/nfl/draft/news/2018-nfl-draft-qb-stock-watch-lamar-jackson-passes-mason-rudolph-for-top-spot/" class="thumbnail">
-                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="josh-rosen-ucla.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/20/9337cd5f-156c-4319-8a60-d530169437fa/thumbnail/368x210/3ad7f81e32bdf974bb4a0467b99ce192/lamar-jackson-syracuse.jpg" src="" height="210" width="368"></figure></a>
+            <a href="/nfl/news/rams-receiver-robert-woods-out-for-multiple-weeks-but-not-for-the-season/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="robert-woods.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/09/af127a23-5273-4a61-9a6d-308379e96416/thumbnail/368x210/ac838f2cd6bcde805d014858e80203e2/robert-woods.jpg" src="" height="210" width="368"></figure></a>
     
                         <div class="latest-box-item-headlines">
                             <h3 class="latest-box-item-title">
-                                <a href="/nfl/draft/news/2018-nfl-draft-qb-stock-watch-lamar-jackson-passes-mason-rudolph-for-top-spot/">
-                                    Draft QB Watch: Jackson the new No. 1
+                                <a href="/nfl/news/rams-receiver-robert-woods-out-for-multiple-weeks-but-not-for-the-season/">
+                                    Robert Woods out multiple weeks
                                 </a>
                             </h3>
-                                                            <h4 class="latest-box-item-subline">Jackson takes over as the No. 1 QB prospect despite being overshadowed as the reigning Heisman...</h4>
+                                                            <h4 class="latest-box-item-subline">Woods injured his shoulder during the Rams' loss to the Vikings on Sunday</h4>
                                                     </div>
                     </li>
                                                                                                                 <li class="col-4">
                                                                                 
                                                         
                 
-            <a href="/nfl/news/nfl-week-11-celebration-grades-d-for-desean-jackson-a-for-the-texans/" class="thumbnail">
-                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="NFL: Arizona Cardinals at Houston Texans" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/20/2b32e03c-8135-4919-944d-f6bba25ffb82/thumbnail/368x210/64cbdfc065f84a281bdb620dd59c300a/usatsi-10425313.jpg" src="" height="210" width="368"></figure></a>
+            <a href="/nfl/news/nfl-week-12-thanksgiving-watch-stream-chargers-and-cowboys-on-cbs-all-access/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="aaron-rodgers.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/20/b993243f-3f03-4794-ad28-4511a891b63b/thumbnail/368x210/bc00bae24af39b05931580054b4cf9a8/dak-prescott.jpg" src="" height="210" width="368"></figure></a>
     
                         <div class="latest-box-item-headlines">
                             <h3 class="latest-box-item-title">
-                                <a href="/nfl/news/nfl-week-11-celebration-grades-d-for-desean-jackson-a-for-the-texans/">
-                                    NFL Week 11 Celebration Grades
+                                <a href="/nfl/news/nfl-week-12-thanksgiving-watch-stream-chargers-and-cowboys-on-cbs-all-access/">
+                                    Chargers-Cowboys on CBS All Access
                                 </a>
                             </h3>
-                                                            <h4 class="latest-box-item-subline">We also have the Milly Rock, air guitar, Backpack Kid, and cash heists</h4>
+                                                            <h4 class="latest-box-item-subline">CBS All Access allows viewers to stream every NFL on CBS game in their local market</h4>
                                                     </div>
                     </li>
                                                                                                                 <li class="col-4">
                                                                                 
                                                         
                 
-            <a href="/nfl/news/monday-night-football-odds-expert-whos-39-18-on-nfl-totals-picks-seahawks-falcons/" class="thumbnail">
-                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="julio-jones-1400.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/09/01/81b3b3c1-ec7f-4600-91ee-b5b20535b0fd/thumbnail/368x210/88ed928dee2fdc78b7775f688e0d0fbf/julio-jones-1400.jpg" src="" height="210" width="368"></figure></a>
+            <a href="/nfl/news/cowboys-tyron-smith-thinks-hell-be-able-to-return-for-thanksgiving-game/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="tyron-smith.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2016/11/16/22ca63a3-bd17-440a-83c8-cd51e8515bfa/thumbnail/368x210/0a9e440aead5ad29a90b4ac961da96be/tyron-smith.jpg" src="" height="210" width="368"></figure></a>
     
                         <div class="latest-box-item-headlines">
                             <h3 class="latest-box-item-title">
-                                <a href="/nfl/news/monday-night-football-odds-expert-whos-39-18-on-nfl-totals-picks-seahawks-falcons/">
-                                    Monday Night Football odds, picks
+                                <a href="/nfl/news/cowboys-tyron-smith-thinks-hell-be-able-to-return-for-thanksgiving-game/">
+                                    Tyron Smith could be back for Thursday
                                 </a>
                             </h3>
-                                                            <h4 class="latest-box-item-subline">Mike Tierney has owned NFL totals and has a strong pick for 'Monday Night Football'</h4>
+                                                            <h4 class="latest-box-item-subline">With Smith out for the last two weeks, the Dallas offense has gone into a tailspin</h4>
                                                     </div>
                     </li>
                                                     </ul><ul class="latest-news-box-row"><li class="col-4">
                                                                                 
                                                         
                 
-            <a href="/nfl/news/nfl-week-12-early-odds-patriots-open-up-as-largest-favorite-of-the-2017-season/" class="thumbnail">
-                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="tom-brady.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/14/c6bf975f-128f-49a2-a182-6c882f36eb8d/thumbnail/368x210/48631327fc6c098b33249e9209c9e8c6/tom-brady.jpg" src="" height="210" width="368"></figure></a>
+            <a href="/nfl/news/nfl-playoff-picture-dumb-mistakes-poor-execution-could-doom-raiders-hopes/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="derek-carr-raiders-patriots-loss-mxcity.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/20/9e650b81-2ed5-4a5c-b64f-57eb1cac8808/thumbnail/368x210/f36b7a7244206d7428c073f5d1e420ba/derek-carr-raiders-patriots-loss-mxcity.jpg" src="" height="210" width="368"></figure></a>
     
                         <div class="latest-box-item-headlines">
                             <h3 class="latest-box-item-title">
-                                <a href="/nfl/news/nfl-week-12-early-odds-patriots-open-up-as-largest-favorite-of-the-2017-season/">
-                                    NFL Week 12: Patriots huge favorites
+                                <a href="/nfl/news/nfl-playoff-picture-dumb-mistakes-poor-execution-could-doom-raiders-hopes/">
+                                    Raiders continue to flail through 2017
                                 </a>
                             </h3>
-                                                            <h4 class="latest-box-item-subline">Here's an early look at the lines for all NFL games being played in Week 12</h4>
+                                                            <h4 class="latest-box-item-subline">Once considered favorites for a deep playoff run, the Raiders are instead a big disappoint...</h4>
                                                     </div>
                     </li>
                                                                                                                 <li class="col-4">
                                                                                 
                                                         
                 
-            <a href="/nfl/news/report-terry-glenn-ex-patriots-cowboys-receiver-killed-in-car-accident/" class="thumbnail">
-                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="terry-glenn.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/20/5a855122-d159-4cdd-a594-2ffd8f2f624f/thumbnail/368x210/e1b0c5b5ea07dd32fb04c83c282d1308/terry-glenn.jpg" src="" height="210" width="368"></figure></a>
+            <a href="/nfl/news/three-biggest-reasons-why-the-philadelphia-eagles-are-the-best-team-in-the-nfl/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="philadlephia-eagles.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/21/464100df-636a-41cb-a97c-708f752bc64c/thumbnail/368x210/9b0dd289ff8bbbb8bca929dde79a41e5/usatsi-10427265.jpg" src="" height="210" width="368"></figure></a>
     
                         <div class="latest-box-item-headlines">
                             <h3 class="latest-box-item-title">
-                                <a href="/nfl/news/report-terry-glenn-ex-patriots-cowboys-receiver-killed-in-car-accident/">
-                                    Terry Glenn killed in car accident
+                                <a href="/nfl/news/three-biggest-reasons-why-the-philadelphia-eagles-are-the-best-team-in-the-nfl/">
+                                    Three reasons the Eagles are for real
                                 </a>
                             </h3>
-                                                            <h4 class="latest-box-item-subline">Glenn, 43, was the seventh-overall pick in the 1996 NFL Draft</h4>
+                                                            <h4 class="latest-box-item-subline">Carson Wentz's rise to league-wide fame is but one of several monumental reasons for Philly's...</h4>
                                                     </div>
                     </li>
                                                                                                                 <li class="col-4">
                                                                                 
                                                         
                 
-            <a href="/nfl/news/broncos-fire-offensive-coordinator-mike-mccoy-after-10-games-six-straight-losses/" class="thumbnail">
-                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="vance-joseph-mike-mccoy-fired.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/20/14aedee6-7383-4f61-985e-8326b27d5154/thumbnail/368x210/42388d6605c9110fe3e8830ddb1df897/vance-joseph-mike-mccoy-fired.jpg" src="" height="210" width="368"></figure></a>
+            <a href="/nfl/draft/news/2018-nfl-draft-prospect-rankings-maurice-hurst-looks-like-next-great-pass-rushing-dt/" class="thumbnail">
+                                                <figure class="latest-box-item-image img"><img class=" is-lazy-image" alt="minkah.jpg" data-lazy="https://sportshub.cbsistatic.com/i/r/2017/11/21/db9bbc4c-737d-4ce4-a97c-eed30cbcdd11/thumbnail/368x210/e2b71658fe5670ca8441908bbe2df738/maurice-hurst-michigan.jpg" src="" height="210" width="368"></figure></a>
     
                         <div class="latest-box-item-headlines">
                             <h3 class="latest-box-item-title">
-                                <a href="/nfl/news/broncos-fire-offensive-coordinator-mike-mccoy-after-10-games-six-straight-losses/">
-                                    Broncos fire coordinator Mike McCoy
+                                <a href="/nfl/draft/news/2018-nfl-draft-prospect-rankings-maurice-hurst-looks-like-next-great-pass-rushing-dt/">
+                                    Draft Top 20: Hurst a DT to watch
                                 </a>
                             </h3>
-                                                            <h4 class="latest-box-item-subline">McCoy was hired in January and now he's again looking for work</h4>
+                                                            <h4 class="latest-box-item-subline">The Michigan senior has wreaked havoc and distanced himself from other defensive tackle pr...</h4>
                                                     </div>
                     </li>
                                                     </ul><ul class="latest-news-box-row"></ul></div>
@@ -2338,4 +2338,4 @@
 
     <script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jquery" src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediajs/js-build/jquery.js">
     </script><script async type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="main.desktop" src="https://sportsfly.cbsistatic.com/fly-724/bundles/sportsmediajs/js-build/main.desktop.js">
-    </script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0710d28d2a","applicationID":"8008619","transactionName":"MgEHZ0ICW0JZUBYMDgtLJFBEClpfF1IQEQgGCABsQwpbVlRWPQkEBAMQVm8PVEVdQBY=","queueTime":0,"applicationTime":1079,"atts":"HkYEEQoYSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>
+    </script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0710d28d2a","applicationID":"8008619","transactionName":"MgEHZ0ICW0JZUBYMDgtLJFBEClpfF1IQEQgGCABsQwpbVlRWPQkEBAMQVm8PVEVdQBY=","queueTime":0,"applicationTime":2170,"atts":"HkYEEQoYSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>
