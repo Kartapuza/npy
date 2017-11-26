@@ -46,20 +46,37 @@ def Read_Roster():
     for i in range(0, len(team_rosters2)):
         team_rosters1_td = team_rosters1[i].find_all('td')
         team_rosters2_td = team_rosters2[i].find_all('td')
-        print(team_rosters1_td[0].text, ';', team_rosters1_td[1].text, ';', team_rosters1_td[2].text, ';',
-              team_rosters1_td[3].text, ';', team_rosters1_td[4].text, ';', team_rosters1_td[5].text, ';',
-              team_rosters1_td[6].text, ';', team_rosters1_td[7].text, ';', team_rosters1_td[8].text)
-        print(team_rosters2_td[0].text, ';', team_rosters2_td[1].text, ';', team_rosters2_td[2].text, ';',
-              team_rosters2_td[3].text, ';', team_rosters2_td[4].text, ';', team_rosters2_td[5].text, ';',
-              team_rosters2_td[6].text, ';', team_rosters2_td[7].text, ';', team_rosters2_td[8].text)
+        str_tr1 = ''
+        for j in range(0, len(team_rosters1_td)):
+            str_tr1 = str_tr1 + team_rosters1_td[j].text + ' ; '
+        print(str_tr1)
+
+        str_tr2 = ''
+        for j in range(0, len(team_rosters2_td)):
+            str_tr2 = str_tr2 + team_rosters2_td[j].text + ' ; '
+        print(str_tr2)
+
     if len(team_rosters1)>len(team_rosters2):
         team_rosters1_td = team_rosters1[len(team_rosters1)-1].find_all('td')
-        print(team_rosters1_td[0].text, ';', team_rosters1_td[1].text, ';', team_rosters1_td[2].text, ';',
-              team_rosters1_td[3].text, ';', team_rosters1_td[4].text, ';', team_rosters1_td[5].text, ';',
-              team_rosters1_td[6].text, ';', team_rosters1_td[7].text, ';', team_rosters1_td[8].text)
+        str_tr1 = ''
+        for j in range(0, len(team_rosters1_td)):
+            str_tr1 = str_tr1 + team_rosters1_td[j].text.strip() + ' ; '
+        print(str_tr1)
 
 def Read_Stats_Player():
-    print()
+    team_player = open('statsplayer.html', 'r')
+    my_string2 = team_player.read()
+    soup = BeautifulSoup(my_string2, 'html.parser')
+    team_stats_player = soup.find_all('tr')
+    for i in range(0,len(team_stats_player)):
+        team_stats_player_hr = team_stats_player[i].find_all('td')
+        str_tr1 = ''
+        for j in range(0, len(team_stats_player_hr)):
+            str_tr1 = str_tr1 + team_stats_player_hr[j].text.strip() + ' ; '
+        print(str_tr1)
+    print('ps-')
+
+
 
 if __name__ == '__main__':
     Load_Settings()

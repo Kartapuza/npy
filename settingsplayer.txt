@@ -1,4 +1,4 @@
 1
-http://www.nfl.com/teams/statistics?team=GB
+http://www.nfl.com/teams/statistics?team=Phi
 1
 http://www.nfl.com/teams/roster?team=Car
