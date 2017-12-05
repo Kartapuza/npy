@@ -23,8 +23,8 @@ def save_file(name_file, lines):
  save_changes.close()
 
 def Load_Settings():
-    global url_nfl, url_powerrankings, url_espn, url_cbs, url_bwin
-    url_nfl = url_powerrankings = url_espn = url_cbs = url_bwin = 'none'
+    global url_nfl, url_powerrankings, url_espn, url_cbs, url_cbs_aganist, url_bwin
+    url_nfl = url_powerrankings = url_espn = url_cbs = url_bwin = url_cbs_aganist = 'none'
     settings_1 = open('settings.txt', 'r')
     my_string = settings_1.readlines()
     if my_string[0].strip() == '1':
@@ -44,7 +44,11 @@ def Load_Settings():
     else: url_cbs = 'none'
 
     if my_string[8].strip() =='1':
-       url_bwin = my_string[9].strip()
+        url_cbs_aganist = my_string[9].strip()
+    else: url_cbs_aganist = 'none'
+
+    if my_string[10].strip() =='1':
+       url_bwin = my_string[10].strip()
     else: url_bwin = 'none'
 
 def GetUrl():
@@ -74,6 +78,16 @@ def GetUrl():
     except requests.exceptions.ConnectTimeout:
      print('Oops. Connection timeout occured!')
     with open('cbs.html', 'w', encoding='utf-8') as output_file:
+        output_file.write(r.text)
+
+ if len(url_cbs_aganist) > 5:
+    try:
+     r = requests.get(url_cbs_aganist, headers=headers,  verify=False, timeout=(10, 1))
+    except requests.exceptions.ReadTimeout:
+     print('Oops. Read timeout occured')
+    except requests.exceptions.ConnectTimeout:
+     print('Oops. Connection timeout occured!')
+    with open('cbsagn.html', 'w', encoding='utf-8') as output_file:
         output_file.write(r.text)
 
 def find_week_games():
@@ -204,6 +218,27 @@ def cbs_read():
             p_name = p_url.split('/')[-1]
             print(p_name.split('.')[0])
 
+
+def cbs_read_aganist():
+    cbs_2 = open('cbsagn.html', 'r')
+    my_string = cbs_2.read()
+    soup = BeautifulSoup(my_string, 'html.parser')
+    week_pick_cbs_a = soup.find("table", attrs={"id": "oddsTable"})
+    game_day_pick = week_pick_cbs_a.find_all('div', attrs={"class": "writerPicksCtr"})
+    gameLine = week_pick_cbs_a.find_all('div', attrs={"class": "gameLineCtr"})
+    k = int(((len(game_day_pick) / len(gameLine))))
+    p = k
+    for j in range(0, len(gameLine)):
+            print('L--')
+            team_Line = gameLine[j]
+            print(team_Line.text)
+            print('a--')
+            for q in range(p-k, p):
+                team_img_name = game_day_pick[q]
+                print(team_img_name.text)
+            p = p + k
+
+
 if __name__ == '__main__':
     sys.stdout = open('result.out', 'w')
     ensure_dir(directory_data)
@@ -217,3 +252,5 @@ if __name__ == '__main__':
         espn_read()
     if len(url_cbs) > 5:
         cbs_read()
+    if len(url_cbs_aganist) > 5:
+        cbs_read_aganist()
