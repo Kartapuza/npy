@@ -6,7 +6,7 @@
 11 ;  Bersin, Brenton ; WR ; ACT ;  6'3" ; 210 ; 5/9/1990 ; 4 ; Wofford ; 
 24 ;  Bradberry, James ; CB ; ACT ;  6'1" ; 212 ; 8/4/1993 ; 2 ; Samford ; 
 92 ;  Butler, Vernon ; DT ; ACT ;  6'4" ; 330 ; 6/14/1994 ; 2 ; Louisiana Tech ; 
-18 ;  Byrd, Damiere ; WR ; RES ;  5'9" ; 180 ; 1/27/1993 ; 2 ; South Carolina ; 
+18 ;  Byrd, Damiere ; WR ; ACT ;  5'9" ; 180 ; 1/27/1993 ; 2 ; South Carolina ; 
 31 ;  Byrd, Jairus ; DB ; ACT ;  5'10" ; 203 ; 10/7/1986 ; 9 ; Oregon ; 
 12 ;  Clay, Kaelin ; WR ; ACT ;  5'10" ; 195 ; 1/2/1992 ; 3 ; Utah ; 
 20 ;  Coleman, Kurt ; FS ; ACT ;  5'11" ; 208 ; 4/1/1988 ; 8 ; Ohio State ; 
@@ -22,13 +22,13 @@
 4 ;  Gilbert, Garrett ; QB ; ACT ;  6'4" ; 230 ; 7/1/1991 ; 1 ; Southern Methodist ; 
 54 ;  Green-Thompson, Shaq ; OLB ; ACT ;  6'0" ; 230 ; 4/21/1994 ; 3 ; Washington ; 
 23 ;  Gunter, LaDarius ; CB ; ACT ;  6'2" ; 201 ; 5/13/1992 ; 3 ; Miami (Fla.) ; 
-94 ;  Hall, Daeshon ; DE ; RES ;  6'5" ; 265 ; 6/14/1995 ; 0 ; Texas A&M ; 
+94 ;  Hall, Daeshon ; DE ; RES ;  6'5" ; 265 ; 6/14/1995 ; 0 ; Texas A&M; ; 
 96 ;  Horton, Wes ; DE ; ACT ;  6'5" ; 265 ; 12/17/1989 ; 5 ; USC ; 
 91 ;  Iddings, Drew ; DT ; RES ;  6'5" ; 290 ; 3/16/1993 ; 1 ; South Dakota ; 
 53 ;  Jacobs, Ben ; LB ; ACT ;  6'4" ; 240 ; 4/17/1988 ; 4 ; Fresno State ; 
 44 ;  Jansen, J.J. ; LS ; ACT ;  6'2" ; 235 ; 1/20/1986 ; 10 ; Notre Dame ; 
 12 ;  Johnson, Charles D. ; WR ; RES ;  6'2" ; 217 ; 2/27/1989 ; 4 ; Grand Valley State ; 
-95 ;  Johnson, Charles ; DE ; ACT ;  6'2" ; 278 ; 7/10/1986 ; 11 ; Georgia ; 
+95 ;  Johnson, Charles ; DE ; SUS ;  6'2" ; 278 ; 7/10/1986 ; 11 ; Georgia ; 
 42 ;  Jones, Colin ; FS ; ACT ;  6'0" ; 205 ; 10/27/1987 ; 7 ; Texas Christian ; 
 75 ;  Kalil, Matt ; OT ; ACT ;  6'7" ; 315 ; 7/6/1989 ; 6 ; USC ; 
 67 ;  Kalil, Ryan ; C ; ACT ;  6'2" ; 300 ; 3/29/1985 ; 11 ; USC ; 
@@ -40,6 +40,7 @@
 82 ;  Manhertz, Chris ; TE ; ACT ;  6'6" ; 255 ; 4/10/1992 ; 2 ; Canisius ; 
 55 ;  Mayo, David ; MLB ; ACT ;  6'2" ; 245 ; 8/8/1993 ; 3 ; Texas State ; 
 22 ;  McCaffrey, Christian ; RB ; ACT ;  5'11" ; 205 ; 6/7/1996 ; 0 ; Stanford ; 
+77 ;  Moore, Zach ; DE ; ACT ;  6'6" ; 275 ; 9/5/1990 ; 2 ; Concordia-St. Paul ; 
 72 ;  Moton, Taylor ; OT ; ACT ;  6'5" ; 325 ; 8/18/1994 ; 0 ; Western Michigan ; 
 41 ;  Munnerlyn, Captain ; DB ; ACT ;  5'9" ; 195 ; 4/10/1988 ; 9 ; South Carolina ; 
 1 ;  Newton, Cam ; QB ; ACT ;  6'5" ; 245 ; 5/11/1989 ; 7 ; Auburn ; 
@@ -56,11 +57,11 @@
 65 ;  Silatolu, Amini ; OG ; ACT ;  6'4" ; 305 ; 9/16/1988 ; 5 ; Midwestern State ; 
 80 ;  Simonson, Scott ; TE ; RES ;  6'5" ; 255 ; 4/13/1992 ; 3 ; Assumption ; 
 28 ;  Stewart, Jonathan ; RB ; ACT ;  5'10" ; 240 ; 3/21/1987 ; 10 ; Oregon ; 
-74 ;  Theus, John ; OT ; ACT ;  6'6" ; 303 ; 1/19/1994 ; 2 ; Georgia ; 
+74 ;  Theus, John ; OT ; RES ;  6'6" ; 303 ; 1/19/1994 ; 2 ; Georgia ; 
 70 ;  Turner, Trai ; OG ; ACT ;  6'3" ; 315 ; 6/14/1993 ; 4 ; LSU ; 
 73 ;  Van Roten, Greg ; OG ; ACT ;  6'3" ; 305 ; 2/26/1990 ; 3 ; Pennsylvania ; 
 43 ;  Whittaker, Fozzy ; RB ; ACT ;  5'10" ; 205 ; 2/2/1989 ; 5 ; Texas ; 
 60 ;  Williams, Daryl ; OT ; ACT ;  6'6" ; 330 ; 8/31/1992 ; 3 ; Oklahoma ; 
 21 ;  Williams, Teddy ; DB ; RES ;  6'1" ; 210 ; 7/3/1988 ; 6 ; Texas-San Antonio ; 
 26 ;  Worley, Daryl ; CB ; ACT ;  6'1" ; 205 ; 2/22/1995 ; 2 ; West Virginia ; 
-61 ;  Yankey, David ; OG ; RES ;  6'6" ; 315 ; 1/18/1992 ; 3 ; Stanford ; 
+61 ; Yankey, David ; OG ; RES ; 6'6" ; 315 ; 1/18/1992 ; 3 ; Stanford ; 
